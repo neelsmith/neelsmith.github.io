@@ -1,6 +1,7 @@
 ---
 title: Some editing projects
-layout: default
+
+layout: minimal
 ---
 
 # Editing projects #
