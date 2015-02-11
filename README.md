@@ -1,4 +1,5 @@
-neelsmith.github.io
-===================
+# `neelsmith.github.io` #
 
-Neel Smith on github.
+Source for jekyll web site at <neelsmith.github.io>.
+
+

@@ -1,0 +1,28 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Neel Smith on github
+tagline:          ''
+description:      ''
+baseurl: http://neelsmith.github.io
+
+
+author:
+  name:           'Neel Smith'
+ 
+
+paginate:         5
+
+
+version:          0.12.0
+
+links:
+  - title: Github source repository
+    url: https://github.com/neelsmith/neelsmith.github.io
+    external: true
+   
