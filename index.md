@@ -16,10 +16,10 @@ Overview of some of my work on github.
 
 ## Manuscripts and paleography ##
 
+- [Open Paleography](http://openpaleography.github.io/) group, including:
+    - Openly licensed [images of manuscripts](http://openpaleography.github.io/mss/)
+    - [Sources for openly licensed images of manuscripts](http://openpaleography.github.io/mssimgs/)
 
-- Openly licensed [images of manuscripts](http://neelsmith.github.io/mss/)
-- Sources for openly licensed images of manuscripts
-- Open paleography
 
 ## Scholarly infrastucture ##
 
