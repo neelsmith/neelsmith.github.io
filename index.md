@@ -17,7 +17,7 @@ Overview of some of my work on github.
 ## Manuscripts and paleography ##
 
 
-- Openly licensed images of manuscripts
+- Openly licensed [images of manuscripts](http://neelsmith.github.io/mss/)
 - Sources for openly licensed images of manuscripts
 - Open paleography
 
