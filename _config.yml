@@ -6,9 +6,9 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Neel Smith on github
-tagline:          ''
-description:      ''
+title:            Neel Smith
+tagline:          'Neel Smith on github'
+description:      'Overview of some of my work on github.'
 baseurl: http://neelsmith.github.io
 
 
