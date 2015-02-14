@@ -27,6 +27,7 @@ Overview of some of my work on github.
 - Writing digitally: 
     - the `citedown` extension to markdown
     - writing testable prose
+    - [trusty-writer](http://neelsmith.github.io/trusty-writer/), an Ubuntu 14.04 virtual machine with tools for writing
 
 ## Other collaborations on github ##
 
