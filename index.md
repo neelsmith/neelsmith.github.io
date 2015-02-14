@@ -18,7 +18,8 @@ A selection of my openly available work on github:
 ### Other collaborations on github ###
 
 
-- the Holy Cross [Manuscripts, Inscriptions and Documents Club](http://hcmid.github.io/)
+- the Holy Cross [Manuscripts, Inscriptions and Documents Club](http://hcmid.github.io/) 
+- the [Homer Multitext project](http://homermultitext.github.io) including the [HMT project editors' group](http://hmteditors.github.io/)
 
 
 
