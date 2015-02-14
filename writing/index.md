@@ -1,7 +1,8 @@
 ---
-title: Writing testable prose
 layout: page
+title: Writing digitally
 ---
 
-
-Web site for work using [concordion](http://concordion.org) to replace inert footnotes with machine-actionable tests in scholarly prose.
+- the [`citedown` extension to markdown](citedown)
+- [writing testable prose](testable)
+- [trusty-writer](http://neelsmith.github.io/trusty-writer/), an Ubuntu 14.04 virtual machine with tools for writing
