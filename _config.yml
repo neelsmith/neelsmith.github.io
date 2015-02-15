@@ -21,14 +21,17 @@ paginate:         5
 
 
 links:
-  - title: Classics
-    url: /classics
+  - title: Greek
+    url: /greek
   - title: Manuscripts
     url: /mss
   - title: Citation
     url: /citation
   - title: Writing digitally
     url: /writing
+  - title: NS @ HC
+    url: http://shot.holycross.edu/~nsmith/
+    external: true
   - title: Github source repository
     url: https://github.com/neelsmith/neelsmith.github.io
     external: true
