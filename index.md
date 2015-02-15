@@ -15,7 +15,7 @@ A selection of my openly available work on github:
 - [Writing digitally](writing)
 
 
-### Other collaborations on github ###
+### Collaborations on github ###
 
 
 - the Holy Cross [Manuscripts, Inscriptions and Documents Club](http://hcmid.github.io/) 
