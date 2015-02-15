@@ -21,8 +21,9 @@ A selection of my openly available work on github:
 - the Holy Cross [Manuscripts, Inscriptions and Documents Club](http://hcmid.github.io/) 
 - the [Homer Multitext project](http://homermultitext.github.io) including the [HMT project editors' group](http://hmteditors.github.io/)
 
-### My home page at Holy Cross ###
+### Links ###
 
-<http://shot.holycross.edu/~nsmith/>
+- My home page at Holy Cross: <http://shot.holycross.edu/~nsmith/>
+- Atom feed for this site: <http://neelsmith.github.io/atom.xml>
 
 
