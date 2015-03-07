@@ -13,6 +13,7 @@ A selection of my openly available work on github:
 - [Manuscripts and paleography](mss)
 - [Citing scholarly resources](citation)
 - [Writing digitally](writing)
+- Other [tidbits](tidbits)
 
 
 ### Collaborations on github ###
