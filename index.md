@@ -14,6 +14,7 @@ A selection of my openly available work on github:
 - [Citing scholarly resources](citation)
 - [Writing digitally](writing)
 - Other [tidbits](tidbits)
+- Placeholder for my work on [the Ptolemy Machine](ptolemy)
 
 
 ### Collaborations on github ###
