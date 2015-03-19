@@ -13,8 +13,9 @@ A selection of my openly available work on github:
 - [Manuscripts and paleography](mss)
 - [Citing scholarly resources](citation)
 - [Writing digitally](writing)
+- The [Ptolemy Machine](ptolemy)
 - Other [tidbits](tidbits)
-- Placeholder for my work on [the Ptolemy Machine](ptolemy)
+
 
 
 ### Collaborations on github ###
