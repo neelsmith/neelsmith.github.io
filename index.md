@@ -11,7 +11,7 @@ A selection of my openly available work on github:
 
 - [Greek language](greek)
 - [Manuscripts and paleography](mss)
-- [Citing scholarly resources](citation)
+- Citing scholarly resources:  see my contributions to the CITE architecture at <http://cite-architecture.github.io/>
 - [Writing digitally](writing)
 - The [Ptolemy Machine](ptolemy)
 - Other [tidbits](tidbits)
