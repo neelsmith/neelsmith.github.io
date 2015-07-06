@@ -9,7 +9,8 @@ permalink:        pretty
 title:            Neel Smith on github
 tagline:          'Openly available work in digital classics'
 description:      'Some highlights of my openly available work on github'
-baseurl: http://neelsmith.github.io
+#baseurl: http://neelsmith.github.io
+baseurl: ""
 
 
 author:
