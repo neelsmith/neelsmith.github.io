@@ -27,6 +27,7 @@ A selection of my openly available work on github:
 ### Links ###
 
 - My home page at Holy Cross: <http://shot.holycross.edu/~nsmith/>
+- A few [things I wish all my students would read](keyreads)
 - Atom feed for this site: <http://neelsmith.github.io/atom.xml>
 
 
