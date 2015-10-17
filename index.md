@@ -5,7 +5,7 @@ title: Neel Smith on github
 
 
 ### Blog posts ###
--  Some opionins I failed to keep to myself, [grouped by tag](alltags)
+-  Some opinions I failed to keep to myself, [grouped by tag](alltags)
 
 ### Categories ###
 
