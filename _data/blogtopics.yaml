@@ -1,0 +1,24 @@
+about:
+  title: About this blog
+atom-electron:
+  title: The Atom editor and Electron js
+classics:
+  title: Classics
+dh:
+  title: Digital Humanities
+greeklang:
+  title: The greeklang code library
+hcmid:
+  title: The Holy Cross MID Club
+hmt:
+  title: The Homer Multitext project
+listutils:
+  title: The listutils code library
+parsley:
+  title: The Parsley Latin parser
+publication:
+  title: Scholarly publication
+sfst:
+  title: The Stuttgart FST toolkit
+shamelesspromo:
+  title: Shameless self promotion

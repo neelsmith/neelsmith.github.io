@@ -2,7 +2,9 @@
 layout: default
 ---
 
-<h1>Posts tagged "{{ page.tag }}"</h1>
+<h1>{{ site.data.blogtopics[page.tag].title }}</h1>
+
+<p>Posts tagged "{{ page.tag }}":</p>
 
 <div class="related">
 

@@ -13,14 +13,15 @@ layout: default
 {% assign sortedtags = tags | split:' ' | sort %}
 {% for tag in sortedtags %}
   <li>
-    <a href="{{"/tags/" | prepend:site.baseurl }}{{ tag }}/">{{ tag }}</a>
+    <a href="{{"/tags/" | prepend:site.baseurl }}{{ tag }}/">{{ site.data.blogtopics[tag].title }}</a>
+  <small>
     ({{ site.tags[tag].size }}
     {% if  site.tags[tag].size == 1 %}
-      post)
+      post
     {% else %}
-      posts)
+      posts
     {% endif %}
-
-
+    tagged "{{ tag }}")
+  </small>
   </li>
 {% endfor %}
