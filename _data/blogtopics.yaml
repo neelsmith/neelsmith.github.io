@@ -14,6 +14,8 @@ hmt:
   title: The Homer Multitext project
 listutils:
   title: The listutils code library
+morphology:
+  title: Morphological parsing
 parsley:
   title: The Parsley Latin parser
 publication:
