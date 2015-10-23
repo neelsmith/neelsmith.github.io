@@ -18,9 +18,15 @@ morphology:
   title: Morphological parsing
 parsley:
   title: The Parsley Latin parser
+phonology:
+  title: Phonology  
 publication:
   title: Scholarly publication
+regex:
+  title: Regular expressions
 sfst:
   title: The Stuttgart FST toolkit
 shamelesspromo:
   title: Shameless self promotion
+smyth:
+  title: Smyth's Greek Grammar
