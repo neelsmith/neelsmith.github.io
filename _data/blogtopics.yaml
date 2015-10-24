@@ -7,7 +7,7 @@ classics:
 dh:
   title: Digital Humanities
 greeklang:
-  title: The greeklang code library
+  title: The greeklang system
 hcmid:
   title: The Holy Cross MID Club
 hmt:
@@ -19,7 +19,7 @@ morphology:
 parsley:
   title: The Parsley Latin parser
 phonology:
-  title: Phonology  
+  title: Phonology
 publication:
   title: Scholarly publication
 regex:
