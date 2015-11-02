@@ -2,8 +2,12 @@ about:
   title: About this blog
 atom-electron:
   title: The Atom editor and Electron js
+cite:
+    title: The CITE architecture
 classics:
   title: Classics
+cts:
+  title: Canonical Text Services
 dh:
   title: Digital Humanities
 greeklang:
@@ -30,3 +34,5 @@ shamelesspromo:
   title: Shameless self promotion
 smyth:
   title: Smyth's Greek Grammar
+spark:
+  title: Apache Spark
