@@ -15,6 +15,9 @@ I've begun work this fall on a system for parsing ancient Greek morphologically.
 ## Planing a parser for a digital scholarly environment
 
 
+
+
+
 ## Digital tools for historical languages
 
 
