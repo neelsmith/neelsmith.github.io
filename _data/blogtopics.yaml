@@ -30,6 +30,8 @@ publication:
   title: Scholarly publication
 regex:
   title: Regular expressions
+semver:
+  title: Semantic versioning
 sfst:
   title: The Stuttgart FST toolkit
 shamelesspromo:
