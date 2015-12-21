@@ -10,6 +10,8 @@ cts:
   title: Canonical Text Services
 dh:
   title: Digital Humanities
+epigraphy:
+  title: Epigraphy, especially epigraphic Greek
 greeklang:
   title: The greeklang system
 groovy:
