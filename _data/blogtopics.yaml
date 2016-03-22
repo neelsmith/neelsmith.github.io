@@ -20,6 +20,8 @@ hcmid:
   title: The Holy Cross MID Club
 hmt:
   title: The Homer Multitext project
+latinmorph:
+  title: Latin morphological parsing 
 linux:
   title: Linux
 listutils:
