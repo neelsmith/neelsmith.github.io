@@ -22,7 +22,10 @@ For [scs.groovy](https://gist.github.com/neelsmith/7fc5ae04ae58bcf3ac8a), the pa
 
 If you favor still more conciseness over legibility, of course you could combine either of those into a single line in groovy, e.g.,
 
-    println new ListDiff(str1, str2).scs.join("")
+    println new ListDiff("listutils package v 1.1" ,   "listutils version 1.1").scs.join("")
 
+will print
+
+    listutils package version 1.1
 
 `listutils` works on whatever you give it.  If you want any form of Unicode normalization, apply it before passing the string to `ListDiff`.
