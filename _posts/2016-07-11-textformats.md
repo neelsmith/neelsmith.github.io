@@ -28,10 +28,10 @@ The tabular form, with each row representing a leaf node of the OHCO2 text, is s
 The URN of a leaf node fully identifies the position of a leaf node in both the  the passage citation hierarchy and the bibliographic hierarchy.  Three columns give a sequence number in the tabular file for the node, its predecessor, and its successor. The first node in a text will have no predecessor, so the sequence number of its predecessor will be empty (null); similarly, the last node in a text will have successor, and the sequence number of its successor will be empty.  Strictly speaking, the sequence number alone would be sufficient, be we have found it to be very useful in processing to have previous/following numbers at hand, and they are trivial to generate
 
 
-The last column with the node's text content can be any format you like: well-formed XML fragment, Markdown, or plain text, for example.  
+The last column with the node's text content can be any format you like: well-formed XML fragment, Markdown, or plain text, for example.
 
 Here's an example of a node from an XML edition of an English translation of the *Iliad*, using "#" for a column delimiter.
 
 
-    Urn#SequenceIndex#PrevIndex#NextIndex#TextContent
-    urn:cts:greekLit:tlg0012.tlg001.hmt01:10.4#3#4#5#Sweet sleep did not hold him, as he pondered many things in his mind phrên.
+    Urn#PrevIndex#SequenceIndex#NextIndex#TextContent
+    urn:cts:greekLit:tlg0012.tlg001.hmt01:10.4#3#4#5#Sweet sleep did not hold him, as he pondered many things in his mind.
