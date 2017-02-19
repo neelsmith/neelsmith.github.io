@@ -5,21 +5,25 @@ title: Neel Smith on github
 
 
 ### Blog posts ###
--  Some opinions I failed to keep to myself, [grouped by topic](alltags)
 
-### Categories ###
+[Grouped by topic](alltags).
 
-
-A selection of my openly available work on github:
-
-- [Greek language](greek)
-- [Manuscripts and paleography](mss)
-- Citing scholarly resources:  see my contributions to the CITE architecture at <http://cite-architecture.github.io/>
-- [Writing digitally](writing)
-- The [Ptolemy Machine](ptolemy)
-- Other [tidbits](tidbits)
+### Code libraries ###
 
 
+A selection of my openly available work on github (from most general, to project-specific):
+
+
+
+- citing scholarly resources:  [implementing models of the CITE architecture](cite)
+- working with digital representations of [ancient Greek](greek)
+- the [Homer Multitext project](hmt)
+
+
+### Binary releases
+
+Binary releases of the above code libraries are available through jcenter, linked from my personal repository at
+<https://bintray.com/neelsmith/maven>, where you can download or find information about build settings for the most recent version.
 
 ### Collaborations on github ###
 
