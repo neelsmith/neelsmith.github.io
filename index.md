@@ -16,7 +16,7 @@ A selection of my openly available work on github (from most general, to project
 
 
 - citing scholarly resources:  [implementing models of the CITE architecture](cite)
-- working with digital representations of [ancient Greek](greek)
+- working with digital representations of [ancient Greek](greek_language)
 - the [Homer Multitext project](hmt)
 
 
