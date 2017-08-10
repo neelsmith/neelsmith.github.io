@@ -7,3 +7,4 @@ In 2017, it’s still not possible to use internet standards to represent ancien
 
 - `greek`:  work with strings representing ancient Greek in a variety of alphabetic systems. Source:  <https://github.com/neelsmith/greek>
 - `gsphone`:  manipulate Greek strings phonologically. Source: <https://github.com/neelsmith/gsphonology>
+- `kanones`: a system for building corpus-specific Greek morphological parsers.  Source:  <https://github.com/neelsmith/kanones>
