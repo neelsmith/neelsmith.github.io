@@ -1,0 +1,73 @@
+---
+title: "Updated images of the Complutensian Bible"
+engine: julia
+description: "The IIIF image server at the University of Houston now includes 100% of the documented images of the Complutensian Bible."
+author:
+  - name: Neel Smith
+date: 2025-01-09
+categories: [iiif, complutensian, update] # self-defined categories
+image: ../newrelease2.png
+draft: false # publish by setting to false
+
+---
+
+
+
+## Changes
+
+As part of my project on [the Complutensian Polyglot Bible](https://neelsmith.quarto.pub/digitalcomplutensian/), I have mirrored the images of the copy in the National Library of Spain on a IIIF server at the University of Houston. The collection now includes 100% of the documented images.
+
+
+## Documentation
+
+The images are documented in six IIIF manifests, one for each volume.
+
+- [links to the IIIF manifests](https://neelsmith.quarto.pub/digitalcomplutensian/resources/images/)
+
+
+### Generating the manifests
+
+
+The manifests are generated from codex models of the six volumes of the Complutensian in [this github repository](https://github.com/neelsmith/complutensian-texts) via 
+a Julia script using the `CitablePhysicalText` package. (See a tutorial from the package documentation on [generating IIIF manifests](https://neelsmith.quarto.pub/citablephysicaltext/tutorials/iiif.html).) The following Julia code generates the manifests from the same data.
+
+First, we follow the tutorial to instantiate an image service, configure settings for the IIIF manifests, and read in the codex model.
+
+
+
+```{julia}
+#| include: false
+repo = joinpath(pwd() |> dirname |> dirname |> dirname, "complutensian-texts")
+```
+```{julia}
+#| include: false
+using Pkg
+Pkg.add("CitablePhysicalText")
+Pkg.add("CitableBase")
+Pkg.add("CitableImage")
+```
+```{julia}
+using CitablePhysicalText, CitableBase
+using CitableImage
+
+imgsvc_baseurl = "http://www.homermultitext.org/iipsrv"
+imgsvc_root = "/project/homer/pyramidal/deepzoom"
+imgsvc = IIIFservice(imgsvc_baseurl, imgsvc_root)
+
+manifestids = ["https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v$(i)-manifest.json" for i in 1:6]
+configs = iiifconfig.(manifestids)
+
+
+codexurls = ["https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/codex/bne_v$(i).cex" for i in 1:6]
+codices = [fromcex(f, Codex, UrlReader)[1] for f in codexurls]
+
+totalpages = [length(c.pages) for c in codices] |> sum
+@info("Total pages documented in manifests: $(totalpages)")
+```
+
+Then generating the manifests is a one-ilner.
+
+```{julia}
+#| eval: false
+manifests = [iiifmanifest(codices[i], configs[i], imgsvc) for i in 1:6]
+```

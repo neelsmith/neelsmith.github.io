@@ -1,0 +1,42 @@
+---
+title: "Updates to CitablePhysicalText.jl"
+engine: julia
+description: "Generate IIIF manifests for Codex objects automatically."
+author:
+  - name: Neel Smith
+date: 2025-01-07
+categories: [iiif, update] # self-defined categories
+image: ../newrelease2.png
+draft: false
+
+---
+
+
+# Updates to `CitablePhysicalText.jl`
+
+
+
+
+
+## Release notes: version `0.12.0`
+
+
+- adds the `iiifmanifest` function to generate IIIF manifests automatically from `Codex` objects.
+
+## Installation
+
+Install from the central registry with Julia’s package manager.
+
+- in package mode from the Julia REPL `] add CitablePhysicalText`
+- from a Julia terminal session: `using Pkg; Pkg.add("CitablePhysicalText")`
+
+
+## Documentation
+
+- package documentation is available on [quarto.pub](https://neelsmith.quarto.pub/citablephysicaltext/)
+- the package documentation includes a tutorial on [how to use the new `iiifmanifest` function](https://cite-architecture.github.io/CitablePhysicalText.jl/tutorials/iiif.html).
+
+
+## Source
+
+- available on [github](https://github.com/cite-architecture/CitablePhysicalText.jl)

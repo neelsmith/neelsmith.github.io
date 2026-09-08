@@ -1,0 +1,120 @@
+---
+title: "'Small digital' lexica"
+engine: julia
+description: "The progression of two Greek and Latin lexica from print, to big-digital, to small-digital use."
+author:
+  - name: Neel Smith
+date: 2024-11-02
+categories: [small digital, julia, lexica] 
+citation: 
+  url: https://neelsmith.quarto.pub/posts/2024-11-02-lexica/ 
+image: hedgehog.png
+draft: true # setting this to false publishes it
+---
+
+## Digital lexica for Greek and Latin
+
+### From the nineteenth century to "big-digital" projects
+
+Liddell and Scott's *Greek Lexicon* must rank among the nineteenth century's greatest contributions to infrastructure for the study of the Greco-Roman world. Even after its 1940 revision and expansion by Henry Stuart Jones (hence its usual abbreviation *LSJ*), the contents of the lexicon remain largely unaltered. While readers of *LSJ* have to allow for the assumptions of Victorian Englishmen and navigate its sometimes unfamiliar language, its organization of articles in a historical development of senses, supported by abundant citations of illustrative examples, remains valuable.  Lewis and Short's *Latin Dictionary* covers a wide range of Latin beyond the narrow classical period, and like *LSJ* includes illustrative citations for each sense of its definitions. 
+
+*LSJ* and *Lewis and Short* share another feature that makes them especially important today: they are both in the public domain. The Perseus Project has digitized both lexica in XML following the guidelines of the [Text Encoding Initiative](https://www.tei-c.org) (TEI), and made the XML available under a Creative Commons license. Unlike some more recent lexica, therefore, the Perseus lexica be used in digital scholarship.[^perseus] A fine example of this reuse is Giuseppe Celano's reformatted *LSJ*. The original Perseus *LSJ* (digitized forty years ago before there was a Unicode standard!) encoded Greek using the Beta Code transcription system. Celano has published a TEI-compliant *LSJ* with the Beta Code transcription coverted to codepoints for Unicode Greek; his *LSJ* is also licensed for free reuse.[^giuseppe]  To the best of my knowledge, all digital versions of *LSJ* and *Lewis and Short* that I have encountered in digital scholarship ulimately derive from the Perseus XML source, a perfect example of how a "big-digital" project can change our scholarly infrastructure.
+
+
+
+
+[^giuseppe]: See Celano's github repository [LSJ_GreekUnicode](https://github.com/gcelano/LSJ_GreekUnicode).
+
+
+[^perseus]: The complete XML source for both lexica is available from [this github repository](https://github.com/PerseusDL/lexica/). The lexica are currently (November, 2024) available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International License.
+
+### "Small-digital" reuse
+
+The Perseus encoding of *LSJ* and of *Lewis and Short* strives to capture the full semantics expressible under the TEI guidelines. Theoretically, you could use the Perseus XML to find etymological and morphological information about individual entries, as well as translations distinguished by senses and accompanied by citations. In practice, however, applications using the digital lexica have generally opted to present readers with whole articles, with the rich semantics of the TEI markup  reduced to typographic conventions like the original print vesion (e.g., terms tagged as `foreign` may be italicized). It is left to the human reader to recognize the meaning implied by visual styling. For these applications, the TEI markup is actually an obstacle, since it requires recursive parsing of its complex XML structures to format a single readable string for an article.
+
+Christopher Blackwell has published editions of the two lexica that obviate this problem.[^eumaeus] The dictionary is represented as a collection of articles, formatted as a simple delimited-text table in four columns: a sequence number, an identifier, a headword, and a single string for the article.
+
+Here's an example of a single row from his *Lewis and Short*, assigned to a variable in Julia.  Columns are separated by the pound sign `#`.
+
+```{julia}
+entry = """15100#urn:cite2:hmt:ls.markdown:n15097#echinus1#ĕchīnus, i, m., = ἐχῖνος, `I` *a hedgehog*, *urchin.* `I` Prop., usually the (edible) *sea-urchin*, Echinus esculentus, Linn.; Varr. L. L. 5, § 77 Müll.; Afran. ap. Non. 216, 11; Plin. 9, 31, 51, § 100 sq.; Hor. Epod. 5, 28; id. S. 2, 4, 33; 2, 8, 52; id. Ep. 1, 15, 23; Petr. 69, 7.— *The land-urchin* (otherwise called erinaceus), Claud. Idyll. 2, 17; cf. Isid. Orig. 12, 6, 57.— `II` Transf., of things having a similar shape. `I.A` *A copper vessel for the table*, perh. to wash out the cups in, *a rinsing-bowl*, Hor. S. 1, 6, 117, v. Heindorf, ad h. l.; id. ib. 2, 8, 52.— `I.B` *The prickly husk of a chestnut*, Calp. Ecl. 2, 83; Pall. Insit. 155.— `I.C` In archit., *an ornament under the chapiter of a Doric or Ionic column*, *an echinus*, Vitr. 4, 3, 4; 4, 7, 3; cf. Müller, Archaeol. § 277. """
+```
+
+In Julia, we can split the row into columns and assign each column to a variable in a single line:
+
+```{julia}
+(sequence, urn, headword, article) = split(entry, "#")
+```
+
+
+Markdown parsing is part of the Julia language, but it's not automatically loaded. Once we explicitly use the package, we can create a Markdown string object by parsing a regular string. Julia's IO system will display this object appropriately in environments ranging from the Juilia REPL to [Quarto](https://quarto.org) (used to generate this web page).
+
+
+#### Markdown in Quarto output
+
+```{julia}
+using Markdown
+hdr = "`Article parsed from Markdown source`:\n"
+Markdown.parse(hdr * article)
+```
+
+#### Markdown in a Julia REPL
+
+Here's a screen shot of the same code run in a Julia REPL:
+
+![Screen shot of parsed Markdown displayed in a Julia REPL](./MD-in-REPL.png)
+
+
+Now we're in a small-digital world: we can easily share and replicate this simple parsing of delimited-text data using only [the Julia language](https://neelsmith.quarto.pub/posts/2024-10-22-why-julia/index.html).
+
+### Some small-digital scripts
+
+There are a few reasons 
+My scripts:
+
+- https://github.com/neelsmith/liddell-scott
+- https://github.com/Eumaeus/cex_lewis_and_short
+
+
+
+Why?
+
+- use off line
+- incorporate into my own small-digital projects
+
+An unexpectedly useful kludge: see summary line!
+
+
+
+
+
+
+
+```
+using Downloads
+readerurl = "https://raw.githubusercontent.com/neelsmith/lewis-short/refs/heads/main/reader.jl"
+
+script = Downloads.download(readerurl)
+include(script)
+rm(script)
+#text("Cic.") 
+lemma("echinus") |> Markdown.parse
+```
+
+
+```
+using Markdown
+script = Downloads.download(readerurl)
+include(script)
+rm(script)
+#lemma("echinus") |> Markdown.parse
+```
+
+
+
+
+[^eumaeus]: Github repositories for Blackwell's lexica with article forammted in Markdown :
+
+    - [Markdown edition of *LSJ*](https://github.com/Eumaeus/cite_lsj_cex)
+    - [Markdown edition of *Lewis and Short*](https://github.com/Eumaeus/cex_lewis_and_short)
+

@@ -1,0 +1,21 @@
+---
+title: Current projects
+---
+
+In 2026, I'm focused on syntactic anaysis of historical languages. I'm using [DSPy](https://dspy.ai) to develop Python packages that leverage language models:
+
+
+- [udsyntax](https://neelsmith.github.io/udsyntax/): get Universal Dependency data from spaCy into a simple syntax graph format
+- [aat](https://neelsmith.github.io/aat/): an Agent-Action-Target model of natural-language syntax in Python
+- [arsgrammatica](https://neelsmith.github.io/arsgrammatica/): a python package leveraging LMs with `dspy` to analyze the syntax of passages of Latin
+- [grammatike](https://neelsmith.github.io/grammatike/): a Python package leveraging LLMs with dspy to analyze the syntax of passages of ancient Greek.
+- *diqduq*: a Python package leveraging LLMs with dspy to analyze the syntax of passages of Biblical Hebrew. (not yet public)
+
+
+## Adjacent projects
+
+I'm beginning to apply this syntactic analysis in:
+
+- a **digital Complutensian polyglot Bible**: digital resources for both experts and novices, supporting aligned multilingual reading 
+- the **Homer Multitext project**:  a personal site about how I work with the Homer Multitext project’s digital archive
+

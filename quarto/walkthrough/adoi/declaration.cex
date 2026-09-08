@@ -1,0 +1,36 @@
+#!datamodels
+Collection|Model|Label|Description
+urn:cite2:ns:adoi.v1:engraving|urn:cite2:cite:datamodels.v1:dsemodel|Relations of text, documentary image and face for the stone engraving of the American Declaration of Independence
+urn:cite2:ns:adoi.v1:original|urn:cite2:cite:datamodels.v1:dsemodel|Relations of text, documentary image and parchment page for the American Declaration of Independence
+
+#!citerelationset
+urn|urn:cite2:ns:adoi.v1:engraving
+label|Collection of DSE records for the stone engraving of the American Declaration of Independence
+
+passage|imageroi|surface
+urn:cts:citeusnatarch:foundingdocuments.declindep.engraving:header1|urn:cite2:citeusnatarch:declindep.v1:Declaration_Engrav_Pg1of1_AC@0.2350,0.01954,0.5883,0.03845|urn:cite2:citeusnatarch:declindep.engraving:front
+urn:cts:citeusnatarch:foundingdocuments.declindep.engraving:header2|urn:cite2:citeusnatarch:declindep.v1:Declaration_Engrav_Pg1of1_AC@0.02702,0.08097,0.9080,0.05284|urn:cite2:citeusnatarch:declindep.engraving:front
+
+urn:cts:citeusnatarch:foundingdocuments.declindep.engraving:1|urn:cite2:citeusnatarch:declindep.v1:Declaration_Engrav_Pg1of1_AC@0.03747,0.1355,0.9202,0.06100|urn:cite2:citeusnatarch:declindep.engraving:front
+
+urn:cts:citeusnatarch:foundingdocuments.declindep.engraving:2|urn:cite2:citeusnatarch:declindep.v1:Declaration_Engrav_Pg1of1_AC@0.03594,0.1768,0.9243,0.1439|urn:cite2:citeusnatarch:declindep.engraving:front
+
+urn:cts:citeusnatarch:foundingdocuments.declindep.engraving:3|urn:cite2:citeusnatarch:declindep.v1:Declaration_Engrav_Pg1of1_AC@0.04359,0.2998,0.9105,0.03565|urn:cite2:citeusnatarch:declindep.engraving:front
+
+
+
+
+#!citerelationset
+urn|urn:cite2:ns:adoi.v1:original
+label|Collection of DSE records for the American Declaration of Independence
+passage|imageroi|surface
+urn:cts:citeusnatarch:foundingdocuments.declindep.original:header1|urn:cite2:citeusnatarch:declindep.v1:Declaration_Pg1of1_AC@0.2420,0.01332,0.6093,0.04980|urn:cite2:citeusnatarch:declindep.original:front
+
+
+urn:cts:citeusnatarch:foundingdocuments.declindep.original:header2|urn:cite2:citeusnatarch:declindep.v1:Declaration_Engrav_Pg1of1_AC@0.02702,0.08097,0.9080,0.05284|urn:cite2:citeusnatarch:declindep.original:front
+
+
+urn:cts:citeusnatarch:foundingdocuments.declindep.original:1|urn:cite2:citeusnatarch:declindep.v1:Declaration_Pg1of1_AC@0.02948,0.1322,0.9594,0.06968|urn:cite2:citeusnatarch:declindep.original:front
+
+
+urn:cts:citeusnatarch:foundingdocuments.declindep.original:2|urn:cite2:citeusnatarch:declindep.v1:Declaration_Pg1of1_AC@0.03479,0.1758,0.9567,0.1376|urn:cite2:citeusnatarch:declindep.original:front

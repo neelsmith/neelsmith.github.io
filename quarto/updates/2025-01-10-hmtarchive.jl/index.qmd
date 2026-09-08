@@ -1,0 +1,38 @@
+---
+title: "Updates to HmtArchive.jl"
+engine: julia
+description: "Version 0.16.1 of HmtArchive.jl supports automated generation of IIIF manifests."
+author:
+  - name: Neel Smith
+date: 2025-01-10
+categories: [iiif, hmt, update] # self-defined categories
+image: ../newrelease2.png
+draft: false # publish by setting to false
+
+---
+
+## Release notes: version 0.16.1
+
+- adds support for yesterday's update to `CitablePhysicalImage.jl` which introduced the `iiifmanifest` function. 
+
+
+::: {.callout-note}
+The package's `hmt_codices` function returns a list of `Codex` objects from the most recent published release of the HMT archive. With an image service and configuration for a manifest, you can now create IIIF manifests directly from a codex in this list.
+:::
+
+## Installation
+
+Install from the central registry with Julia’s package manager.
+
+- in package mode from the Julia REPL `] add HmtArchive`
+- from a Julia terminal session: `using Pkg; Pkg.add("HmtArchive")`
+
+
+## Documentation
+
+- package documentation is available on [quarto.pub](https://neelsmith.quarto.pub/hmtarchive/)
+- the documentation of  `CitablePhysicalText.jl` includes a tutorial on [how to use the new `iiifmanifest` function](https://neelsmith.quarto.pub/citablephysicaltext/tutorials/iiif.html).
+
+## Source
+
+- available on [github](https://github.com/homermultitext/HmtArchive.jl)

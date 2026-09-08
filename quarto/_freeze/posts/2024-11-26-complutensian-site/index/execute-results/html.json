@@ -1,0 +1,12 @@
+{
+  "hash": "75a8107bdb4023471a0a5c16ab411ec5",
+  "result": {
+    "engine": "julia",
+    "markdown": "---\ntitle: \"New project web site: a digital Complutensian Bible\"\nengine: julia\ndescription: \"Data sets and replicable Pluto notebooks along with background information about the project.\"\nauthor:\n  - name: Neel Smith\ndate: 2024-11-26\ncategories: [small digital, complutensian] # self-defined categories\ncitation: \n  url: https://neelsmith.quarto.pub/posts/2024-11-26-complutensian-site/ \nimage: ../imgs/complutensian-title-page.png\ndraft: false # setting this to false publishes it\n---\n\nYesterday, Ashley Terjanian and I presented our work on a digital Complutensian Bible at the 2024 meeting of the Society for Biblical Literature.  (The abstract and slide stack of our presentation are available [here](https://neelsmith.quarto.pub/digitalcomplutensian/presentations/sbl2024/).) Our project illustrates what I've called a [\"small-digital\" approach](https://neelsmith.quarto.pub/posts/2024-10-28-small-digital/index.html) to scholarly work. \n\n\n\n\nWe introduced a new [web site for the project](https://neelsmith.quarto.pub/digitalcomplutensian) where you can find background information about the project, and details about our ongoing work. Main sections of the site include:\n\n- full information about the [openly available data sets](https://neelsmith.quarto.pub/digitalcomplutensian/resources) we are reusing or developing ourselves \n- [replicable applications](https://neelsmith.quarto.pub/digitalcomplutensian/examples/) using the data sets\n\nThe bulk of the replicable applications are the Pluto notebooks we use to explore the digital Complutensian interactively, but they also include examples of static documents that we format for publication with Quarto -- including the project website itself.\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

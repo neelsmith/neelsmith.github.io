@@ -1,0 +1,25 @@
+---
+title: "Summarizing Lewis and Short's Latin Dictionary with ChatGPT"
+engine: julia
+description: "."
+author:
+  - name: Neel Smith
+date: 2025-01-16
+categories: [small digital, morphology, LLMs] # self-defined categories
+citation: 
+  url: https://neelsmith.quarto.pub/posts/2025-01-16-summarizing-lewis-short/ 
+image: ../imgs/comp-in-tify.png
+draft: true # setting this to false publishes it
+---
+
+
+We need some content
+
+Formal checks:
+
+- valid delimited
+- only one line
+
+
+1% of replies have > 1 line
+

@@ -1,0 +1,30 @@
+---
+title: "Why Julia?"
+engine: julia
+description: "Julia is my go-to language for digital scholarship."
+author:
+  - name: Neel Smith
+date: 2024-10-22
+categories: [julia, small digital] # self-defined categories
+citation: 
+  url: https://neelsmith.quarto.pub/posts/2024-10-22-why-julia/ 
+image: julia.png
+draft: false
+---
+
+
+## In 2024, I'm coding in Julia
+
+All the code presented in the "[digital infrastructure](https://neelsmith.quarto.pub/digschol/)" section of this site is written in [Julia](https://julialang.org). 
+
+I first saw Julia when I was desperately looking for better ways to teach remotely during the pandemic. In December of 2019, I discovered the famous MIT course "[Introduction to Computational Thinking](https://ocw.mit.edu/courses/18-s191-introduction-to-computational-thinking-fall-2020/)", and wanted to imitate how its instructors taught with [Pluto notebooks](https://plutojl.org), written in Julia.
+
+By January of 2021, Julia had become my language of choice. Here are a few reasons:
+
+- I don't spend time trying to manage versions and environments. I'll never get back the hours I've given to that with Python, Java, C, Perl, ..., but I won't lose more time installing and setting up Julia. Package management is well thought through and integral to the language.
+- Julia runs everywhere, easily.  Use the [`juliaup`](https://github.com/JuliaLang/juliaup) script, or download and install a single binary for Mac OS, Windows, Linux or Free BSD. Combine this with easy installation, and you can be confident that when you share your work in Julia, it will be easy to replicate reliably.
+- Twenty-first century features are part of the language, not add-ons: Julia has mature handling of Unicode, built-in support for unit testing, and many other features I routinely rely on. 
+- Great tooling makes for a productive working environment. The Julia REPL, Pluto notebooks, and Visual Studio Code (with plugin options including executing and debugging Julia, and generating publications with Quarto) all keep me focused on the problem I want to solve, not how to use the tools.
+- Julia's multiple dispatch model was a head-scratcher at first, but I really appreciate its "[unreasonable effectiveness](https://www.youtube.com/watch?v=kc9HwsxE1OY)" (in Stefan Karpinski's phrase). The composability and code reuse it encourages is an especially good match for [exploratory scholarly work](../2024-10-28-small-digital/).
+- Pluto notebooks are awesome: reactive, like [Observable notebooks](https://observablehq.com/documentation/notebooks/), but not tied in to a commercial delivery system, and written in a language that's a pleasure to work in.
+- Julia is fast.

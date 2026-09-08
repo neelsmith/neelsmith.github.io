@@ -1,0 +1,12 @@
+{
+  "hash": "e864b041a12f61763b5ba72964744617",
+  "result": {
+    "engine": "julia",
+    "markdown": "---\ntitle: \"New IIIF manifests for  HMT manuscripts\"\nengine: julia\ndescription: \"IIIF manifests added for photography of Venice, Biblioteca Marciana 841, and British Museum, Burney 86.\"\nauthor:\n  - name: Neel Smith\ndate: 2025-01-11\ncategories: [iiif, hmt, update] # self-defined categories\nimage: ../newrelease2.png\ndraft: false # publish by setting to false\n\n---\n\n\n## Changes\n\nThe Homer Multitext project's published IIIF manifestsnow cover three manuscripts of the *Iliad* with scholia. Use any of the following links with an IIIF viewer:\n\n\n- [the Venetus A](https://raw.githubusercontent.com/homermultitext/hmt-archive/refs/heads/master/iiif/venetusA.json)\n- [Venice, Biblioteca Marciana 841](https://raw.githubusercontent.com/homermultitext/hmt-archive/refs/heads/master/iiif/marciana_841.json)\n- [British Museum, Burney 86](https://raw.githubusercontent.com/homermultitext/hmt-archive/refs/heads/master/iiif/burney86.json) (\"the Townley Homer\")\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

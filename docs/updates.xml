@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>neelsmith</title>
+<link>https://neelsmith.quarto.pub/updates.html</link>
+<atom:link href="https://neelsmith.quarto.pub/updates.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.9.33</generator>
+<lastBuildDate>Mon, 01 Jun 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>A vibe-coded javascript library for working with citable text in polytonic Greek</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/updates/2025-06-01-greeklib/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="new-package-announcement-greeklib.js" class="level2">
+<h2 class="anchored" data-anchor-id="new-package-announcement-greeklib.js">New package announcement: <code>greeklib.js</code></h2>
+<section id="summary-and-motivation" class="level3">
+<h3 class="anchored" data-anchor-id="summary-and-motivation">Summary and motivation</h3>
+<p><code>greeklib.js</code> is a javascript library for working with citable text in polytonic ancient Greek in a web browser or other javascript environment.</p>
+</section>
+</section>
+<section id="release-notes" class="level2">
+<h2 class="anchored" data-anchor-id="release-notes">Release notes</h2>
+<p>Main features:</p>
+<ul>
+<li>defines the <code>Token</code> class to represent a citable, classified token</li>
+<li>implements the <code>tokenize</code> function to tokenize a single citable text passage</li>
+</ul>
+</section>
+<section id="installation" class="level2">
+<h2 class="anchored" data-anchor-id="installation">Installation</h2>
+<p>The file <code>greeklib.js</code> can be downloaded from github and used locally, or loaded via jsDelivr from <code>https://cdn.jsdelivr.net/gh/neelsmith/greeklib@1.0.0/greeklib.js</code>.</p>
+</section>
+<section id="documentation" class="level2">
+<h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
+<ul>
+<li>available <a href="https://github.com/neelsmith/greeklib/blob/main/apis.md">on github</a></li>
+</ul>
+</section>
+<section id="source" class="level2">
+<h2 class="anchored" data-anchor-id="source">Source</h2>
+<ul>
+<li>available <a href="https://github.com/neelsmith/greeklib.git">on github</a></li>
+</ul>
+</section>
+<section id="caveats" class="level2">
+<h2 class="anchored" data-anchor-id="caveats">Caveats</h2>
+<p>The javascript library and the markdown documentation were written entirely by gemini-2.5-pro. The code passes a series of sanity tests, but I have not even looked at the javascript. When I encountered errors, I let gemini fix them. Use the code as you like, but be aware that I have no idea what it does or how it works.</p>
+</section>
+<section id="auditing-the-build" class="level2">
+<h2 class="anchored" data-anchor-id="auditing-the-build">Auditing the build:</h2>
+<ul>
+<li>github repository includes a complete transcript of the chat used to generate the script, with saved intermediate versions of the javascript library. See the repository <a href="https://github.com/neelsmith/greeklib">README</a> for details.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>vibe coding</category>
+  <category>cite</category>
+  <category>new package</category>
+  <guid>https://neelsmith.quarto.pub/updates/2025-06-01-greeklib/</guid>
+  <pubDate>Mon, 01 Jun 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>A vibe-coded javascript library for working with published releases of the Homer Multitext project</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/updates/2025-05-29-hmt-lib/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="new-package-announcement-hmt-lib.js" class="level2">
+<h2 class="anchored" data-anchor-id="new-package-announcement-hmt-lib.js">New package announcement: <code>hmt-lib.js</code></h2>
+<section id="summary-and-motivation" class="level3">
+<h3 class="anchored" data-anchor-id="summary-and-motivation">Summary and motivation</h3>
+<p><code>hmt-lib.js</code> is a javascript library for parsing and manipulating data in published releases of the Homer Multitext project (HMT), including normalized and diplomatic editions of texts, indexing of relations of text passages to images and manuscript pages, indexing of <em>Iliad</em> lines and <em>scholia</em>, and documentation of manuscript sources.</p>
+</section>
+</section>
+<section id="release-notes" class="level2">
+<h2 class="anchored" data-anchor-id="release-notes">Release notes</h2>
+<p>This announcement covers both the initial <code>1.0.0</code> release and immediately following <code>1.1.0</code> release. Main features:</p>
+<ul>
+<li>load a published release of HMT</li>
+<li>retrieve text corpora and specific text passages in diplomatic and normalized editions</li>
+<li>discover relations among text passages, documentary images, and manuscript pages</li>
+<li>discover relations between <em>Iliad</em> passages and <em>scholia</em></li>
+<li>label texts and objects with catalog metadata</li>
+<li>add precomposed menu widgets to web pages to select <em>Iliad</em> texts and manuscripts</li>
+</ul>
+<p>See the github repository for more details.</p>
+</section>
+<section id="installation" class="level2">
+<h2 class="anchored" data-anchor-id="installation">Installation</h2>
+<p>The file <code>hmt-lib.js</code> can be downloaded from github and used locally, or loaded vis jsDelivr from <code>https://cdn.jsdelivr.net/gh/neelsmith/hmt-lib@1.1.0/hmt-lib.js</code>.</p>
+</section>
+<section id="documentation" class="level2">
+<h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
+<ul>
+<li>available <a href="https://github.com/neelsmith/hmt-lib/blob/main/apis.md">on github</a></li>
+</ul>
+</section>
+<section id="source" class="level2">
+<h2 class="anchored" data-anchor-id="source">Source</h2>
+<ul>
+<li>available <a href="https://github.com/neelsmith/hmt-lib.git">on github</a></li>
+</ul>
+</section>
+<section id="caveats" class="level2">
+<h2 class="anchored" data-anchor-id="caveats">Caveats</h2>
+<p>The javascript library and the markdown documentation were written entirely by gemini-2.5-pro. The code passes a series of sanity tests, but I have not even looked at the javascript. When I encountered errors, I let gemini fix them. Use the code as you like, but be aware that I have no idea what it does or how it works.</p>
+<p>Auditing the build:</p>
+<ul>
+<li>github repository includes a complete transcript of the chat used to generate the script, with saved intermediate versions of the javascript library. See the repository <a href="https://github.com/neelsmith/hmt-lib">README</a> for details.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>vibe coding</category>
+  <category>Homer Multitext</category>
+  <category>cite</category>
+  <category>new package</category>
+  <guid>https://neelsmith.quarto.pub/updates/2025-05-29-hmt-lib/</guid>
+  <pubDate>Thu, 29 May 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>A vibe-coded javascript library for working with HMT publications</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/updates/2025-05-25-hmt-lib/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="new-package-announcement-hmt-lib.js" class="level2">
+<h2 class="anchored" data-anchor-id="new-package-announcement-hmt-lib.js">New package announcement: <code>hmt-lib.js</code></h2>
+<section id="summary-and-motivation" class="level3">
+<h3 class="anchored" data-anchor-id="summary-and-motivation">Summary and motivation</h3>
+<p><code>hmt-lib.js</code> is a javascript library for working with published releases of the Homer Multitext project’s archive in web browser or other javascript environment.</p>
+</section>
+</section>
+<section id="release-notes" class="level2">
+<h2 class="anchored" data-anchor-id="release-notes">Release notes</h2>
+<p>Initial release. Main features:</p>
+<ul>
+<li>load current published release of the HMT archive</li>
+<li>extract diplomatic or normalized text corpora</li>
+<li>extract and query an index linking <em>Iliad</em> passages and <em>scholia</em></li>
+<li>extract and query digital scholarly edition records linking texts, pages and images</li>
+<li>format human readable labels for objects cited by CTS URN or CITE2 URN</li>
+<li>find URNs for all documented codices</li>
+<li>extract a model of a given manuscript as a sequence of <code>CodexPage</code> objects</li>
+<li>add a menu of HMT manuscripts to a web page</li>
+</ul>
+</section>
+<section id="installation" class="level2">
+<h2 class="anchored" data-anchor-id="installation">Installation</h2>
+<p>The file <code>hmt-lib.js</code> can be downloaded from github and used locally, or loaded vis jsDelivr from <code>https://cdn.jsdelivr.net/gh/neelsmith/hmt-lib/hmt-lib.js</code>.</p>
+</section>
+<section id="documentation" class="level2">
+<h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
+<ul>
+<li>available <a href="https://github.com/neelsmith/hmt-lib/blob/main/apis.md">on github</a></li>
+</ul>
+</section>
+<section id="source" class="level2">
+<h2 class="anchored" data-anchor-id="source">Source</h2>
+<ul>
+<li>available <a href="https://github.com/neelsmith/hmt-lib.git">on github</a></li>
+</ul>
+</section>
+<section id="caveats" class="level2">
+<h2 class="anchored" data-anchor-id="caveats">Caveats</h2>
+<p>The javascript library and the markdown documentation were written entirely by gemini-2.5-pro. The code passes a series of sanity tests, but I have not even looked at the javascript. When I encountered errors, I let gemini fix them. Use the code as you like, but be aware that I have no idea what it does or how it works.</p>
+<p>Auditing the build:</p>
+<ul>
+<li>github repository includes a complete transcript of the chat used to generate the script, with saved intermediate versions of the javascript library. See the repository <a href="https://github.com/neelsmith/hmt-lib">README</a> for details.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>vibe coding</category>
+  <category>cite</category>
+  <category>new package</category>
+  <guid>https://neelsmith.quarto.pub/updates/2025-05-25-hmt-lib/</guid>
+  <pubDate>Sun, 25 May 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>A vibe-coded javascript library for working with CTS and CITE2 URNs</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/updates/2025-05-23-urns-lib/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="new-package-announcement-urn-lib.js" class="level2">
+<h2 class="anchored" data-anchor-id="new-package-announcement-urn-lib.js">New package announcement: <code>urn-lib.js</code></h2>
+<section id="summary-and-motivation" class="level3">
+<h3 class="anchored" data-anchor-id="summary-and-motivation">Summary and motivation</h3>
+<p><code>urn-lib.js</code> is a javascript library for parsing, validating, comparing, and retrieving data associated with CTS (Canonical Text Services) URNs and CITE2 URNs.</p>
+</section>
+</section>
+<section id="release-notes" class="level2">
+<h2 class="anchored" data-anchor-id="release-notes">Release notes</h2>
+<p>Initial release. Main features:</p>
+<ul>
+<li>analyze and manipulate CTS URNs and CITE2 URNs</li>
+<li>comparison of CTS URNs and CITE2 URNs based on equality or URN congruence</li>
+<li>retrieve data from delimited-text sources based on URN congruence</li>
+</ul>
+</section>
+<section id="installation" class="level2">
+<h2 class="anchored" data-anchor-id="installation">Installation</h2>
+<p>The file <code>urn-lib.js</code> can be downloaded from github and used locally, or loaded vis jsDelivr from <code>https://cdn.jsdelivr.net/gh/neelsmith/urns-lib/urn-lib.js</code>.</p>
+</section>
+<section id="documentation" class="level2">
+<h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
+<ul>
+<li>available <a href="https://github.com/neelsmith/urns-lib/blob/main/apis.md">on github</a></li>
+</ul>
+</section>
+<section id="source" class="level2">
+<h2 class="anchored" data-anchor-id="source">Source</h2>
+<ul>
+<li>available <a href="https://github.com/neelsmith/urns-lib.git">on github</a></li>
+</ul>
+</section>
+<section id="caveats" class="level2">
+<h2 class="anchored" data-anchor-id="caveats">Caveats</h2>
+<p>The javascript library and the markdown documentation were written entirely by gemini-2.5-pro. The code passes a series of sanity tests, but I have not even looked at the javascript. When I encountered errors, I let gemini fix them. Use the code as you like, but be aware that I have no idea what it does or how it works.</p>
+<p>Auditing the build:</p>
+<ul>
+<li>github repository includes a complete transcript of the chat used to generate the script, with saved intermediate versions of the javascript library. See the repository <a href="https://github.com/neelsmith/urns-lib">README</a> for details.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>vibe coding</category>
+  <category>cite</category>
+  <category>new package</category>
+  <guid>https://neelsmith.quarto.pub/updates/2025-05-23-urns-lib/</guid>
+  <pubDate>Wed, 21 May 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>A vibe-coded javascript library for working with HMT images</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/updates/2025-05-21-hmt-images/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="new-package-announcement-hmt-image-lib.js" class="level2">
+<h2 class="anchored" data-anchor-id="new-package-announcement-hmt-image-lib.js">New package announcement: <code>hmt-image-lib.js</code></h2>
+<section id="summary-and-motivation" class="level3">
+<h3 class="anchored" data-anchor-id="summary-and-motivation">Summary and motivation</h3>
+<p><code>hmt-iiif-lib.js</code> is a javascript library for working with images available from the Homer Multitext project’s IIIF image server, using URN notation. It provides a lightweight, from-scratch IIIF image viewer, along with utility functions for generating IIIF URLs.</p>
+<p>The Homer Multitext project (HMT) makes its archive of images available via the IIIF protocol, but its published data releases use CITE2 URNs to provide stable references to images and regions of interest (ROIs) within those images. <code>hmt-iiif-lib.js</code> simplifies working with this material in a web browser or other javascript environment.</p>
+</section>
+</section>
+<section id="release-notes" class="level2">
+<h2 class="anchored" data-anchor-id="release-notes">Release notes</h2>
+<p>Initial release. Main features:</p>
+<ul>
+<li>add a pannable/zoomable image viewer to a web page for an image identified by CITE2. ROIs are visually highlighted.</li>
+<li>overlay multiple ROIs on a single image by invoking the viewer with a list of URNs with differeing ROIs</li>
+<li>“citation mode” allows users to select new ROIs with option-click/drag, and returns CITE2 URNs for all user-selected regions</li>
+<li>compose an IIIF request for an image that can be embedded in a web page</li>
+</ul>
+</section>
+<section id="installation" class="level2">
+<h2 class="anchored" data-anchor-id="installation">Installation</h2>
+<p>The file <code>hmt-image.js</code> can be downloaded from github and used locally, or loaded vis jsDelivr from <code>https://cdn.jsdelivr.net/gh/neelsmith/hmt-image-lib/hmt-iiif-lib.js</code>.</p>
+</section>
+<section id="documentation" class="level2">
+<h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
+<ul>
+<li>available <a href="https://github.com/neelsmith/hmt-image-lib/blob/main/apis.md">on github</a></li>
+</ul>
+</section>
+<section id="source" class="level2">
+<h2 class="anchored" data-anchor-id="source">Source</h2>
+<ul>
+<li>available <a href="https://github.com/neelsmith/hmt-image-lib.git">on github</a></li>
+</ul>
+</section>
+<section id="caveats" class="level2">
+<h2 class="anchored" data-anchor-id="caveats">Caveats</h2>
+<p>The javascript library and the markdown documentation were written entirely by gemini-2.5-pro. The code passes a series of sanity tests, but I have not even looked at the javascript. When I encountered errors, I let gemini fix them. Use the code as you like, but be aware that I have no idea what it does or how it works.</p>
+<p>Auditing the build:</p>
+<ul>
+<li>github repository includes a complete transcript of the chat used to generate the script, with saved intermediate versions of the javascript library. See the repository <a href="https://github.com/neelsmith/hmt-image-lib">README</a> for details.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>vibe coding</category>
+  <category>cite</category>
+  <category>hmt</category>
+  <category>iiif</category>
+  <category>new package</category>
+  <guid>https://neelsmith.quarto.pub/updates/2025-05-21-hmt-images/</guid>
+  <pubDate>Wed, 21 May 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>A vibe-coded javascript library for working with CEX data</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/updates/2025-05-19-cex-lib/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="new-package-announcement-cex.js" class="level2">
+<h2 class="anchored" data-anchor-id="new-package-announcement-cex.js">New package announcement: <code>cex.js</code></h2>
+<section id="summary-and-motivation" class="level3">
+<h3 class="anchored" data-anchor-id="summary-and-motivation">Summary and motivation</h3>
+<p><code>cex.js</code> is a javascript library for working with CEX data sources in a web browser or other javascript environment.</p>
+<p>The Homer Multitext project publishes its data releases in a single, plain-text document on github. (The current release is always available at <a href="https://raw.githubusercontent.com/homermultitext/hmt-archive/refs/heads/master/releases-cex/hmt-current.cex">this URL</a>.) The release file follows the Cite EXchange format (CEX), defined <a href="https://cite-architecture.github.io/citedx/CEX-spec-3.0.1/">here</a>.</p>
+<p>The javascript library in <code>cex.js</code> simplifies working with CEX data in a web browser or other javascript environment.</p>
+</section>
+</section>
+<section id="release-notes" class="level2">
+<h2 class="anchored" data-anchor-id="release-notes">Release notes</h2>
+<p>Initial release. Main features:</p>
+<ul>
+<li>load and parse CEX data from string values, local files or URLs</li>
+<li>discover CEX block labels, read contents of blocks by label</li>
+<li>discover data models, and find collections implementing a model</li>
+<li>retrieve a delimited-text table for the contents of all blocks of a given type</li>
+</ul>
+</section>
+<section id="installation" class="level2">
+<h2 class="anchored" data-anchor-id="installation">Installation</h2>
+<p>The file <code>cex.js</code> can be downloaded from github and used locally, or loaded vis jsDelivr from <code>https://cdn.jsdelivr.net/gh/neelsmith/cex-lib/cex.js</code>.</p>
+</section>
+<section id="documentation" class="level2">
+<h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
+<ul>
+<li>available <a href="https://github.com/neelsmith/cex-lib/blob/main/apis.md">on github</a></li>
+</ul>
+</section>
+<section id="source" class="level2">
+<h2 class="anchored" data-anchor-id="source">Source</h2>
+<ul>
+<li>available <a href="https://github.com/neelsmith/cex-lib.git">on github</a></li>
+</ul>
+</section>
+<section id="caveats" class="level2">
+<h2 class="anchored" data-anchor-id="caveats">Caveats</h2>
+<p>The javascript library and the markdown documentation were written entirely by gemini-2.5-pro. The code passes a series of sanity tests, but I have not even looked at the javascript. When I encountered errors, I let gemini fix them. Use the code as you like, but be aware that I have no idea what it does or how it works.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>vibe coding</category>
+  <category>cite</category>
+  <category>new package</category>
+  <guid>https://neelsmith.quarto.pub/updates/2025-05-19-cex-lib/</guid>
+  <pubDate>Mon, 19 May 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Updates to Obsidian.jl</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/updates/2025-02-18-obsidian-to-web/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="release-notes-version-0.4.0" class="level2">
+<h2 class="anchored" data-anchor-id="release-notes-version-0.4.0">Release notes: version 0.4.0</h2>
+<ul>
+<li>adds the <code>mdcontent</code> function to extract Markdown content from an Obsidian note, and <code>exportmd</code> to export an Obsidian note or entire vault to Markdown files that can be used with CMS like Quarto, Jekyll and Hugo.</li>
+</ul>
+</section>
+<section id="installation" class="level2">
+<h2 class="anchored" data-anchor-id="installation">Installation</h2>
+<p>Install from the central registry with Julia’s package manager.</p>
+<ul>
+<li>in package mode from the Julia REPL <code>] add Obsidian</code></li>
+<li>from a Julia terminal session: <code>using Pkg; Pkg.add("Obsidian")</code></li>
+</ul>
+</section>
+<section id="documentation" class="level2">
+<h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
+<ul>
+<li>package documentation is available on <a href="https://neelsmith.quarto.pub/obsidian/">quarto.pub</a>. Documentation includes a brief tutorial and more detailed guides on how to use the new functions.</li>
+</ul>
+</section>
+<section id="source" class="level2">
+<h2 class="anchored" data-anchor-id="source">Source</h2>
+<ul>
+<li>available on <a href="https://github.com/neelsmith/Obsidian.jl">github</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>obsidian</category>
+  <category>quarto</category>
+  <guid>https://neelsmith.quarto.pub/updates/2025-02-18-obsidian-to-web/</guid>
+  <pubDate>Tue, 18 Feb 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Updates to LexiconMining.jl</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/updates/2025-01-17-lexiconmining/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="release-notes-version-0.3.0" class="level2">
+<h2 class="anchored" data-anchor-id="release-notes-version-0.3.0">Release notes: version 0.3.0</h2>
+<p>Version <code>0.3.0</code> (now available on the main branch of the github repository) is a complete reworking of the previous package. It uses ChatGPT to extract morphological information from Lewis-Short’s <em>Latin Dictionary</em>, parses the ChatGPT output into an object model, and from those objects generates data usable with the Tabulae system for building Latin morphological parsers.</p>
+<p>State of implementation in version <code>0.3.0</code>:</p>
+<ul>
+<li>complete summaries of Lewis-Short from ChatGPT available</li>
+<li>initial parsing of ChatGPT summaries for nouns, verbs and adjectives implemented</li>
+<li>generation of Tabulae data for nouns implemented</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled" title="More information about Tabulae">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>More information about Tabulae
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>See <a href="https://neelsmith.quarto.pub/tabulae/">documentation for the <code>Tabulae.jl</code> package</a>.</p>
+</div>
+</div>
+</section>
+<section id="installation" class="level2">
+<h2 class="anchored" data-anchor-id="installation">Installation</h2>
+<p><code>LexiconMining.jl</code> is an unpublished package. You can install it directory from its github repository.</p>
+<ul>
+<li>in package mode from the Julia REPL <code>] add https://github.com/neelsmith/LexiconMining.jl.git</code></li>
+<li>from a Julia terminal session: <code>using Pkg; Pkg.add(url="https://github.com/neelsmith/LexiconMining.jl.git")</code></li>
+</ul>
+</section>
+<section id="documentation" class="level2">
+<h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
+<ul>
+<li>package documentation is available on <a href="https://neelsmith.quarto.pub/lexiconmining/">quarto.pub</a></li>
+</ul>
+</section>
+<section id="source" class="level2">
+<h2 class="anchored" data-anchor-id="source">Source</h2>
+<ul>
+<li>available on <a href="https://github.com/neelsmith/LexiconMining.jl">github</a></li>
+</ul>
+</section>
+<section id="progress" class="level2">
+<h2 class="anchored" data-anchor-id="progress">Progress</h2>
+<ul>
+<li>check <a href="https://github.com/neelsmith/LexiconMining.jl/milestone/8">this milestone</a> in the github repository to follow progress in implementing generation of Tabulae data sets</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>morphology</category>
+  <category>lexica</category>
+  <category>LLMs</category>
+  <category>latin</category>
+  <category>update</category>
+  <guid>https://neelsmith.quarto.pub/updates/2025-01-17-lexiconmining/</guid>
+  <pubDate>Fri, 17 Jan 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>New IIIF manifests for HMT manuscripts</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/updates/2025-01-11-new-iiif-manifests/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="changes" class="level2">
+<h2 class="anchored" data-anchor-id="changes">Changes</h2>
+<p>The Homer Multitext project’s published IIIF manifestsnow cover three manuscripts of the <em>Iliad</em> with scholia. Use any of the following links with an IIIF viewer:</p>
+<ul>
+<li><a href="https://raw.githubusercontent.com/homermultitext/hmt-archive/refs/heads/master/iiif/venetusA.json">the Venetus A</a></li>
+<li><a href="https://raw.githubusercontent.com/homermultitext/hmt-archive/refs/heads/master/iiif/marciana_841.json">Venice, Biblioteca Marciana 841</a></li>
+<li><a href="https://raw.githubusercontent.com/homermultitext/hmt-archive/refs/heads/master/iiif/burney86.json">British Museum, Burney 86</a> (“the Townley Homer”)</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>iiif</category>
+  <category>hmt</category>
+  <category>update</category>
+  <guid>https://neelsmith.quarto.pub/updates/2025-01-11-new-iiif-manifests/</guid>
+  <pubDate>Sat, 11 Jan 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Updates to HmtArchive.jl</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/updates/2025-01-10-hmtarchive.jl/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="release-notes-version-0.16.1" class="level2">
+<h2 class="anchored" data-anchor-id="release-notes-version-0.16.1">Release notes: version 0.16.1</h2>
+<ul>
+<li>adds support for yesterday’s update to <code>CitablePhysicalImage.jl</code> which introduced the <code>iiifmanifest</code> function.</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The package’s <code>hmt_codices</code> function returns a list of <code>Codex</code> objects from the most recent published release of the HMT archive. With an image service and configuration for a manifest, you can now create IIIF manifests directly from a codex in this list.</p>
+</div>
+</div>
+</section>
+<section id="installation" class="level2">
+<h2 class="anchored" data-anchor-id="installation">Installation</h2>
+<p>Install from the central registry with Julia’s package manager.</p>
+<ul>
+<li>in package mode from the Julia REPL <code>] add HmtArchive</code></li>
+<li>from a Julia terminal session: <code>using Pkg; Pkg.add("HmtArchive")</code></li>
+</ul>
+</section>
+<section id="documentation" class="level2">
+<h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
+<ul>
+<li>package documentation is available on <a href="https://neelsmith.quarto.pub/hmtarchive/">quarto.pub</a></li>
+<li>the documentation of <code>CitablePhysicalText.jl</code> includes a tutorial on <a href="https://neelsmith.quarto.pub/citablephysicaltext/tutorials/iiif.html">how to use the new <code>iiifmanifest</code> function</a>.</li>
+</ul>
+</section>
+<section id="source" class="level2">
+<h2 class="anchored" data-anchor-id="source">Source</h2>
+<ul>
+<li>available on <a href="https://github.com/homermultitext/HmtArchive.jl">github</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>iiif</category>
+  <category>hmt</category>
+  <category>update</category>
+  <guid>https://neelsmith.quarto.pub/updates/2025-01-10-hmtarchive.jl/</guid>
+  <pubDate>Fri, 10 Jan 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Updated images of the Complutensian Bible</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/updates/2025-01-09-complutensian-images/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="changes" class="level2">
+<h2 class="anchored" data-anchor-id="changes">Changes</h2>
+<p>As part of my project on <a href="https://neelsmith.quarto.pub/digitalcomplutensian/">the Complutensian Polyglot Bible</a>, I have mirrored the images of the copy in the National Library of Spain on a IIIF server at the University of Houston. The collection now includes 100% of the documented images.</p>
+</section>
+<section id="documentation" class="level2">
+<h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
+<p>The images are documented in six IIIF manifests, one for each volume.</p>
+<ul>
+<li><a href="https://neelsmith.quarto.pub/digitalcomplutensian/resources/images/">links to the IIIF manifests</a></li>
+</ul>
+<section id="generating-the-manifests" class="level3">
+<h3 class="anchored" data-anchor-id="generating-the-manifests">Generating the manifests</h3>
+<p>The manifests are generated from codex models of the six volumes of the Complutensian in <a href="https://github.com/neelsmith/complutensian-texts">this github repository</a> via a Julia script using the <code>CitablePhysicalText</code> package. (See a tutorial from the package documentation on <a href="https://neelsmith.quarto.pub/citablephysicaltext/tutorials/iiif.html">generating IIIF manifests</a>.) The following Julia code generates the manifests from the same data.</p>
+<p>First, we follow the tutorial to instantiate an image service, configure settings for the IIIF manifests, and read in the codex model.</p>
+<div id="6" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">using</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">CitablePhysicalText</span>, <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">CitableBase</span></span>
+<span id="cb1-2"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">using</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">CitableImage</span></span>
+<span id="cb1-3"></span>
+<span id="cb1-4">imgsvc_baseurl <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"http://www.homermultitext.org/iipsrv"</span></span>
+<span id="cb1-5">imgsvc_root <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"/project/homer/pyramidal/deepzoom"</span></span>
+<span id="cb1-6">imgsvc <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">IIIFservice</span>(imgsvc_baseurl, imgsvc_root)</span>
+<span id="cb1-7"></span>
+<span id="cb1-8">manifestids <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> [<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>(i)<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">-manifest.json"</span> for i <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">6</span>]</span>
+<span id="cb1-9">configs <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">iiifconfig</span>.(manifestids)</span>
+<span id="cb1-10"></span>
+<span id="cb1-11"></span>
+<span id="cb1-12">codexurls <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> [<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/codex/bne_v</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>(i)<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">.cex"</span> for i <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">6</span>]</span>
+<span id="cb1-13">codices <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> [<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">fromcex</span>(f, Codex, UrlReader)[<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>] for f <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> codexurls]</span>
+<span id="cb1-14"></span>
+<span id="cb1-15">totalpages <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> [<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(c.pages) for c <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> codices] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span> sum</span>
+<span id="cb1-16"><span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">@info</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Total pages documented in manifests: </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>(totalpages)<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<div class="ansi-escaped-output">
+<pre><span class="ansi-cyan-fg ansi-bold">[ </span><span class="ansi-cyan-fg ansi-bold">Info: </span>Total pages documented in manifests: 3029
+</pre>
+</div>
+</div>
+</div>
+<p>Then generating the manifests is a one-ilner.</p>
+<div id="8" class="cell" data-execution_count="0">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb2-1">manifests <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> [<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">iiifmanifest</span>(codices[i], configs[i], imgsvc) for i <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">6</span>]</span></code></pre></div></div>
+</div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>iiif</category>
+  <category>complutensian</category>
+  <category>update</category>
+  <guid>https://neelsmith.quarto.pub/updates/2025-01-09-complutensian-images/</guid>
+  <pubDate>Thu, 09 Jan 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Updates to CitablePhysicalText.jl</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/updates/2025-01-07-iiif-manifests/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="updates-to-citablephysicaltext.jl" class="level1">
+<h1>Updates to <code>CitablePhysicalText.jl</code></h1>
+<section id="release-notes-version-0.12.0" class="level2">
+<h2 class="anchored" data-anchor-id="release-notes-version-0.12.0">Release notes: version <code>0.12.0</code></h2>
+<ul>
+<li>adds the <code>iiifmanifest</code> function to generate IIIF manifests automatically from <code>Codex</code> objects.</li>
+</ul>
+</section>
+<section id="installation" class="level2">
+<h2 class="anchored" data-anchor-id="installation">Installation</h2>
+<p>Install from the central registry with Julia’s package manager.</p>
+<ul>
+<li>in package mode from the Julia REPL <code>] add CitablePhysicalText</code></li>
+<li>from a Julia terminal session: <code>using Pkg; Pkg.add("CitablePhysicalText")</code></li>
+</ul>
+</section>
+<section id="documentation" class="level2">
+<h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
+<ul>
+<li>package documentation is available on <a href="https://neelsmith.quarto.pub/citablephysicaltext/">quarto.pub</a></li>
+<li>the package documentation includes a tutorial on <a href="https://cite-architecture.github.io/CitablePhysicalText.jl/tutorials/iiif.html">how to use the new <code>iiifmanifest</code> function</a>.</li>
+</ul>
+</section>
+<section id="source" class="level2">
+<h2 class="anchored" data-anchor-id="source">Source</h2>
+<ul>
+<li>available on <a href="https://github.com/cite-architecture/CitablePhysicalText.jl">github</a></li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>iiif</category>
+  <category>update</category>
+  <guid>https://neelsmith.quarto.pub/updates/2025-01-07-iiif-manifests/</guid>
+  <pubDate>Tue, 07 Jan 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>New package: OpenScripturesHebrew.jl</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/updates/2024-11-13-open-scriptures-hebrew/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="new-package-announcement" class="level2">
+<h2 class="anchored" data-anchor-id="new-package-announcement">New package announcement</h2>
+<p><code>OpenScripturesHebrew.jl</code> is a Julia package for working with the morphological data of the <a href="https://hb.openscriptures.org">Open Scriptures Hebrew Bible project</a> (OSHB). <code>OpenScripturesHebrew.jl</code> parses the OSHB data into easily manipulated Julia tuples, and provides a Julia data model for the OSHB morphological data.</p>
+</section>
+<section id="release-notes-version-0.1.0" class="level2">
+<h2 class="anchored" data-anchor-id="release-notes-version-0.1.0">Release notes: version <code>0.1.0</code></h2>
+<p>Initial release. Some significant features:</p>
+<ul>
+<li>download and parse OSHB annotations for all or specified portions of the Hebrew Bible (more than 423,000 individually annotated words)</li>
+<li>all words keyed to canonically identified passages using CTS URNss</li>
+<li>can instantiate Julia objects from OSHB morphological codes for Hebrew morphology</li>
+</ul>
+</section>
+<section id="installation" class="level2">
+<h2 class="anchored" data-anchor-id="installation">Installation</h2>
+<p>Install from the central registry with Julia’s package manager.</p>
+<ul>
+<li>in package mode from the Julia REPL <code>] add OpenScripturesHebrew</code></li>
+<li>from a Julia terminal session: <code>using Pkg; Pkg.add("OpenScripturesHebrew")</code></li>
+</ul>
+</section>
+<section id="documentation" class="level2">
+<h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
+<ul>
+<li>available <a href="https://neelsmith.quarto.pub/openscriptureshebrew/">on quarto.pub</a></li>
+</ul>
+</section>
+<section id="source" class="level2">
+<h2 class="anchored" data-anchor-id="source">Source</h2>
+<ul>
+<li>available <a href="https://github.com/neelsmith/OpenScripturesHebrew.jl">on github</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>morphology</category>
+  <category>hebrew</category>
+  <category>new package</category>
+  <guid>https://neelsmith.quarto.pub/updates/2024-11-13-open-scriptures-hebrew/</guid>
+  <pubDate>Wed, 13 Nov 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Interactive Lewis-Short: bug fix</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/updates/2024-11-12-lewis-short/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="bug-fixes-to-interactive-lewis-short" class="level1">
+<h1>Bug fixes to interactive Lewis-Short</h1>
+<p>The github repository at <a href="https://github.com/neelsmith/lewis-short">https://github.com/neelsmith/lewis-short</a> includes a Pluto notebook and a script you can load in the Julia REPL to work with a digital Lewis and Short <em>Latin Dictionary</em>.</p>
+<section id="changes-and-current-versions-numbers" class="level2">
+<h2 class="anchored" data-anchor-id="changes-and-current-versions-numbers">Changes and current versions numbers</h2>
+<ul>
+<li>version 1.3.1 of the REPL script corrects an error in the interactively displayed usage instructions</li>
+</ul>
+<p>Current version:</p>
+<ul>
+<li>script for use in REPL: 1.3.1</li>
+</ul>
+</section>
+<section id="documentation" class="level2">
+<h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
+<p>See the <a href="https://github.com/neelsmith/lewis-short">github repository</a>.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>lexica</category>
+  <category>latin</category>
+  <category>bug fix</category>
+  <guid>https://neelsmith.quarto.pub/updates/2024-11-12-lewis-short/</guid>
+  <pubDate>Tue, 12 Nov 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/updates/bugfix.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Update to interactive Lewis-Short</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/updates/2024-11-05-lewis-short/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="update-to-interactive-lewis-short" class="level1">
+<h1>Update to interactive Lewis-Short</h1>
+<p>The github repository at <a href="https://github.com/neelsmith/lewis-short">https://github.com/neelsmith/lewis-short</a> includes a Pluto notebook and a script you can load in the Julia REPL to work with a digital Lewis and Short <em>Latin Dictionary</em>.</p>
+<section id="changes-and-current-versions-numbers" class="level2">
+<h2 class="anchored" data-anchor-id="changes-and-current-versions-numbers">Changes and current versions numbers</h2>
+<ul>
+<li>easier options for using the REPL offline with a previously downloaded dataset</li>
+<li>options in both REPL script and Pluto notebook for counting results rather than formatting the full text of matching articles in Markdown</li>
+</ul>
+<p>Current versions:</p>
+<ul>
+<li>Pluto notebook: 1.2.0</li>
+<li>script for use in REPL: 1.3.0</li>
+</ul>
+</section>
+<section id="documentation" class="level2">
+<h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
+<p>See the <a href="https://github.com/neelsmith/lewis-short">github repository</a>.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>lexica</category>
+  <category>latin</category>
+  <category>update</category>
+  <guid>https://neelsmith.quarto.pub/updates/2024-11-05-lewis-short/</guid>
+  <pubDate>Tue, 05 Nov 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Tracking updates with RSS</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/updates/2024-10-24-updates-rss-feed/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="tracking-updates-with-rss" class="level2">
+<h2 class="anchored" data-anchor-id="tracking-updates-with-rss">Tracking updates with RSS</h2>
+<p>At <a href="http://neelsmith.quarto.pub/updates">http://neelsmith.quarto.pub/updates</a>, I’m posting announcements about new releases and updates to documentation of the Julia packages I’m beginning to <a href="https://neelsmith.quarto.pub/digschol/">document here</a>. I’ve added an RSS feed to simplify getting any of these announcements you’re interested in. (Thanks for <a href="https://quarto.org/docs/websites/website-listings.html#feeds">automating that, Quarto</a>!)</p>
+<div class="callout callout-style-default callout-note callout-titled" title="URL">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>URL
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The URL for the feed is <a href="https://neelsmith.quarto.pub/updates.xml">https://neelsmith.quarto.pub/updates.xml</a></p>
+</div>
+</div>
+</section>
+<section id="back-to-the-future" class="level2">
+<h2 class="anchored" data-anchor-id="back-to-the-future">Back to the future</h2>
+<p>I used RSS feeds 15-20 years ago, but like a lot of other people, I thought RSS had died. It’s proven to be too simple and useful to go away altogether, however, and seems like a particularly good fit for following irregular announcements about changes to code and documentation.</p>
+<p>I hope it also proves to be a practical way to follow news while <a href="https://hvandenbergh.medium.com/back-to-rss-e4e177314bc3#:~:text=However%20RSS%20never%20died.,and%20some%20simple%20and%20straightforward.">avoiding some of the worst features of social media</a></p>
+
+
+</section>
+
+ ]]></description>
+  <category>rss</category>
+  <guid>https://neelsmith.quarto.pub/updates/2024-10-24-updates-rss-feed/</guid>
+  <pubDate>Thu, 24 Oct 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/updates/2024-10-24-updates-rss-feed/RSS.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+</channel>
+</rss>

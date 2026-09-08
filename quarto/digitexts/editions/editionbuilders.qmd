@@ -1,0 +1,21 @@
+---
+title: "Build univocal editions"
+engine: julia
+---
+
+
+
+:::{.callout-caution}
+## Content incomplete
+
+This page will introduce building specified editions from a citable multivalent source.
+:::
+
+
+Build specific *univocal editions* (diplomatic, normalized in various ways...)
+
+I use the term "univocal edition" to refer to an edition that makes a single version of the text with specified semantics available via canonical citation: text content can be directly analyzed without further knowledge of the source document's format.
+
+
+
+See the [documentation for the `EditionBuilders` package](https://hcmid.github.io/EditionBuilders.jl/stable/).

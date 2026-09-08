@@ -1,0 +1,29 @@
+---
+title: "Digital texts"
+engine: julia
+---
+
+
+:::{.callout-caution}
+## Content incomplete
+
+This page will introduce concepts and code for digital text analysis.
+:::
+
+
+Overview: what's different about computational study of texts in historical languages?
+
+- builds on central ideas of [citation](../cite/)
+- languages known to us only through written sources: essential to be explicit about the relation of [orthography](./orthography/) to language
+- we often need to construct unambiguous editions from source material in a variety of [structured text formats](./editions/)
+- the Indo-European and Semitic languages I work in are [morphologically rich](./parsing/): we need to take advantage of thats
+
+
+
+[Orthography](https://neelsmith.quarto.pub/orthography/)
+
+[Citable texts](../digitexts/editions/)
+
+[Digital scholarly editions](../digitexts/physical/)
+
+[Morphological parsing](../digitexts/parsing/)

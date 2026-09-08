@@ -1,0 +1,34 @@
+[
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2025-01-10-venetus-a-iiif/index.html",
+      "/posts/2024-11-26-complutensian-site/index.html",
+      "/posts/2024-11-15-pluto-iiif/index.html",
+      "/posts/2024-11-13-complutensian-iiif/index.html",
+      "/posts/2024-10-28-small-digital/index.html",
+      "/posts/2024-10-22-why-julia/index.html"
+    ]
+  },
+  {
+    "listing": "/updates.html",
+    "items": [
+      "/updates/2025-06-01-greeklib/index.html",
+      "/updates/2025-05-29-hmt-lib/index.html",
+      "/updates/2025-05-25-hmt-lib/index.html",
+      "/updates/2025-05-23-urns-lib/index.html",
+      "/updates/2025-05-21-hmt-images/index.html",
+      "/updates/2025-05-19-cex-lib/index.html",
+      "/updates/2025-02-18-obsidian-to-web/index.html",
+      "/updates/2025-01-17-lexiconmining/index.html",
+      "/updates/2025-01-11-new-iiif-manifests/index.html",
+      "/updates/2025-01-10-hmtarchive.jl/index.html",
+      "/updates/2025-01-09-complutensian-images/index.html",
+      "/updates/2025-01-07-iiif-manifests/index.html",
+      "/updates/2024-11-13-open-scriptures-hebrew/index.html",
+      "/updates/2024-11-12-lewis-short/index.html",
+      "/updates/2024-11-05-lewis-short/index.html",
+      "/updates/2024-10-24-updates-rss-feed/index.html"
+    ]
+  }
+]

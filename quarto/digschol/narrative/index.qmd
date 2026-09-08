@@ -1,0 +1,41 @@
+---
+title: "Conceptual overview"
+engine: julia
+---
+
+
+## Citation
+
+
+::: {.callout-tip title="Summary"}
+Scholarship in the humanities depends on **citation** to identify its unique objects of study. This section presents work on technology-independent citation using URNs: passages of texts (implemented with CTS URNs), physical artifacts (CITE2 URNs) and documentary images (CITE2 URNs, including extension for region of interest on an image)
+:::
+
+- [Citation and scholarship](https://neelsmith.quarto.pub/citablebase/concepts/) (concepts implemented in the `CitableBase` package)
+- [Citing texts](https://neelsmith.quarto.pub/citabletext/concepts/) (the `CitableText` package)
+- Citing artifacts
+- Citing images
+
+    
+
+## Digital texts
+
+::: {.callout-tip title="Summary"}
+All analysis of **digital texts** must take account of how the text's writing system, or *orthography*, is digitally encoded, and how we can derive *citable digital editions* from sources in a variety of structured text formats. I'm interested in digital *scholarly editions of physical texts* that encode both textual and non-textual contents. 
+:::
+
+- [Writing and orthographic systems](https://neelsmith.quarto.pub/orthography/concepts/) (the `Orthography` package)
+- Making archival documents citable (the `CitableTeiReaders` package)
+- Compiling univocal textual editions (the `EditionBuidlers` package)
+
+
+
+
+
+## Morphological parsing
+
+::: {.callout-tip title="Summary"}
+*Morphological parsing* is especially important for the morphologically rich languages I study.
+:::
+
+-  [Building citable parsers](https://neelsmith.quarto.pub/citableparserbuilder/)

@@ -1,0 +1,15 @@
+---
+title: "Citable texts"
+engine: julia
+---
+
+
+:::{.callout-caution}
+## Content incomplete
+
+This page will introduce citation of passages of texts.
+:::
+
+
+
+See the documentation of the [`CitableText`](https://cite-architecture.github.io/CitableText.jl/stable/) package.

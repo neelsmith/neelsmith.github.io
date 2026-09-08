@@ -1,0 +1,28 @@
+---
+title: "Interactive Lewis-Short: bug fix"
+engine: julia
+description: "Corrects an error in usage instructions."
+author:
+  - name: Neel Smith
+date: 2024-11-12
+categories: [lexica, latin, bug fix] # self-defined categories
+image: ../bugfix.png
+draft: false
+---
+
+# Bug fixes to interactive Lewis-Short
+
+The github repository at [https://github.com/neelsmith/lewis-short](https://github.com/neelsmith/lewis-short) includes a Pluto notebook and a script you can load in the Julia REPL to work with a digital Lewis and Short *Latin Dictionary*.
+
+## Changes and current versions numbers
+
+- version 1.3.1 of the REPL script corrects an error in the interactively displayed usage instructions
+
+Current version:
+
+- script for use in REPL: 1.3.1
+
+
+## Documentation
+
+See the [github repository](https://github.com/neelsmith/lewis-short).

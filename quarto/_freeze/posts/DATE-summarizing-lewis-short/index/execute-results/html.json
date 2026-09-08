@@ -1,0 +1,12 @@
+{
+  "hash": "664bb8306f37075f80951868fc1ecb70",
+  "result": {
+    "engine": "julia",
+    "markdown": "---\ntitle: \"Summarizing Lewis and Short's Latin Dictionary with ChatGPT\"\nengine: julia\ndescription: \".\"\nauthor:\n  - name: Neel Smith\ndate: 2025-01-16\ncategories: [small digital, morphology, LLMs] # self-defined categories\ncitation: \n  url: https://neelsmith.quarto.pub/posts/2025-01-16-summarizing-lewis-short/ \nimage: ../imgs/comp-in-tify.png\ndraft: true # setting this to false publishes it\n---\n\n\nWe need some content\n\nFormal checks:\n\n- valid delimited\n- only one line\n\n\n1% of replies have > 1 line\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

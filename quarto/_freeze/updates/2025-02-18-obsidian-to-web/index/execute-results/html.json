@@ -1,0 +1,12 @@
+{
+  "hash": "bddd4ad9841a8a2804fd68f8eb0f8806",
+  "result": {
+    "engine": "julia",
+    "markdown": "---\ntitle: \"Updates to Obsidian.jl\"\nengine: julia\ndescription: \"Version 0.4.0 of Obsidian.jl adds export of Obsidian vaults to Markdown.\"\nauthor:\n  - name: Neel Smith\ndate: 2025-02-18\ncategories: [obsidian, quarto] # self-defined categories\nimage: ../newrelease2.png\ndraft: false # publish by setting to false\n\n---\n\n## Release notes: version 0.4.0\n\n- adds the `mdcontent` function to extract Markdown content from an Obsidian note, and `exportmd` to export an Obsidian note or entire vault to Markdown files that can be used with CMS like Quarto, Jekyll and Hugo.\n\n## Installation\n\nInstall from the central registry with Julia’s package manager.\n\n- in package mode from the Julia REPL `] add Obsidian`\n- from a Julia terminal session: `using Pkg; Pkg.add(\"Obsidian\")`\n\n\n## Documentation\n\n- package documentation is available on [quarto.pub](https://neelsmith.quarto.pub/obsidian/). Documentation includes a brief tutorial and more detailed guides on how to use the new functions.\n\n\n## Source\n\n- available on [github](https://github.com/neelsmith/Obsidian.jl)\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

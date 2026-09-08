@@ -1,4 +1,0 @@
----
-layout: tagindex
-title: Tags
----

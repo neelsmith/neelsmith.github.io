@@ -1,0 +1,12 @@
+{
+  "hash": "e757df0f50367f00e02cc706d39332a7",
+  "result": {
+    "engine": "julia",
+    "markdown": "---\ntitle: \"A vibe-coded javascript library for working with HMT publications\"\nengine: julia\ndescription: \"`hmt-lib.js` is a javascript library for working with published releases of the Homer Multitext project's archive in a web browser or other javascript environment.\"\nauthor:\n  - name: Neel Smith\ndate: 2025-05-25\ncategories: [vibe coding, cite,new package] # self-defined categories\nimage: ../new-package.png\ndraft: false\n\n---\n\n\n## New package announcement: `hmt-lib.js`\n\n### Summary and motivation\n\n\n`hmt-lib.js` is a javascript library for working with published releases of the Homer Multitext project's archive in web browser or other javascript environment.\n\n## Release notes\n\nInitial release. Main features:\n\n- load current published release of the HMT archive\n- extract diplomatic or normalized text corpora\n- extract and query an index linking *Iliad* passages and *scholia*\n- extract and query digital scholarly edition records linking texts, pages and images\n- format human readable labels for objects cited by CTS URN or CITE2 URN\n- find URNs for all documented codices\n- extract a model of a given manuscript as a sequence of `CodexPage` objects\n- add a menu of HMT manuscripts to a web page\n\n\n\n\n## Installation\n\nThe file `hmt-lib.js` can be downloaded from github and used locally, or loaded vis jsDelivr from `https://cdn.jsdelivr.net/gh/neelsmith/hmt-lib/hmt-lib.js`.\n\n## Documentation\n\n- available [on github](https://github.com/neelsmith/hmt-lib/blob/main/apis.md)\n\n\n\n\n## Source\n\n- available [on github](https://github.com/neelsmith/hmt-lib.git)\n\n\n\n## Caveats\n\nThe javascript library and the markdown documentation were written entirely by gemini-2.5-pro. The code passes a series of sanity tests, but I have not even looked at the javascript. When I encountered errors, I let gemini fix them. Use the code as you like, but be aware that I have no idea what it does or how it works.\n\n\nAuditing the build:\n\n- github repository includes a complete transcript of the chat used to generate the script, with saved intermediate versions of the javascript library. See the repository [README](https://github.com/neelsmith/hmt-lib) for details.\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

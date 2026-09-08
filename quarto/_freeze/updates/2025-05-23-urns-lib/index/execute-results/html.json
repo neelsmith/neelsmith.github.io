@@ -1,0 +1,12 @@
+{
+  "hash": "512a33f401855226c1b2c4d91193bc34",
+  "result": {
+    "engine": "julia",
+    "markdown": "---\ntitle: \"A vibe-coded javascript library for working with CTS and CITE2 URNs\"\nengine: julia\ndescription: \"\"\nauthor:\n  - name: Neel Smith\ndate: 2025-05-21\ncategories: [vibe coding, cite,new package] # self-defined categories\nimage: ../new-package.png\ndraft: false\n\n---\n\n\n\n## New package announcement: `urn-lib.js`\n\n### Summary and motivation\n\n\n`urn-lib.js` is a javascript library for parsing, validating, comparing, and retrieving data associated with CTS (Canonical Text Services) URNs and CITE2 URNs.\n\n\n\n## Release notes\n\nInitial release. Main features:\n\n- analyze and manipulate CTS URNs and CITE2 URNs\n- comparison of CTS URNs and CITE2 URNs based on equality or URN congruence\n- retrieve data from delimited-text sources based on URN congruence\n\n\n\n\n## Installation\n\nThe file `urn-lib.js` can be downloaded from github and used locally, or loaded vis jsDelivr from `https://cdn.jsdelivr.net/gh/neelsmith/urns-lib/urn-lib.js`.\n\n## Documentation\n\n- available [on github](https://github.com/neelsmith/urns-lib/blob/main/apis.md)\n\n\n\n\n## Source\n\n- available [on github](https://github.com/neelsmith/urns-lib.git)\n\n\n\n## Caveats\n\nThe javascript library and the markdown documentation were written entirely by gemini-2.5-pro. The code passes a series of sanity tests, but I have not even looked at the javascript. When I encountered errors, I let gemini fix them. Use the code as you like, but be aware that I have no idea what it does or how it works.\n\n\nAuditing the build:\n\n- github repository includes a complete transcript of the chat used to generate the script, with saved intermediate versions of the javascript library. See the repository [README](https://github.com/neelsmith/urns-lib) for details.\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

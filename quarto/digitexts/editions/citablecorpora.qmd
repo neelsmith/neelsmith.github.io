@@ -1,0 +1,16 @@
+---
+title: "Working with citable corpora"
+engine: julia
+---
+
+
+
+:::{.callout-caution}
+## Content incomplete
+
+This page will introduce high-level functions for working with a citable text corpus.
+:::
+
+
+
+See the [documentation for the `CitableCorpus` package](https://cite-architecture.github.io/CitableCorpus.jl/stable/).

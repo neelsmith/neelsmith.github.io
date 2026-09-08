@@ -1,0 +1,28 @@
+---
+title: "Tracking updates with RSS"
+engine: julia
+description: "I've added an RSS feed to track announcments of new code releases or updates to documentation."
+author:
+  - name: Neel Smith
+date: 2024-10-24
+categories: [rss] # self-defined categories
+image: RSS.png
+draft: false
+---
+
+## Tracking updates with RSS
+
+At [http://neelsmith.quarto.pub/updates](http://neelsmith.quarto.pub/updates), 
+I'm posting announcements about new releases and updates to documentation of the Julia packages I'm beginning to  [document here](https://neelsmith.quarto.pub/digschol/). I've added an RSS feed to simplify getting any of these announcements you're interested in. (Thanks for [automating that, Quarto](https://quarto.org/docs/websites/website-listings.html#feeds)!)
+
+
+::: {.callout-note title="URL"}
+The URL for the feed is [https://neelsmith.quarto.pub/updates.xml](https://neelsmith.quarto.pub/updates.xml)
+:::
+
+
+## Back to the future
+
+I used RSS feeds 15-20 years ago, but like a lot of other people, I thought RSS had died. It's proven to be too simple and useful to go away altogether, however, and seems like a particularly good fit for following irregular announcements about changes to code and documentation.
+
+I hope it also proves to be a practical way to follow news while [avoiding some of the worst features of social media](https://hvandenbergh.medium.com/back-to-rss-e4e177314bc3#:~:text=However%20RSS%20never%20died.,and%20some%20simple%20and%20straightforward.)

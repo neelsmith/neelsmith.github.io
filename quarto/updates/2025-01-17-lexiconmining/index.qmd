@@ -1,0 +1,48 @@
+---
+title: "Updates to LexiconMining.jl"
+engine: julia
+description: "Version 0.3.0 of LexiconMining.jl is a ground-up rewrite using ChatGPT to extract data from Lewis-Short's *Latin Dictionary*."
+author:
+  - name: Neel Smith
+date: 2025-01-17
+categories: [morphology, lexica, LLMs, latin, update] # self-defined categories
+image: ../newrelease2.png
+draft: false # publish by setting to false
+
+---
+
+## Release notes: version 0.3.0
+
+Version `0.3.0` (now available on the main branch of the github repository) is a complete reworking of the previous package. It uses ChatGPT to extract morphological information from Lewis-Short's *Latin Dictionary*, parses the ChatGPT output into an object model, and from those objects  generates data usable with the Tabulae system for building Latin morphological parsers.
+
+State of implementation in version `0.3.0`:
+
+- complete summaries of Lewis-Short from ChatGPT available
+- initial parsing of ChatGPT summaries for nouns, verbs and adjectives implemented
+- generation of Tabulae data for nouns implemented
+
+::: {.callout-tip title="More information about Tabulae"}
+See [documentation for the `Tabulae.jl` package](https://neelsmith.quarto.pub/tabulae/).
+:::
+
+
+## Installation
+
+`LexiconMining.jl` is an unpublished package. You can install it directory from its github repository.
+
+- in package mode from the Julia REPL `] add https://github.com/neelsmith/LexiconMining.jl.git`
+- from a Julia terminal session: `using Pkg; Pkg.add(url="https://github.com/neelsmith/LexiconMining.jl.git")`
+
+
+## Documentation
+
+- package documentation is available on [quarto.pub](https://neelsmith.quarto.pub/lexiconmining/)
+
+
+## Source
+
+- available on [github](https://github.com/neelsmith/LexiconMining.jl)
+
+## Progress
+
+- check [this milestone](https://github.com/neelsmith/LexiconMining.jl/milestone/8) in the github repository to follow progress in implementing generation of Tabulae data sets

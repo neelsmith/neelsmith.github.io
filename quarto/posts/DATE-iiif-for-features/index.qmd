@@ -1,0 +1,24 @@
+---
+title: "Using IIIF manifests to publish key features of the Complutensian Bible"
+engine: julia
+description: "With the `CitablePhysicalText` package, it's trivial to generate a IIIF manifest for a list of manuscript pages."
+author:
+  - name: Neel Smith
+date: 2025-01-09
+categories: [small digital, iiif, complutensian] # self-defined categories
+citation: 
+  url: https://neelsmith.quarto.pub/posts/DATE-iiif-for-features/ 
+image: ../imgs/comp-in-tify.png
+draft: true # setting this to false publishes it
+---
+
+
+- instantiate codices
+- filter for selected pages
+- generate!
+
+
+
+Do the colophons:
+
+https://neelsmith.quarto.pub/digitalcomplutensian/complutensian/organization/colophons/

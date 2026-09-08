@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: quarto-build
+bibliography: "biblio.bib"
+
+date: last-modified 
+website:
+  site-url: "https://neelsmith.quarto.pub"
+  title: "neelsmith"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+          
+      - text: "Projects"
+        file: projects/index.qmd     
+      
+      - about.qmd
+    
+    right:
+      - icon: person-circle
+        menu:
+          - text: "About me"
+            href: https://neelsmith.github.io
+          - text: "Projects"
+            href: https://neelsmith.github.io/projects/            
+        aria-label: Home
+
+
+
+
+format:
+  html:
+    theme: spacelab
+    css: styles.css
+    toc: true
+
+
+

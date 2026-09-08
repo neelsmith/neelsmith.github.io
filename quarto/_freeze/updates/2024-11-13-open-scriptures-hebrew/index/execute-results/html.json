@@ -1,0 +1,12 @@
+{
+  "hash": "6d5603e92e69243f2789722b94f2b4b6",
+  "result": {
+    "engine": "julia",
+    "markdown": "---\ntitle: \"New package: OpenScripturesHebrew.jl\"\nengine: julia\ndescription: \"A new Julia package for working with data from the Open Scriptures Hebrew Bible.\"\nauthor:\n  - name: Neel Smith\ndate: 2024-11-13\ncategories: [morphology, hebrew, new package] # self-defined categories\nimage: ../new-package.png\ndraft: false\n\n---\n\n\n## New package announcement\n\n`OpenScripturesHebrew.jl` is a Julia package for working with the morphological data of the [Open Scriptures Hebrew Bible project](https://hb.openscriptures.org) (OSHB). `OpenScripturesHebrew.jl` parses the OSHB data into easily manipulated Julia tuples, and provides a Julia data model for the OSHB morphological data.\n\n\n## Release notes: version `0.1.0`\n\nInitial release. Some significant features:\n\n- download and parse OSHB annotations for all or specified portions of the Hebrew Bible (more than 423,000 individually annotated words)\n- all words keyed to canonically identified passages using CTS URNss\n- can instantiate Julia objects from OSHB morphological codes for Hebrew morphology\n\n\n## Installation\n\nInstall from the central registry with Julia's package manager. \n\n- in package mode from the Julia REPL `] add OpenScripturesHebrew`\n- from a Julia terminal session: `using Pkg; Pkg.add(\"OpenScripturesHebrew\")`\n\n\n## Documentation\n\n- available [on quarto.pub](https://neelsmith.quarto.pub/openscriptureshebrew/)\n\n## Source\n\n- available [on github](https://github.com/neelsmith/OpenScripturesHebrew.jl)\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

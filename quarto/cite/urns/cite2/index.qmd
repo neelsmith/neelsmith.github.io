@@ -1,0 +1,13 @@
+---
+title: "Citable objects"
+engine: julia
+---
+
+
+:::{.callout-caution}
+## Content incomplete
+
+This page will introduce citation of objects in collections.
+:::
+
+See the documentation of the [`CitableObject`](https://cite-architecture.github.io/CitableObject.jl/stable/) package.

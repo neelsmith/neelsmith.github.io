@@ -1,0 +1,12 @@
+{
+  "hash": "2a3c046d8b1b1be0a6ff6c45c50d0d78",
+  "result": {
+    "engine": "julia",
+    "markdown": "---\ntitle: \"Interactive Lewis-Short: bug fix\"\nengine: julia\ndescription: \"Corrects an error in usage instructions.\"\nauthor:\n  - name: Neel Smith\ndate: 2024-11-12\ncategories: [lexica, latin, bug fix] # self-defined categories\nimage: ../bugfix.png\ndraft: false\n---\n\n# Bug fixes to interactive Lewis-Short\n\nThe github repository at [https://github.com/neelsmith/lewis-short](https://github.com/neelsmith/lewis-short) includes a Pluto notebook and a script you can load in the Julia REPL to work with a digital Lewis and Short *Latin Dictionary*.\n\n## Changes and current versions numbers\n\n- version 1.3.1 of the REPL script corrects an error in the interactively displayed usage instructions\n\nCurrent version:\n\n- script for use in REPL: 1.3.1\n\n\n## Documentation\n\nSee the [github repository](https://github.com/neelsmith/lewis-short).\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

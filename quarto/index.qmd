@@ -1,0 +1,17 @@
+---
+title: "Neel Smith"
+---
+
+
+
+I'm an emeritus professor at the College of the Holy Cross.  On this site, I'm beginning to gather some of the digital scholarly work I'm currently developing or maintaining.
+
+
+
+
+
+::: {.callout-tip appearance="minimal" title="<i class=\"bi bi-rss\"></i> Two RSS feeds to follow changes and news"}
+
+- [additions to or substantial revisions of the web site](https://neelsmith.quarto.pub/posts.xml) 
+- [new releases of code packages or updates to package documentation](https://neelsmith.quarto.pub/updates.xml)
+:::

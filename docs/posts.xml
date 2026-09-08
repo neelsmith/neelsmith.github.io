@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>neelsmith</title>
+<link>https://neelsmith.quarto.pub/posts.html</link>
+<atom:link href="https://neelsmith.quarto.pub/posts.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.9.33</generator>
+<lastBuildDate>Sat, 11 Jan 2025 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>The Venetus A in a IIIF manifest</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/posts/2025-01-10-venetus-a-iiif/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The Homer Multitext project (HMT) has made its <a href="https://neelsmith.quarto.pub/hmt/images/">digital photography of manuscripts</a> of the <em>Iliad</em> with scholia available online since 2007. Since 2017, we have published periodic releases of all the project’s work in a <a href="https://github.com/homermultitext/hmt-archive/raw/refs/heads/master/releases-cex/hmt-current.cex">single, massive plain-text file</a>. These published datasets have always included catalogs of the project’s digital images, and datasets relating the images to the manuscript pages they document. We’re now beginning to add a third form of publication: extracts from the published datasets in the format of the IIIF Presentation Manifest.</p>
+<section id="whats-included" class="level2">
+<h2 class="anchored" data-anchor-id="whats-included">What’s included</h2>
+<p>The HMT’s data model for a codex manuscript is simple. It’s a sequence of pages, each documented with a sequence number, identification as recto or verso, a full human-readable label, and a pair of CITE URNs associating identifiers for the physical page and the documentary image used to catalog the page.</p>
+<p>With this simple model, we can easily relate other citable content (most notably edited passages of the <em>Iliad</em> and scholia) to navigable views of a manuscript.</p>
+<p>The <a href="https://iiif.io/api/presentation/3.0/">IIIF’s Presentation model</a> has overlapping goals. Its elaborate JSON structure lets you define a series of canvases, on which you can place “annotation pages” that can include annotations such as images to place on the canvas. Many <a href="https://iiif.io/get-started/iiif-viewers/">IIIF viewers</a> support navigating a series of images documented in a IIIF manifest. The new manifests for HMT manuscripts label images with the data of our simple codex model.</p>
+</section>
+<section id="how-we-do-it" class="level2">
+<h2 class="anchored" data-anchor-id="how-we-do-it">How we do it</h2>
+<p><code>HmtArchive.jl</code> is a Julia package that streamlines working with the HMT project’s published data sets. The <code>hmt_codices</code> function instantiates all the documented manuscripts in a release (currently seven).</p>
+<div id="4" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">using</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">HmtArchive.Analysis</span></span>
+<span id="cb1-2">currentrelease <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">hmt_cex</span>()</span>
+<span id="cb1-3">mss <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">hmt_codices</span>(currentrelease)</span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<div class="ansi-escaped-output">
+<pre><span class="ansi-green-fg ansi-bold">Precompiling</span> packages...
+   1071.0 ms<span class="ansi-green-fg">  ✓ </span>QuartoNotebookWorkerJSONExt<span class="ansi-bright-black-fg"> (serial)</span>
+  1 dependency successfully precompiled in 1 seconds
+<span class="ansi-green-fg ansi-bold">Precompiling</span> packages...
+    622.7 ms<span class="ansi-green-fg">  ✓ </span>QuartoNotebookWorkerTablesExt<span class="ansi-bright-black-fg"> (serial)</span>
+  1 dependency successfully precompiled in 1 seconds
+</pre>
+</div>
+</div>
+<div class="cell-output cell-output-display" data-execution_count="1">
+<pre><code>7-element Vector{CitablePhysicalText.Codex}:
+ Burney 86 manuscript
+ Escorial Y 1.1 manuscript
+ Escorial, codex Ω 1.12
+ Laurentian Library codex 32.3
+ Venice, Biblioteca Marciana 841
+ Venetus A manuscript
+ Venetus B manuscript</code></pre>
+</div>
+</div>
+<p>As the example shows, the output is a list of <code>Codex</code> objects. Last week, I released a <a href="https://neelsmith.quarto.pub/updates/2025-01-07-iiif-manifests/index.html">version of the <code>CitablePhysicalText.jl</code> package</a> that includes a new function, <code>iiifmanifest</code>, for directly generating a presentation manifest from a <code>Codex</code> object.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The documentation for the <code>CitablePhysicalText</code> package includes <a href="https://cite-architecture.github.io/CitablePhysicalText.jl/tutorials/iiif.html">a tutorial</a> on how to build a IIIF manifest from a <code>Codex</code> object.</p>
+</div>
+</div>
+<p>This is not only convenient: <code>iiifmanifest</code> also validates both the syntax and the referential integrity of its reply. It parses the JSON syntax that IIIF viewers expect, and queries the configured image service for metadata about each image in the manifest, guaranteeing that viewer applications can correctly find the documented image.</p>
+<p>I’ve added a <a href="https://github.com/homermultitext/hmt-archive/tree/master/iiif"><code>iiif</code> directory to the HMT project’s github archive</a> where we will publish IIIF manifests for each of our documented manuscripts. Today we’re publishing a manifest for the uniquely important Venetus A manuscript (Marciana 454 = 822). Use <a href="https://raw.githubusercontent.com/homermultitext/hmt-archive/refs/heads/master/iiif/venetusA.json">this URL</a> with any IIIF viewer that accepts a URL for a IIIF manifest, and you’ll be browsing the Venetus A.</p>
+</section>
+<section id="next-steps" class="level2">
+<h2 class="anchored" data-anchor-id="next-steps">Next steps</h2>
+<p>I plan to add IIIF manifests for the project’s other six documented manuscripts to the github repository as they are successfully generated and tested.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>See the <a href="https://github.com/homermultitext/hmt-archive/tree/master/iiif">README in the github repository’s <code>iiif</code> directory</a> for the current status of this work in progress.</p>
+</div>
+</div>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{smith2025,
+  author = {Smith, Neel},
+  title = {The {Venetus} {A} in a {IIIF} Manifest},
+  date = {2025-01-11},
+  url = {https://neelsmith.quarto.pub/posts/2025-01-11-venetus-a-iiif/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-smith2025" class="csl-entry quarto-appendix-citeas">
+Smith, Neel. 2025. <span>“The Venetus A in a IIIF Manifest.”</span>
+January 11. <a href="https://neelsmith.quarto.pub/posts/2025-01-11-venetus-a-iiif/">https://neelsmith.quarto.pub/posts/2025-01-11-venetus-a-iiif/</a>.
+</div></div></section></div> ]]></description>
+  <category>iiif</category>
+  <category>hmt</category>
+  <guid>https://neelsmith.quarto.pub/posts/2025-01-10-venetus-a-iiif/</guid>
+  <pubDate>Sat, 11 Jan 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/posts/imgs/scholion1.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>New project web site: a digital Complutensian Bible</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/posts/2024-11-26-complutensian-site/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Yesterday, Ashley Terjanian and I presented our work on a digital Complutensian Bible at the 2024 meeting of the Society for Biblical Literature. (The abstract and slide stack of our presentation are available <a href="https://neelsmith.quarto.pub/digitalcomplutensian/presentations/sbl2024/">here</a>.) Our project illustrates what I’ve called a <a href="https://neelsmith.quarto.pub/posts/2024-10-28-small-digital/index.html">“small-digital” approach</a> to scholarly work.</p>
+<p>We introduced a new <a href="https://neelsmith.quarto.pub/digitalcomplutensian">web site for the project</a> where you can find background information about the project, and details about our ongoing work. Main sections of the site include:</p>
+<ul>
+<li>full information about the <a href="https://neelsmith.quarto.pub/digitalcomplutensian/resources">openly available data sets</a> we are reusing or developing ourselves</li>
+<li><a href="https://neelsmith.quarto.pub/digitalcomplutensian/examples/">replicable applications</a> using the data sets</li>
+</ul>
+<p>The bulk of the replicable applications are the Pluto notebooks we use to explore the digital Complutensian interactively, but they also include examples of static documents that we format for publication with Quarto – including the project website itself.</p>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{smith2024,
+  author = {Smith, Neel},
+  title = {New Project Web Site: A Digital {Complutensian} {Bible}},
+  date = {2024-11-26},
+  url = {https://neelsmith.quarto.pub/posts/2024-11-26-complutensian-site/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-smith2024" class="csl-entry quarto-appendix-citeas">
+Smith, Neel. 2024. <span>“New Project Web Site: A Digital Complutensian
+Bible.”</span> November 26. <a href="https://neelsmith.quarto.pub/posts/2024-11-26-complutensian-site/">https://neelsmith.quarto.pub/posts/2024-11-26-complutensian-site/</a>.
+</div></div></section></div> ]]></description>
+  <category>small digital</category>
+  <category>complutensian</category>
+  <guid>https://neelsmith.quarto.pub/posts/2024-11-26-complutensian-site/</guid>
+  <pubDate>Tue, 26 Nov 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/posts/imgs/complutensian-title-page.png" medium="image" type="image/png" height="206" width="144"/>
+</item>
+<item>
+  <title>Add a IIIF browser to your Pluto notebooks</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/posts/2024-11-15-pluto-iiif/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Pluto notebooks run in a web browser, and are <em>reactive</em>: if you change one cell, every cell depending on it automatically updates. You write Pluto notebooks in Julia: in contrast to, say Jupyter, every cell in a Pluto notebook is simply a Julia expression.</p>
+<p>But it’s also easy to interact with the HTML, CSS and javascript in a notebook’s web page using the Julia <code>HypertextLiteral</code> package. (For full details see <a href="https://featured.plutojl.org/web/javascript">this guide</a>.) This post will show you how to add an interactive display of the images in a IIIF manifest to your Pluto notebook in just three steps.</p>
+<section id="version-1-a-iiif-browser-in-three-steps" class="level2">
+<h2 class="anchored" data-anchor-id="version-1-a-iiif-browser-in-three-steps">Version 1: a IIIF browser in three steps</h2>
+<p>There are many <a href="https://iiif.io/get-started/iiif-viewers/">apps for browsing the images in a IIIF manifest</a>. Within our Pluto notebook we’ll use TIFY, a lightweight package written entirely in Javascript. The <a href="https://tify.rocks">TIFY home page</a> puts an embedded IIIF front and center and lets you paste in the URL of any IIIF manifest you’d like to browse. We’ll replicate this within a Pluto notebook in just a few cells.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://neelsmith.quarto.pub/posts/2024-11-15-pluto-iiif/tify-home.png" class="img-fluid figure-img"></p>
+<figcaption>Browsing IIIF manifests on TIFY’s home page</figcaption>
+</figure>
+</div>
+<section id="prerequisites" class="level3">
+<h3 class="anchored" data-anchor-id="prerequisites">Prerequisites</h3>
+<p>Start with a new Pluto notebook. As explained in the <a href="https://featured.plutojl.org/web/javascript">guide to using Javascript in Pluto</a>, we’ll need the <code>HypertextLiteral</code> library, so add a cell for that:</p>
+<pre><code>using HypertextLiteral</code></pre>
+<p>In version 1 of our notebook, we’ll hard-code the URL for the IIIF manifest; we’ll improve on that in version 2, but for now just define a variable named <code>manifesturl</code>. You can the URL for any IIIF manifest you like. I’ll start with a one from my current <a href="https://neelsmith.quarto.pub/digitalcomplutensian/">project</a> on the Complutensian polyglot Bible:</p>
+<pre><code>manifesturl = "https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v1-manifest.json"</code></pre>
+<p>Now we can replicate the TIFY home page with just three cells in our notebook.</p>
+</section>
+<section id="cell-1-load-the-tify-library" class="level3">
+<h3 class="anchored" data-anchor-id="cell-1-load-the-tify-library">Cell 1: load the TIFY library</h3>
+<p>The <code>HypertextLiteral</code> package proves a macro <code>@htl</code> to insert an HTML <code>script</code> element into your notebook’s web page. We can use this to load TIFY’s javascript library and associated CSS in a single cell:</p>
+<pre><code>@htl("""
+&lt;script src="https://cdn.jsdelivr.net/npm/tify@0.31.0/dist/tify.js"&gt;&lt;/script&gt;
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tify@0.31.0/dist/tify.css"&gt;&lt;/link&gt;
+""")</code></pre>
+</section>
+<section id="cell-2-instantiate-a-tify-object" class="level3">
+<h3 class="anchored" data-anchor-id="cell-2-instantiate-a-tify-object">Cell 2: instantiate a <code>Tify</code> object</h3>
+<p>Next we’ll again use the <code>@htl</code> macro, this time to create a <code>Tify</code> object (from the library we just loaded). We need to define two values for the <code>Tify</code> object: the name of an HTML container where it should show the display, and a URL for the IIIF manifest to display.</p>
+<p>We’ve already defined a URL for a manifest in the variable <code>manifesturl</code>: with <code>HypertextLiteral</code>, we can directly interpolate that value into our argument to the <code>@htl</code> macro. For the HTML container, I’ve chosen the ID <code>tify</code>. The resulting cell looks like this:</p>
+<pre><code>@htl("""
+&lt;script&gt;
+new Tify({
+  container: '#tify',
+  manifestUrl: $manifesturl,
+})
+&lt;/script&gt;
+""")</code></pre>
+</section>
+<section id="cell-3-display-the-manifest" class="level3">
+<h3 class="anchored" data-anchor-id="cell-3-display-the-manifest">Cell 3: display the manifest</h3>
+<p>Finally, we need to define the HTML container element <code>tify</code>, so we’ll use the <code>@htl</code> macro one last time. Here I’ve included an optional CSS value to set the height of the element for the display.</p>
+<pre><code>@htl"""
+&lt;div id='tify' style='height: 800px'&gt;&lt;/div&gt;
+"""</code></pre>
+<p>Now, to display your images, you only need to add a value for the manifest URL: run the cell where you defined the <code>manifesturl</code> variable, and the first page of your manifest should appear!</p>
+</section>
+<section id="result" class="level3">
+<h3 class="anchored" data-anchor-id="result">Result</h3>
+<p>Your completed notebook should look something like this screen shot:</p>
+<blockquote class="blockquote">
+<p><img src="https://neelsmith.quarto.pub/posts/2024-11-15-pluto-iiif/IIIF-in-Pluto-v1.png" class="img-fluid"></p>
+</blockquote>
+<p>The notebook ia saved as a webpage where you can read it or copy and paste contents <a href="./IIIF-in-Pluto-v1.html">here</a>. Use the button labelled “<strong>Edit</strong> or <strong>run</strong> this notebook” to download the Pluto notebook and run it for yourself.</p>
+</section>
+</section>
+<section id="version-2-let-the-user-select-a-manifest" class="level2">
+<h2 class="anchored" data-anchor-id="version-2-let-the-user-select-a-manifest">Version 2: let the user select a manifest</h2>
+<p>Pluto is intended for interactive computing. We can easily improve version 1 of our notebook and let the user supply a manifest’s URL, like the TIFY home page, rather than forcing the user to change a hard-coded value assigned to <code>manifesturl</code>.</p>
+<p>For that, we’ll want the <code>PlutoUI</code> package, so begin by adding that:</p>
+<pre><code>using PlutoUI</code></pre>
+<p>PlutoUI gives you several prebuilt widgets for Pluto notebooks that allow users to provide different kinds of input. (See <a href="https://featured.plutojl.org/basic/plutoui.jl">the PlutoUI documentation</a>.) We’ll use a simple <code>TextField</code>, and allow a user to paste in a text value for our manifest. We use PlutoUI’s <code>@bind</code> macro to bind the value of an interactive widget to a Julia variable. Our <code>Tify</code> object already expects a value from a variable named <code>manifesturl</code>, so we’ll replace the existing cell defining <code>manifesturl</code> with this one:</p>
+<pre><code>@bind manifesturl TextField(800, default="https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v1-manifest.json")</code></pre>
+<div class="callout callout-style-default callout-tip callout-titled" title="Changing URLs dynamically">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Changing URLs dynamically
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The first time you add this cell, make sure you run it once so that the TIFY library catches your change in the definition of <code>manifesturl</code>. Any time you change the URL in the text field after this, your display cell will update automatically.</p>
+</div>
+</div>
+<section id="result-1" class="level3">
+<h3 class="anchored" data-anchor-id="result-1">Result</h3>
+<p>The order of cells in a Pluto notebook’s display does not affect how they run. We’ll tidy up our notebook by putting the user input and display at the top of the page, and tuck the underlying work with TIFY out of the way. Here’s a screen shot of the result replicating the funcionality of the TIFY home page:</p>
+<blockquote class="blockquote">
+<p><img src="https://neelsmith.quarto.pub/posts/2024-11-15-pluto-iiif/IIIF-in-Pluto-v2.png" class="img-fluid"></p>
+</blockquote>
+<p>Version 2 of the notebook ia saved as a webpage where you can read it or copy and paste contents <a href="./IIIF-in-Pluto-v2.html">here</a>. Use the button labelled “<strong>Edit</strong> or <strong>run</strong> this notebook” to download the Pluto notebook and run it for yourself.</p>
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{smith2024,
+  author = {Smith, Neel},
+  title = {Add a {IIIF} Browser to Your {Pluto} Notebooks},
+  date = {2024-11-15},
+  url = {https://neelsmith.quarto.pub/posts/2024-11-15-pluto-iiif/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-smith2024" class="csl-entry quarto-appendix-citeas">
+Smith, Neel. 2024. <span>“Add a IIIF Browser to Your Pluto
+Notebooks.”</span> November 15. <a href="https://neelsmith.quarto.pub/posts/2024-11-15-pluto-iiif/">https://neelsmith.quarto.pub/posts/2024-11-15-pluto-iiif/</a>.
+</div></div></section></div> ]]></description>
+  <category>small digital</category>
+  <category>iiif</category>
+  <category>tify</category>
+  <guid>https://neelsmith.quarto.pub/posts/2024-11-15-pluto-iiif/</guid>
+  <pubDate>Fri, 15 Nov 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/posts/imgs/comp-in-tify.png" medium="image" type="image/png" height="195" width="144"/>
+</item>
+<item>
+  <title>The Complutensian Bible in IIIF</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/posts/2024-11-13-complutensian-iiif/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="image-resources-from-big-digital-projects" class="level2">
+<h2 class="anchored" data-anchor-id="image-resources-from-big-digital-projects">Image resources from “big-digital” projects</h2>
+<p>One project I’m currently working on is a <a href="https://neelsmith.quarto.pub/digitalcomplutensian/">digital multilingual Bible, inspired by the sixteenth-century Complutensian polyglot</a>. The Biblioteca Nacional de España (BNE) has digitized its copy as part of its <a href="https://bdh.bne.es/bnesearch/Inicio.do">Biblioteca Digital Hispánica</a>. You can browse the BNE’s Complutensian Bible interactively <a href="http://bdh-rd.bne.es/viewer.vm?id=0000050739&amp;page=1">here</a>.</p>
+<p>Even better, the BNE participated in the <a href="https://www.loc.gov/collections/world-digital-library/about-this-collection/">World Digital Library</a> project (WDL), an extensive collection of digitized cultural heritage materials assembled under the leadership of the Library of Congress with support from UNESCO. As a result, the high-quality images of the BNE’s Complutensian Bible are available without restrictions, and documented following the standards of the <a href="https://iiif.io">International Image Interoperability Framework</a> (IIIF).</p>
+<p>These are examples of large DH projects at their best: investing in creating high-quality primary source material, and guaranteeing by their use of open technologies and open legal licensing that the resources will be as widely reusable as possible. My work on the Complutensian polyglot would not have been possible without this digital infrastructure. The well documented JSON format of IIIF manifests makes it straightforward for a “small-digital” project to explore a collection of images hosted on a IIIF server.</p>
+<p>For the WDL, the Library of Congress has organized the publication of the Complutensian Bible in five groups, <a href="https://www.loc.gov/item/2021666855/">published on this web page</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.loc.gov/item/2021666855"><img src="https://neelsmith.quarto.pub/posts/2024-11-13-complutensian-iiif/LoC.png" class="img-fluid figure-img"></a></p>
+<figcaption>Part of the Library of Congress web page for the Complutensian Bible</figcaption>
+</figure>
+</div>
+<p>On the LoC web site, the thumbnails illustrated above correctly lead to browsable images, but all five of the links for IIIF manifests actually point to only one manifest, covering only the first of the five sets of images. It’s not possible to find associated data for the other four sets of images.</p>
+<p>This illustrates a problem familiar from other digital infrastructure projects: even large institutions may lack the resources for continued curation of digital material once a large project has reached the end of its term. When I reported the erroneous links to the Library of Congress in 2023, I was told that this was already a known problem. “The Digital Collections team … don’t have an ETA for a fix though, sorry.”</p>
+</section>
+<section id="custom-iiif-manifests-to-the-rescue" class="level2">
+<h2 class="anchored" data-anchor-id="custom-iiif-manifests-to-the-rescue">Custom IIIF manifests to the rescue</h2>
+<p>The hard work had been done: the physical volumes had been conserved, photographed and documented. To work with the full set of images, all I really needed was a series of IIIF manifests – simple JSON files that are perfect candidates for automated generation from a short script.</p>
+<p>I considered trying to write manifests that would provide information for the images already hosted at the Library of Congress, but I couldn’t discover or correctly guess the configuration of the files’ organization on the LoC server. The images were openly licensed, however, and I was fortunate to have access through the <a href="https://neelsmith.quarto.pub/hmt/">Homer Multitext project</a> to an IIIF-compliant image server at the University of Houston’s High-Peformance Computing Center, so I decided to download all of the images hosted at the Library of Congress, and serve them from Houston.</p>
+<p>The IIIF Presentation API offers an appropriate structure for describing a series of pages in a physical volume, with each page illustrated by an image. I took as a template JSON file an example of a <a href="https://iiif.io/api/presentation/3.0/">minimal manifest for the IIIF Presentation API</a>. I decided to create six manifests, one for each physical volume of the BNE Complutensian. Literally within minutes, I had six valid IIIF manifests, which I added to a github repository.</p>
+<p>There are <a href="https://iiif.io/get-started/iiif-viewers/">numerous freely available viewer applications</a> for browsing images from a IIIF manifest. At this point, to browse the images for a volume of the Complutensian, you can copy any one of these URLs, and paste them in to the IIIF viewer of your choice.</p>
+<ul>
+<li>volume 1: <code>https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v1-manifest.json</code></li>
+<li>volume 2: <code>https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v2-manifest.json</code></li>
+<li>volume 3: <code>https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v3-manifest.json</code></li>
+<li>volume 4: <code>https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v4-manifest.json</code></li>
+<li>volume 5: <code>https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v5-manifest.json</code></li>
+<li>volume 6: <code>https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v6-manifest.json</code></li>
+</ul>
+<p>Here’s what the Tify browser looks like when you paste in the URL for the manifest for volume 1 of the Complutensian.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://neelsmith.quarto.pub/posts/2024-11-13-complutensian-iiif/complutensian-iiif.png" class="img-fluid figure-img"></p>
+<figcaption>Volume 1 of the BNE Complutensian in the Tify image browser</figcaption>
+</figure>
+</div>
+</section>
+<section id="next-steps" class="level2">
+<h2 class="anchored" data-anchor-id="next-steps">Next steps</h2>
+<p>With the a complete Complutensian Bible accessible via the IIIF’s APIs, I am now using all six volumes of the BNE’s Bible in my digital polyglot Bible project: the comparatively simple task of scripting out some JSON documentation has let me incorporate resources from major digital infrastructure initiatives into my small-digital project. As the project develops, I plan to use IIIF manifests to select and organize subsets of the Complutensian images for different purposes.</p>
+<p>In addition, it’s very straightforward to add functionality for browsing IIIF images in a Pluto notebook, my favorite environment for working interactively with datasets including images. I’ll add a post soon on how to incorporate IIIF resources into interactive Pluto notebooks in three steps.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{smith2024,
+  author = {Smith, Neel},
+  title = {The {Complutensian} {Bible} in {IIIF}},
+  date = {2024-11-13},
+  url = {https://neelsmith.quarto.pub/posts/2024-10-24-complutensian-iiif/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-smith2024" class="csl-entry quarto-appendix-citeas">
+Smith, Neel. 2024. <span>“The Complutensian Bible in IIIF.”</span>
+November 13. <a href="https://neelsmith.quarto.pub/posts/2024-10-24-complutensian-iiif/">https://neelsmith.quarto.pub/posts/2024-10-24-complutensian-iiif/</a>.
+</div></div></section></div> ]]></description>
+  <category>small digital</category>
+  <category>iiif</category>
+  <category>complutensian</category>
+  <guid>https://neelsmith.quarto.pub/posts/2024-11-13-complutensian-iiif/</guid>
+  <pubDate>Wed, 13 Nov 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/posts/imgs/comp-in-tify.png" medium="image" type="image/png" height="195" width="144"/>
+</item>
+<item>
+  <title>‘Small digital’</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/posts/2024-10-28-small-digital/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="scholarly-work-and-small-digital-projects" class="level2">
+<h2 class="anchored" data-anchor-id="scholarly-work-and-small-digital-projects">Scholarly work and “small-digital” projects</h2>
+<p>In academia, “digital humanities” has become almost synonymous with big, grant-funded, multi-year projects. Some of these projects have succeeded in creating foundational resources for digital scholarship. (For one example, I’ll be posting here in the near future about some of my current work relying on one of those resources, the <a href="https://iiif.io">International Image Interoperability Framework</a>, or IIIF.) But what I’ll call “small digital” work is essential if we hope to realize the potential of digital scholarship.</p>
+<p>By “small digital,” I mean work with minimal technical prerequisites carried out by a small team or even an individual scholar that can be easily shared and replicated. “Small digital” is a natural fit for exploratory or experimental work, in contrast to the prior enumeration of “deliverables” that grant funding often requires. Large projects can be an effective way to deliver established material or services, but “small digital” mirrors the normal scholarly process, from forming hypotheses, through discovery, evaluation and correction.</p>
+<p>Small digital also offers a comfortable home for scholars whose research includes writing code. While such scholars are not in principle excluded from large digital humanities projects, in practice multi-year grants often divide participants between technology specialists (programmers) and content specialists (“scholars”). And since university departments already have tenure-line positions for “scholars,” the technology specialists are frequently supported by fixed-term positions funded by soft money: far easier for a university to stretch its budget with the overhead charges of a grant than to create new tenure lines, and easier for many academic departments to hire in traditional roles than to evaluate candidates working with code in new ways. Talented scholars who write code can thus find themselves stuck on a treadmill of temporary positions that ultimately define their career arc more as “tech support” than “academic,” further institutionalizing the false dichotomy of coding and research.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://neelsmith.quarto.pub/posts/2024-10-28-small-digital/2cultures.jpeg" class="img-fluid figure-img"></p>
+<figcaption>“Scientific coders”(according to Cox)<sup>1</sup></figcaption>
+</figure>
+</div>
+<p>The blogger Matthijs Cox discusses what he calls “<a href="https://scientificcoder.com/my-target-audience">the two-culture problem</a>” in the natural sciences. Cox wants to support “scientific coders,” who work in between traditional categories of “scientists” and “developers”. The idea of a “two-culture problem” certainly applies equally well (and perhaps even better) to the humanities, where the division is often between scholars who write <em>no</em> code, and developers who implement only what the scholars direct. We could generalize Cox’s phrase to “scholarly coders,” whether in the natural sciences or the humanities. I would reverse adjective and noun, however: I think the broader category is more like “coding scholars” (that is, scholars who write code as part of their research: “scholars who code” might be an easier expression in English).</p>
+<p>Most of the work I discuss on this site fits my definition of “small digital.” The purely technical barriers for coding scholars have never been lower, and thoughtful use of AI to write code may already be lowering the level of coding skills needed to work as a scholar writing code. Posts will include working examples of code as well as links to full sources. Like Matthijs Cox, I have found <a href="../2024-10-22-why-julia/">the Julia language</a> to be especially apt for my scholarly work, and it would be wonderulf if, like Cox’s site, the examples I’m collecting here are useful to any other scholars who code. I hope that they will in any case illustrate how readily within reach “small digital” scholarship can be.</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Matthijs Cox, “My Target Audience” ©2024 The Scientific Coder, https://scientificcoder.com/my-target-audience.↩︎</p></li>
+</ol>
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{smith2024,
+  author = {Smith, Neel},
+  title = {“{Small} Digital”},
+  date = {2024-10-28},
+  url = {https://neelsmith.quarto.pub/posts/2024-10-28-small-digital/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-smith2024" class="csl-entry quarto-appendix-citeas">
+Smith, Neel. 2024. <span>“<span>‘Small Digital’</span>.”</span> October
+28. <a href="https://neelsmith.quarto.pub/posts/2024-10-28-small-digital/">https://neelsmith.quarto.pub/posts/2024-10-28-small-digital/</a>.
+</div></div></section></div> ]]></description>
+  <category>small digital</category>
+  <category>julia</category>
+  <guid>https://neelsmith.quarto.pub/posts/2024-10-28-small-digital/</guid>
+  <pubDate>Mon, 28 Oct 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/posts/2024-10-28-small-digital/2cultures.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Why Julia?</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.quarto.pub/posts/2024-10-22-why-julia/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="in-2024-im-coding-in-julia" class="level2">
+<h2 class="anchored" data-anchor-id="in-2024-im-coding-in-julia">In 2024, I’m coding in Julia</h2>
+<p>All the code presented in the “<a href="https://neelsmith.quarto.pub/digschol/">digital infrastructure</a>” section of this site is written in <a href="https://julialang.org">Julia</a>.</p>
+<p>I first saw Julia when I was desperately looking for better ways to teach remotely during the pandemic. In December of 2019, I discovered the famous MIT course “<a href="https://ocw.mit.edu/courses/18-s191-introduction-to-computational-thinking-fall-2020/">Introduction to Computational Thinking</a>”, and wanted to imitate how its instructors taught with <a href="https://plutojl.org">Pluto notebooks</a>, written in Julia.</p>
+<p>By January of 2021, Julia had become my language of choice. Here are a few reasons:</p>
+<ul>
+<li>I don’t spend time trying to manage versions and environments. I’ll never get back the hours I’ve given to that with Python, Java, C, Perl, …, but I won’t lose more time installing and setting up Julia. Package management is well thought through and integral to the language.</li>
+<li>Julia runs everywhere, easily. Use the <a href="https://github.com/JuliaLang/juliaup"><code>juliaup</code></a> script, or download and install a single binary for Mac OS, Windows, Linux or Free BSD. Combine this with easy installation, and you can be confident that when you share your work in Julia, it will be easy to replicate reliably.</li>
+<li>Twenty-first century features are part of the language, not add-ons: Julia has mature handling of Unicode, built-in support for unit testing, and many other features I routinely rely on.</li>
+<li>Great tooling makes for a productive working environment. The Julia REPL, Pluto notebooks, and Visual Studio Code (with plugin options including executing and debugging Julia, and generating publications with Quarto) all keep me focused on the problem I want to solve, not how to use the tools.</li>
+<li>Julia’s multiple dispatch model was a head-scratcher at first, but I really appreciate its “<a href="https://www.youtube.com/watch?v=kc9HwsxE1OY">unreasonable effectiveness</a>” (in Stefan Karpinski’s phrase). The composability and code reuse it encourages is an especially good match for <a href="../2024-10-28-small-digital/">exploratory scholarly work</a>.</li>
+<li>Pluto notebooks are awesome: reactive, like <a href="https://observablehq.com/documentation/notebooks/">Observable notebooks</a>, but not tied in to a commercial delivery system, and written in a language that’s a pleasure to work in.</li>
+<li>Julia is fast.</li>
+</ul>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{smith2024,
+  author = {Smith, Neel},
+  title = {Why {Julia?}},
+  date = {2024-10-22},
+  url = {https://neelsmith.quarto.pub/posts/2024-10-22-why-julia/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-smith2024" class="csl-entry quarto-appendix-citeas">
+Smith, Neel. 2024. <span>“Why Julia?”</span> October 22. <a href="https://neelsmith.quarto.pub/posts/2024-10-22-why-julia/">https://neelsmith.quarto.pub/posts/2024-10-22-why-julia/</a>.
+</div></div></section></div> ]]></description>
+  <category>julia</category>
+  <category>small digital</category>
+  <guid>https://neelsmith.quarto.pub/posts/2024-10-22-why-julia/</guid>
+  <pubDate>Tue, 22 Oct 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.quarto.pub/posts/2024-10-22-why-julia/julia.png" medium="image" type="image/png" height="93" width="144"/>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,176 @@
+---
+title: "Relations of fundamental packages"
+engine: julia
+---
+
+Arrows indicate package dependencies.
+```{mermaid}
+graph RL;
+CitableText --> CitableBase
+click CitableText "https://neelsmith.quarto.pub/citabletext/" "Citing texts"
+
+CitableObject --> CitableBase
+click CitableObject "https://neelsmith.quarto.pub/citableobject/" "Citing objects"
+CiteEXchange --> CitableBase
+click CiteEXchange "https://neelsmith.quarto.pub/citeexchange/" "Serializing citable data"
+
+
+
+CitableCorpus --> CitableText
+CitableCorpus --> CiteEXchange
+CitableCorpus --> CitableBase
+click CitableCorpus "https://neelsmith.quarto.pub/citablecorpus/" "Citable text corpora"
+
+
+CitableCollection --> CitableObject
+CitableCollection --> CiteEXchange
+CitableCollection --> CitableBase
+click CitableCollection "https://neelsmith.quarto.pub/citablecollection/" "Citable collections"
+
+CitableImage --> CitableObject
+CitableImage --> CiteEXchange
+CitableImage --> CitableBase
+click CitableImage "https://neelsmith.quarto.pub/citableimage/" "Citable images"
+
+
+CitablePhysicalText --> CitableBase
+CitablePhysicalText --> CitableImage
+CitablePhysicalText --> CitableObject
+CitablePhysicalText --> CitableText
+CitablePhysicalText --> CiteEXchange
+click CitablePhysicalText "https://neelsmith.quarto.pub/citablephysicaltext/" "Citable physical texts"
+
+CitableTeiReaders --> CitableText
+CitableTeiReaders --> CitableCorpus
+click CitableTeiReaders "https://neelsmith.quarto.pub/citableteireaders/" "Make marked up texts citable"
+
+
+
+EditionBuilders --> CitableText
+EditionBuilders --> CitableCorpus
+click EditionBuilders "https://neelsmith.quarto.pub/editionbuilders/" "Make univocal editions"
+
+
+Orthography --> CitableCorpus
+Orthography --> CitableText
+click Orthography "https://neelsmith.quarto.pub/orthography/" "Orthographic systems"
+
+PolytonicGreek --> Orthography
+click PolytonicGreek "https://neelsmith.quarto.pub/polytonicgreek/" "PolytonicGreek"
+AtticGreek  --> Orthography
+click AtticGreek "https://neelsmith.quarto.pub/atticgreek/" "AtticGreek"
+
+ManuscriptOrthography  --> Orthography
+ManuscriptOrthography  --> PolytonicGreek
+GreekScientificOrthography  --> Orthography
+GreekScientificOrthography  --> PolytonicGreek
+
+BiblicalHebrew  --> Orthography
+LatinOrthography --> Orthography
+
+
+CitableParserBuilder --> CitableBase
+CitableParserBuilder --> CitableText
+CitableParserBuilder --> CitableCorpus
+CitableParserBuilder --> CitableObject
+CitableParserBuilder --> Orthography
+click CitableParserBuilder "https://neelsmith.quarto.pub/citableparserbuilder/" "Build citable parsers"
+
+Kanones --> AtticGreek
+Kanones --> CitableBase
+Kanones --> CitableObject
+Kanones --> CitableParserBuilder
+Kanones --> Orthography
+Kanones --> PolytonicGreek
+
+Tabulae --> CitableParserBuilder
+Tabulae --> CitableObject
+click Tabulae "https://neelsmith.quarto.pub/tabulae/" "Build Latin morphological parsers"
+
+CitableCorpusAnalysis --> CitableText
+CitableCorpusAnalysis --> CitableCorpus
+CitableCorpusAnalysis --> CitableParserBuilder
+CitableCorpusAnalysis --> Orthography
+
+
+Lycian --> Orthography
+Lycian --> CitableText
+Lycian --> CitableCorpus
+Lycian --> CitableObject
+Lycian --> CitableParserBuilder
+
+
+
+
+
+
+
+classDef morph fill:#d8d4f2
+class CitableParserBuilder,Kanones,Tabulae morph
+
+classDef ortho fill:#ffdfba
+class PolytonicGreek,AtticGreek,ManuscriptOrthography,GreekScientificOrthography,BiblicalHebrew,LatinOrthography,Lycian ortho
+
+classDef base fill:#ffffba
+class CitableBase base
+click CitableBase "https://neelsmith.quarto.pub/citablebase/" "Build citable parser"
+
+
+classDef mid fill:#baffc9
+class CitableTeiReaders,EditionBuilders,Orthography mid
+
+
+classDef cite fill:#bae1ff
+class CitableText,CitableObject,CitableImage,CiteEXchange cite
+class CitableCollection,CitableCorpus,CitablePhysicalText cite
+
+class CitableBase,CitableText,CitableObject,CiteEXchange,CitableImage,CitableCorpus,CitableCollection,CitablePhysicalText,Orthography,CitableTeiReaders,EditionBuilders,CitableParserBuilder,Tabulae,PolytonicGreek quarto
+
+classDef quarto stroke-width:4,stroke:#1E90FF
+
+```
+
+
+
+Color key:
+
+
+```{mermaid}
+graph TD;
+    cite["Core\nCITE architecture"]
+    mid["Digital texts\n(from HC MID)"]
+    ortho["Orthographic\nsystems"]
+    morph["Morphological\nparsing"]
+
+ 
+
+    classDef citeclass fill:#bae1ff,stroke:black
+    class cite citeclass
+    click cite "https://neelsmith.quarto.pub/cite/" "CITE core"
+
+    classDef midclass fill:#baffc9,stroke:black
+    class mid midclass
+    click mid "https://neelsmith.quarto.pub/digitexts/" "MID abstractions for digital text study"
+
+    classDef orthclass fill:#ffdfba,stroke:black
+    class ortho orthclass
+    click ortho "https://neelsmith.quarto.pub/digitexts/orthography/" "Orthographic systems"
+
+    classDef morphclass fill:#d8d4f2,stroke:black
+    class morph morphclass
+    click morph "https://neelsmith.quarto.pub/digitexts/parsing/" "Morphological parsing"
+
+```
+
+
+
+Packages highlighted like this are linked to documentation on `neelsmith.quarto.pub`:
+
+```{mermaid}
+graph TD;
+quarto["Documented on quarto.pub"]
+click quarto "http://neelsmith.quarto.pub" "toolie"
+classDef quartoclass stroke-width:4,stroke:#1E90FF,fill:#ffffff
+class quarto quartoclass
+```
+

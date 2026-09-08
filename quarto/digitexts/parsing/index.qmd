@@ -1,0 +1,26 @@
+---
+title: "Morphological parsing"
+engine: julia
+---
+
+:::{.callout-caution}
+## Content incomplete
+
+This page will introduce a model and Julia interface for morphological parsing.
+:::
+
+See documentation for the [`CitableParserBuilder` package](https://neelsmith.github.io/CitableParserBuilder.jl/stable/) (begin updated [here](https://neelsmith.quarto.pub/citableparserbuilder/))
+
+And see some implementations:
+
+- [Kanónes](./kanones.qmd)
+- [Tabulae](./tabulae.qmd)
+- Luhot
+- Trmilli
+
+
+Quarrying lexica for vocabulary:
+
+- LSJMining.jl
+- LexiconMining.jl
+

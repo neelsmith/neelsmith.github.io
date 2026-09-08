@@ -1,0 +1,68 @@
+---
+title: "The Complutensian Bible in IIIF"
+engine: julia
+description: "Tailor image resources to your own project with a IIIF manifest."
+author:
+  - name: Neel Smith
+date: 2024-11-13
+categories: [small digital, iiif, complutensian] # self-defined categories
+citation: 
+  url: https://neelsmith.quarto.pub/posts/2024-10-24-complutensian-iiif/ 
+image: ../imgs/comp-in-tify.png
+draft: false # setting this to false publishes it
+---
+
+
+## Image resources from "big-digital" projects
+
+One project I'm currently working on is a [digital multilingual Bible, inspired by the sixteenth-century Complutensian polyglot](https://neelsmith.quarto.pub/digitalcomplutensian/). The Biblioteca Nacional de España (BNE) has digitized its copy as part of its [Biblioteca Digital Hispánica](https://bdh.bne.es/bnesearch/Inicio.do). You can browse the BNE's Complutensian Bible interactively [here](http://bdh-rd.bne.es/viewer.vm?id=0000050739&page=1).  
+
+Even better, the BNE participated in the [World Digital Library](https://www.loc.gov/collections/world-digital-library/about-this-collection/) project (WDL), an extensive collection of digitized cultural heritage materials assembled under the leadership of the Library of Congress with support from UNESCO. As a result, the high-quality images of the BNE's Complutensian Bible are available without restrictions, and documented following the standards of the [International Image Interoperability Framework](https://iiif.io) (IIIF). 
+
+These are examples of large DH projects at their best: investing in creating high-quality primary source material, and guaranteeing by their use of open technologies and open legal licensing that the resources will be as widely reusable as possible. My work on the Complutensian polyglot would not have been possible without this digital infrastructure. The well documented JSON format of IIIF manifests makes it straightforward for a "small-digital" project to explore a collection of images hosted on a IIIF server.
+
+For the WDL, the Library of Congress has organized the publication of the Complutensian Bible in five groups, [published on this web page](https://www.loc.gov/item/2021666855/).
+ 
+
+
+[![Part of the Library of Congress web page for the Complutensian Bible](./LoC.png)](https://www.loc.gov/item/2021666855)
+
+On the LoC web site, the thumbnails illustrated above correctly lead to browsable images, but all five of the links for IIIF manifests actually point to only one manifest, covering only the first of the five sets of images. It's not possible to find associated data for the other four sets of images.
+
+This illustrates a problem familiar from other digital infrastructure projects: even large institutions may lack the resources for continued curation of digital material once a large project has reached the end of its term.  When I reported the erroneous links to the Library of Congress in 2023, I was told that this was already a known problem. "The Digital Collections team ... don't have an ETA for a fix though, sorry."
+
+
+## Custom IIIF manifests to the rescue
+
+The hard work had been done: the physical volumes had been conserved, photographed and documented. To work with the full set of images, all I really needed was a series of IIIF manifests --  simple JSON files that are perfect candidates for automated generation from a short script.
+
+I considered trying to write manifests that would provide information for the images already hosted at the Library of Congress, but I couldn't discover or correctly guess the configuration of the files' organization on the LoC server.  The images were openly licensed, however, and I was fortunate to have access through the [Homer Multitext project](https://neelsmith.quarto.pub/hmt/) to an IIIF-compliant image server at the University of Houston's High-Peformance Computing Center, so I decided to download all of the images hosted at the Library of Congress, and serve them from Houston.
+
+
+The IIIF Presentation API offers an appropriate structure for describing a series of pages in a physical volume, with each page illustrated by an image. I took as a template JSON file an example of a [minimal manifest for the IIIF Presentation API](https://iiif.io/api/presentation/3.0/). I decided to create six manifests, one for each physical volume of the BNE Complutensian. Literally within minutes, I had six valid IIIF manifests, which I added to a github repository.
+
+There are [numerous freely available viewer applications](https://iiif.io/get-started/iiif-viewers/) for browsing images from a IIIF manifest. At this point, to browse the images for a volume of the Complutensian, you can copy any one of these URLs, and paste them in to the IIIF viewer of your choice.
+
+
+
+
+- volume 1: `https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v1-manifest.json`
+- volume 2: `https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v2-manifest.json`
+- volume 3: `https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v3-manifest.json`
+- volume 4: `https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v4-manifest.json`
+- volume 5: `https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v5-manifest.json`
+- volume 6: `https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v6-manifest.json`
+
+
+
+Here's what the Tify browser looks like when you paste in the URL for the manifest for volume 1 of the Complutensian.
+
+![Volume 1 of the BNE Complutensian in the Tify image browser](./complutensian-iiif.png)
+
+
+
+## Next steps
+
+With the a complete Complutensian Bible accessible via the IIIF's APIs, I am now using all six volumes of the BNE's Bible in my digital polyglot Bible project: the comparatively simple task of scripting out some JSON documentation has let me incorporate resources from major digital infrastructure initiatives into my small-digital project. As the project develops, I plan to use IIIF manifests to select and organize subsets of the Complutensian images for different purposes.
+
+In addition, it's very straightforward to add functionality for browsing IIIF images in a Pluto notebook, my favorite environment for working interactively with datasets including images. I'll add a post soon on how to incorporate IIIF resources into interactive Pluto notebooks in three steps.

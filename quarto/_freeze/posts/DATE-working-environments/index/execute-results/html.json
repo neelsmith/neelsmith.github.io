@@ -1,0 +1,12 @@
+{
+  "hash": "28c544dc97493a4d30b6f21cf21415e8",
+  "result": {
+    "engine": "julia",
+    "markdown": "---\ntitle: \"Working environments for digital scholarship\"\nengine: julia\ndescription: \"If we only focus on big projects, we're missing a lot of the value of digital scholarship.\"\nauthor:\n  - name: Neel Smith\ndate: 2024-11-01\ncategories: [small digital, quarto, julia] # self-defined categories\ncitation: \n  url: https://neelsmith.quarto.pub/posts/2024-11-01-working-environments/ \nimage: Q.png\ndraft: true # setting this to false publishes it\n\n---\n\nCombining code and prose\n\nKnuth \"literate programming\"\n\nNow common place in documenting code\n\nModel flipped with \"data science notebooks.\"\n\nLook at PDF \"50YearsDataScience\"\n\nKnuth coined the phrase “literate programming.” I’d like to reverse that.  Metaphor of weave.  But noun/focus is programming, and expository prose woven around that.\n\nI’d like to reverse that.  Noun/focus is expository writing, and programmed or machine-actionable objects are woven around that.\n\nOne example is semantic citation within a text. (CITE URNs).\n\nOne of the most remarkable illustrations is org-babel mode.\n\nHere is org-babel: http://orgmode.org/worg/org-contrib/babel/\n\nI used that with lilypond.\n\nHere is org-babel-lilypond. http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-lilypond.html\n\nIt might be “only” typesetting but it’s very cool.  You’ve got a semantic description of an object embedded in your org-mode text.\n\n## Install notes?\n\nAnything beyond what’s on web sites?\n\n## How-to notes\n\n+ Compile a block of lilypond code:  Ctl-c Ctl-c\n\n+ Generate pdf of your document:  Ctc-c Ctl-e, then P for pdf\n\n\n\n## Working environments\n\n\n\n\n\nAs I've commented before, [Julia is my go-to language for scholarly work](https://neelsmith.quarto.pub/posts/2024-10-22-why-julia/index.html).\n\n\nQuarto is so cool!\n\nPluto notebooks are so cool!\n\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "hash": "1cbb69875be714189a10a54ff73a18fb",
+  "result": {
+    "engine": "julia",
+    "markdown": "---\ntitle: \"Updates to LexiconMining.jl\"\nengine: julia\ndescription: \"Version 0.3.0 of LexiconMining.jl is a ground-up rewrite using ChatGPT to extract data from Lewis-Short's *Latin Dictionary*.\"\nauthor:\n  - name: Neel Smith\ndate: 2025-01-17\ncategories: [morphology, lexica, LLMs, latin, update] # self-defined categories\nimage: ../newrelease2.png\ndraft: false # publish by setting to false\n\n---\n\n## Release notes: version 0.3.0\n\nVersion `0.3.0` (now available on the main branch of the github repository) is a complete reworking of the previous package. It uses ChatGPT to extract morphological information from Lewis-Short's *Latin Dictionary*, parses the ChatGPT output into an object model, and from those objects  generates data usable with the Tabulae system for building Latin morphological parsers.\n\nState of implementation in version `0.3.0`:\n\n- complete summaries of Lewis-Short from ChatGPT available\n- initial parsing of ChatGPT summaries for nouns, verbs and adjectives implemented\n- generation of Tabulae data for nouns implemented\n\n::: {.callout-tip title=\"More information about Tabulae\"}\nSee [documentation for the `Tabulae.jl` package](https://neelsmith.quarto.pub/tabulae/).\n:::\n\n\n## Installation\n\n`LexiconMining.jl` is an unpublished package. You can install it directory from its github repository.\n\n- in package mode from the Julia REPL `] add https://github.com/neelsmith/LexiconMining.jl.git`\n- from a Julia terminal session: `using Pkg; Pkg.add(url=\"https://github.com/neelsmith/LexiconMining.jl.git\")`\n\n\n## Documentation\n\n- package documentation is available on [quarto.pub](https://neelsmith.quarto.pub/lexiconmining/)\n\n\n## Source\n\n- available on [github](https://github.com/neelsmith/LexiconMining.jl)\n\n## Progress\n\n- check [this milestone](https://github.com/neelsmith/LexiconMining.jl/milestone/8) in the github repository to follow progress in implementing generation of Tabulae data sets\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

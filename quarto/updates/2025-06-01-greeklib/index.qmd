@@ -1,0 +1,57 @@
+---
+title: "A vibe-coded javascript library for working with citable text in polytonic Greek"
+engine: julia
+description: "Tools for parsing and manipulating Greek texts cited by Canonical Text Services (CTS) URNs."
+author:
+  - name: Neel Smith
+date: 2026-06-01
+categories: [vibe coding, cite,new package] # self-defined categories
+image: ../new-package.png
+draft: false
+
+---
+
+
+
+## New package announcement: `greeklib.js`
+
+### Summary and motivation
+
+`greeklib.js` is a javascript library for working with citable text in polytonic ancient Greek  in a web browser or other javascript environment.
+
+
+## Release notes
+
+Main features:
+
+- defines the `Token` class to represent a citable, classified token
+- implements the `tokenize` function to tokenize a single citable text passage
+
+
+
+
+## Installation
+
+The file `greeklib.js` can be downloaded from github and used locally, or loaded via jsDelivr from `https://cdn.jsdelivr.net/gh/neelsmith/greeklib@1.0.0/greeklib.js`.
+
+## Documentation
+
+- available [on github](https://github.com/neelsmith/greeklib/blob/main/apis.md)
+
+
+
+
+## Source
+
+- available [on github](https://github.com/neelsmith/greeklib.git)
+
+
+
+## Caveats
+
+The javascript library and the markdown documentation were written entirely by gemini-2.5-pro. The code passes a series of sanity tests, but I have not even looked at the javascript. When I encountered errors, I let gemini fix them. Use the code as you like, but be aware that I have no idea what it does or how it works.
+
+
+## Auditing the build:
+
+- github repository includes a complete transcript of the chat used to generate the script, with saved intermediate versions of the javascript library. See the repository [README](https://github.com/neelsmith/greeklib) for details.

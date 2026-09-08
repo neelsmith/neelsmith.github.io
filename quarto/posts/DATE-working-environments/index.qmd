@@ -1,0 +1,67 @@
+---
+title: "Working environments for digital scholarship"
+engine: julia
+description: "If we only focus on big projects, we're missing a lot of the value of digital scholarship."
+author:
+  - name: Neel Smith
+date: 2024-11-01
+categories: [small digital, quarto, julia] # self-defined categories
+citation: 
+  url: https://neelsmith.quarto.pub/posts/2024-11-01-working-environments/ 
+image: Q.png
+draft: true # setting this to false publishes it
+
+---
+
+Combining code and prose
+
+Knuth "literate programming"
+
+Now common place in documenting code
+
+Model flipped with "data science notebooks."
+
+Look at PDF "50YearsDataScience"
+
+Knuth coined the phrase “literate programming.” I’d like to reverse that.  Metaphor of weave.  But noun/focus is programming, and expository prose woven around that.
+
+I’d like to reverse that.  Noun/focus is expository writing, and programmed or machine-actionable objects are woven around that.
+
+One example is semantic citation within a text. (CITE URNs).
+
+One of the most remarkable illustrations is org-babel mode.
+
+Here is org-babel: http://orgmode.org/worg/org-contrib/babel/
+
+I used that with lilypond.
+
+Here is org-babel-lilypond. http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-lilypond.html
+
+It might be “only” typesetting but it’s very cool.  You’ve got a semantic description of an object embedded in your org-mode text.
+
+## Install notes?
+
+Anything beyond what’s on web sites?
+
+## How-to notes
+
++ Compile a block of lilypond code:  Ctl-c Ctl-c
+
++ Generate pdf of your document:  Ctc-c Ctl-e, then P for pdf
+
+
+
+## Working environments
+
+
+
+
+
+As I've commented before, [Julia is my go-to language for scholarly work](https://neelsmith.quarto.pub/posts/2024-10-22-why-julia/index.html).
+
+
+Quarto is so cool!
+
+Pluto notebooks are so cool!
+
+

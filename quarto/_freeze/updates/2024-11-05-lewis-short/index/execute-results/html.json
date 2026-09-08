@@ -1,0 +1,12 @@
+{
+  "hash": "a22d6184db46e600365f4144714705f7",
+  "result": {
+    "engine": "julia",
+    "markdown": "---\ntitle: \"Update to interactive Lewis-Short\"\nengine: julia\ndescription: \"New options for using a local dataset, and counting results.\"\nauthor:\n  - name: Neel Smith\ndate: 2024-11-05\ncategories: [lexica, latin, update] # self-defined categories\nimage: ../newrelease2.png\ndraft: false\n\n---\n\n\n# Update to interactive Lewis-Short\n\nThe github repository at [https://github.com/neelsmith/lewis-short](https://github.com/neelsmith/lewis-short) includes a Pluto notebook and a script you can load in the Julia REPL to work with a digital Lewis and Short *Latin Dictionary*.\n\n## Changes and current versions numbers\n\n- easier options for using the REPL offline with a previously downloaded dataset\n- options in both REPL script and Pluto notebook for counting results rather than formatting the full text of matching articles in Markdown\n\nCurrent versions:\n\n- Pluto notebook: 1.2.0\n- script for use in REPL: 1.3.0\n\n\n## Documentation\n\nSee the [github repository](https://github.com/neelsmith/lewis-short).\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

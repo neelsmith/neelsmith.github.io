@@ -1,0 +1,11 @@
+---
+title: "Some generic utilities"
+engine: julia
+---
+
+
+
+-  `VectorAlignments.jl`: see the current [documentation on github](https://neelsmith.github.io/VectorAlignments.jl/stable/)
+- `Obsidian.jl`: a Julia package for working with [Obsidian](https://obsidian.md) "vaults"
+- [`Lectionary.jl`](http://neelsmith.quarto.pub/lectionary): a Julia package for coordinating the liturgical calendar year with the Gregorian civil calendar and with the readings from the Revised Common Lectionary (RCL).
+- `Parashah.jl`: a Julia package for coordinating readings of the Parashat HaShavua with the representation of the Hebrew calendar implemented in `Calendars.jl` (preliminary work, not yet published on juliahub).
