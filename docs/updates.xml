@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>neelsmith</title>
-<link>https://neelsmith.quarto.pub/updates.html</link>
-<atom:link href="https://neelsmith.quarto.pub/updates.xml" rel="self" type="application/rss+xml"/>
+<link>https://neelsmith.github.io/updates.html</link>
+<atom:link href="https://neelsmith.github.io/updates.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.9.33</generator>
 <lastBuildDate>Mon, 01 Jun 2026 04:00:00 GMT</lastBuildDate>
 <item>
   <title>A vibe-coded javascript library for working with citable text in polytonic Greek</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/updates/2025-06-01-greeklib/</link>
+  <link>https://neelsmith.github.io/updates/2025-06-01-greeklib/</link>
   <description><![CDATA[ 
 
 
@@ -69,14 +69,14 @@
   <category>vibe coding</category>
   <category>cite</category>
   <category>new package</category>
-  <guid>https://neelsmith.quarto.pub/updates/2025-06-01-greeklib/</guid>
+  <guid>https://neelsmith.github.io/updates/2025-06-01-greeklib/</guid>
   <pubDate>Mon, 01 Jun 2026 04:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://neelsmith.github.io/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>A vibe-coded javascript library for working with published releases of the Homer Multitext project</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/updates/2025-05-29-hmt-lib/</link>
+  <link>https://neelsmith.github.io/updates/2025-05-29-hmt-lib/</link>
   <description><![CDATA[ 
 
 
@@ -135,14 +135,14 @@
   <category>Homer Multitext</category>
   <category>cite</category>
   <category>new package</category>
-  <guid>https://neelsmith.quarto.pub/updates/2025-05-29-hmt-lib/</guid>
+  <guid>https://neelsmith.github.io/updates/2025-05-29-hmt-lib/</guid>
   <pubDate>Thu, 29 May 2025 04:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://neelsmith.github.io/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>A vibe-coded javascript library for working with HMT publications</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/updates/2025-05-25-hmt-lib/</link>
+  <link>https://neelsmith.github.io/updates/2025-05-25-hmt-lib/</link>
   <description><![CDATA[ 
 
 
@@ -201,14 +201,14 @@
   <category>vibe coding</category>
   <category>cite</category>
   <category>new package</category>
-  <guid>https://neelsmith.quarto.pub/updates/2025-05-25-hmt-lib/</guid>
+  <guid>https://neelsmith.github.io/updates/2025-05-25-hmt-lib/</guid>
   <pubDate>Sun, 25 May 2025 04:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://neelsmith.github.io/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>A vibe-coded javascript library for working with CTS and CITE2 URNs</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/updates/2025-05-23-urns-lib/</link>
+  <link>https://neelsmith.github.io/updates/2025-05-23-urns-lib/</link>
   <description><![CDATA[ 
 
 
@@ -262,14 +262,14 @@
   <category>vibe coding</category>
   <category>cite</category>
   <category>new package</category>
-  <guid>https://neelsmith.quarto.pub/updates/2025-05-23-urns-lib/</guid>
+  <guid>https://neelsmith.github.io/updates/2025-05-23-urns-lib/</guid>
   <pubDate>Wed, 21 May 2025 04:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://neelsmith.github.io/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>A vibe-coded javascript library for working with HMT images</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/updates/2025-05-21-hmt-images/</link>
+  <link>https://neelsmith.github.io/updates/2025-05-21-hmt-images/</link>
   <description><![CDATA[ 
 
 
@@ -327,14 +327,14 @@
   <category>hmt</category>
   <category>iiif</category>
   <category>new package</category>
-  <guid>https://neelsmith.quarto.pub/updates/2025-05-21-hmt-images/</guid>
+  <guid>https://neelsmith.github.io/updates/2025-05-21-hmt-images/</guid>
   <pubDate>Wed, 21 May 2025 04:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://neelsmith.github.io/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>A vibe-coded javascript library for working with CEX data</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/updates/2025-05-19-cex-lib/</link>
+  <link>https://neelsmith.github.io/updates/2025-05-19-cex-lib/</link>
   <description><![CDATA[ 
 
 
@@ -387,14 +387,14 @@
   <category>vibe coding</category>
   <category>cite</category>
   <category>new package</category>
-  <guid>https://neelsmith.quarto.pub/updates/2025-05-19-cex-lib/</guid>
+  <guid>https://neelsmith.github.io/updates/2025-05-19-cex-lib/</guid>
   <pubDate>Mon, 19 May 2025 04:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://neelsmith.github.io/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Updates to Obsidian.jl</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/updates/2025-02-18-obsidian-to-web/</link>
+  <link>https://neelsmith.github.io/updates/2025-02-18-obsidian-to-web/</link>
   <description><![CDATA[ 
 
 
@@ -433,14 +433,14 @@
  ]]></description>
   <category>obsidian</category>
   <category>quarto</category>
-  <guid>https://neelsmith.quarto.pub/updates/2025-02-18-obsidian-to-web/</guid>
+  <guid>https://neelsmith.github.io/updates/2025-02-18-obsidian-to-web/</guid>
   <pubDate>Tue, 18 Feb 2025 05:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://neelsmith.github.io/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Updates to LexiconMining.jl</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/updates/2025-01-17-lexiconmining/</link>
+  <link>https://neelsmith.github.io/updates/2025-01-17-lexiconmining/</link>
   <description><![CDATA[ 
 
 
@@ -505,14 +505,14 @@
   <category>LLMs</category>
   <category>latin</category>
   <category>update</category>
-  <guid>https://neelsmith.quarto.pub/updates/2025-01-17-lexiconmining/</guid>
+  <guid>https://neelsmith.github.io/updates/2025-01-17-lexiconmining/</guid>
   <pubDate>Fri, 17 Jan 2025 05:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://neelsmith.github.io/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>New IIIF manifests for HMT manuscripts</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/updates/2025-01-11-new-iiif-manifests/</link>
+  <link>https://neelsmith.github.io/updates/2025-01-11-new-iiif-manifests/</link>
   <description><![CDATA[ 
 
 
@@ -535,14 +535,14 @@
   <category>iiif</category>
   <category>hmt</category>
   <category>update</category>
-  <guid>https://neelsmith.quarto.pub/updates/2025-01-11-new-iiif-manifests/</guid>
+  <guid>https://neelsmith.github.io/updates/2025-01-11-new-iiif-manifests/</guid>
   <pubDate>Sat, 11 Jan 2025 05:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://neelsmith.github.io/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Updates to HmtArchive.jl</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/updates/2025-01-10-hmtarchive.jl/</link>
+  <link>https://neelsmith.github.io/updates/2025-01-10-hmtarchive.jl/</link>
   <description><![CDATA[ 
 
 
@@ -596,14 +596,14 @@ Note
   <category>iiif</category>
   <category>hmt</category>
   <category>update</category>
-  <guid>https://neelsmith.quarto.pub/updates/2025-01-10-hmtarchive.jl/</guid>
+  <guid>https://neelsmith.github.io/updates/2025-01-10-hmtarchive.jl/</guid>
   <pubDate>Fri, 10 Jan 2025 05:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://neelsmith.github.io/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Updated images of the Complutensian Bible</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/updates/2025-01-09-complutensian-images/</link>
+  <link>https://neelsmith.github.io/updates/2025-01-09-complutensian-images/</link>
   <description><![CDATA[ 
 
 
@@ -760,14 +760,14 @@ font-style: inherit;">6</span>]</span></code></pre></div></div>
   <category>iiif</category>
   <category>complutensian</category>
   <category>update</category>
-  <guid>https://neelsmith.quarto.pub/updates/2025-01-09-complutensian-images/</guid>
+  <guid>https://neelsmith.github.io/updates/2025-01-09-complutensian-images/</guid>
   <pubDate>Thu, 09 Jan 2025 05:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://neelsmith.github.io/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Updates to CitablePhysicalText.jl</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/updates/2025-01-07-iiif-manifests/</link>
+  <link>https://neelsmith.github.io/updates/2025-01-07-iiif-manifests/</link>
   <description><![CDATA[ 
 
 
@@ -810,14 +810,14 @@ font-style: inherit;">6</span>]</span></code></pre></div></div>
  ]]></description>
   <category>iiif</category>
   <category>update</category>
-  <guid>https://neelsmith.quarto.pub/updates/2025-01-07-iiif-manifests/</guid>
+  <guid>https://neelsmith.github.io/updates/2025-01-07-iiif-manifests/</guid>
   <pubDate>Tue, 07 Jan 2025 05:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://neelsmith.github.io/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>New package: OpenScripturesHebrew.jl</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/updates/2024-11-13-open-scriptures-hebrew/</link>
+  <link>https://neelsmith.github.io/updates/2024-11-13-open-scriptures-hebrew/</link>
   <description><![CDATA[ 
 
 
@@ -864,14 +864,14 @@ font-style: inherit;">6</span>]</span></code></pre></div></div>
   <category>morphology</category>
   <category>hebrew</category>
   <category>new package</category>
-  <guid>https://neelsmith.quarto.pub/updates/2024-11-13-open-scriptures-hebrew/</guid>
+  <guid>https://neelsmith.github.io/updates/2024-11-13-open-scriptures-hebrew/</guid>
   <pubDate>Wed, 13 Nov 2024 05:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://neelsmith.github.io/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Interactive Lewis-Short: bug fix</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/updates/2024-11-12-lewis-short/</link>
+  <link>https://neelsmith.github.io/updates/2024-11-12-lewis-short/</link>
   <description><![CDATA[ 
 
 
@@ -903,14 +903,14 @@ font-style: inherit;">6</span>]</span></code></pre></div></div>
   <category>lexica</category>
   <category>latin</category>
   <category>bug fix</category>
-  <guid>https://neelsmith.quarto.pub/updates/2024-11-12-lewis-short/</guid>
+  <guid>https://neelsmith.github.io/updates/2024-11-12-lewis-short/</guid>
   <pubDate>Tue, 12 Nov 2024 05:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/updates/bugfix.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://neelsmith.github.io/updates/bugfix.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Update to interactive Lewis-Short</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/updates/2024-11-05-lewis-short/</link>
+  <link>https://neelsmith.github.io/updates/2024-11-05-lewis-short/</link>
   <description><![CDATA[ 
 
 
@@ -944,14 +944,14 @@ font-style: inherit;">6</span>]</span></code></pre></div></div>
   <category>lexica</category>
   <category>latin</category>
   <category>update</category>
-  <guid>https://neelsmith.quarto.pub/updates/2024-11-05-lewis-short/</guid>
+  <guid>https://neelsmith.github.io/updates/2024-11-05-lewis-short/</guid>
   <pubDate>Tue, 05 Nov 2024 05:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://neelsmith.github.io/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Tracking updates with RSS</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/updates/2024-10-24-updates-rss-feed/</link>
+  <link>https://neelsmith.github.io/updates/2024-10-24-updates-rss-feed/</link>
   <description><![CDATA[ 
 
 
@@ -985,9 +985,9 @@ font-style: inherit;">6</span>]</span></code></pre></div></div>
 
  ]]></description>
   <category>rss</category>
-  <guid>https://neelsmith.quarto.pub/updates/2024-10-24-updates-rss-feed/</guid>
+  <guid>https://neelsmith.github.io/updates/2024-10-24-updates-rss-feed/</guid>
   <pubDate>Thu, 24 Oct 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/updates/2024-10-24-updates-rss-feed/RSS.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://neelsmith.github.io/updates/2024-10-24-updates-rss-feed/RSS.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 </channel>
 </rss>

@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>neelsmith</title>
-<link>https://neelsmith.quarto.pub/posts.html</link>
-<atom:link href="https://neelsmith.quarto.pub/posts.xml" rel="self" type="application/rss+xml"/>
+<link>https://neelsmith.github.io/posts.html</link>
+<atom:link href="https://neelsmith.github.io/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.9.33</generator>
 <lastBuildDate>Sat, 11 Jan 2025 05:00:00 GMT</lastBuildDate>
 <item>
   <title>The Venetus A in a IIIF manifest</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/posts/2025-01-10-venetus-a-iiif/</link>
+  <link>https://neelsmith.github.io/posts/2025-01-10-venetus-a-iiif/</link>
   <description><![CDATA[ 
 
 
@@ -119,14 +119,14 @@ January 11. <a href="https://neelsmith.quarto.pub/posts/2025-01-11-venetus-a-iii
 </div></div></section></div> ]]></description>
   <category>iiif</category>
   <category>hmt</category>
-  <guid>https://neelsmith.quarto.pub/posts/2025-01-10-venetus-a-iiif/</guid>
+  <guid>https://neelsmith.github.io/posts/2025-01-10-venetus-a-iiif/</guid>
   <pubDate>Sat, 11 Jan 2025 05:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/posts/imgs/scholion1.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://neelsmith.github.io/posts/imgs/scholion1.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>New project web site: a digital Complutensian Bible</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/posts/2024-11-26-complutensian-site/</link>
+  <link>https://neelsmith.github.io/posts/2024-11-26-complutensian-site/</link>
   <description><![CDATA[ 
 
 
@@ -156,14 +156,14 @@ Bible.”</span> November 26. <a href="https://neelsmith.quarto.pub/posts/2024-1
 </div></div></section></div> ]]></description>
   <category>small digital</category>
   <category>complutensian</category>
-  <guid>https://neelsmith.quarto.pub/posts/2024-11-26-complutensian-site/</guid>
+  <guid>https://neelsmith.github.io/posts/2024-11-26-complutensian-site/</guid>
   <pubDate>Tue, 26 Nov 2024 05:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/posts/imgs/complutensian-title-page.png" medium="image" type="image/png" height="206" width="144"/>
+  <media:content url="https://neelsmith.github.io/posts/imgs/complutensian-title-page.png" medium="image" type="image/png" height="206" width="144"/>
 </item>
 <item>
   <title>Add a IIIF browser to your Pluto notebooks</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/posts/2024-11-15-pluto-iiif/</link>
+  <link>https://neelsmith.github.io/posts/2024-11-15-pluto-iiif/</link>
   <description><![CDATA[ 
 
 
@@ -177,7 +177,7 @@ Bible.”</span> November 26. <a href="https://neelsmith.quarto.pub/posts/2024-1
 <p>There are many <a href="https://iiif.io/get-started/iiif-viewers/">apps for browsing the images in a IIIF manifest</a>. Within our Pluto notebook we’ll use TIFY, a lightweight package written entirely in Javascript. The <a href="https://tify.rocks">TIFY home page</a> puts an embedded IIIF front and center and lets you paste in the URL of any IIIF manifest you’d like to browse. We’ll replicate this within a Pluto notebook in just a few cells.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://neelsmith.quarto.pub/posts/2024-11-15-pluto-iiif/tify-home.png" class="img-fluid figure-img"></p>
+<p><img src="https://neelsmith.github.io/posts/2024-11-15-pluto-iiif/tify-home.png" class="img-fluid figure-img"></p>
 <figcaption>Browsing IIIF manifests on TIFY’s home page</figcaption>
 </figure>
 </div>
@@ -222,7 +222,7 @@ new Tify({
 <h3 class="anchored" data-anchor-id="result">Result</h3>
 <p>Your completed notebook should look something like this screen shot:</p>
 <blockquote class="blockquote">
-<p><img src="https://neelsmith.quarto.pub/posts/2024-11-15-pluto-iiif/IIIF-in-Pluto-v1.png" class="img-fluid"></p>
+<p><img src="https://neelsmith.github.io/posts/2024-11-15-pluto-iiif/IIIF-in-Pluto-v1.png" class="img-fluid"></p>
 </blockquote>
 <p>The notebook ia saved as a webpage where you can read it or copy and paste contents <a href="./IIIF-in-Pluto-v1.html">here</a>. Use the button labelled “<strong>Edit</strong> or <strong>run</strong> this notebook” to download the Pluto notebook and run it for yourself.</p>
 </section>
@@ -251,7 +251,7 @@ new Tify({
 <h3 class="anchored" data-anchor-id="result-1">Result</h3>
 <p>The order of cells in a Pluto notebook’s display does not affect how they run. We’ll tidy up our notebook by putting the user input and display at the top of the page, and tuck the underlying work with TIFY out of the way. Here’s a screen shot of the result replicating the funcionality of the TIFY home page:</p>
 <blockquote class="blockquote">
-<p><img src="https://neelsmith.quarto.pub/posts/2024-11-15-pluto-iiif/IIIF-in-Pluto-v2.png" class="img-fluid"></p>
+<p><img src="https://neelsmith.github.io/posts/2024-11-15-pluto-iiif/IIIF-in-Pluto-v2.png" class="img-fluid"></p>
 </blockquote>
 <p>Version 2 of the notebook ia saved as a webpage where you can read it or copy and paste contents <a href="./IIIF-in-Pluto-v2.html">here</a>. Use the button labelled “<strong>Edit</strong> or <strong>run</strong> this notebook” to download the Pluto notebook and run it for yourself.</p>
 
@@ -273,14 +273,14 @@ Notebooks.”</span> November 15. <a href="https://neelsmith.quarto.pub/posts/20
   <category>small digital</category>
   <category>iiif</category>
   <category>tify</category>
-  <guid>https://neelsmith.quarto.pub/posts/2024-11-15-pluto-iiif/</guid>
+  <guid>https://neelsmith.github.io/posts/2024-11-15-pluto-iiif/</guid>
   <pubDate>Fri, 15 Nov 2024 05:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/posts/imgs/comp-in-tify.png" medium="image" type="image/png" height="195" width="144"/>
+  <media:content url="https://neelsmith.github.io/posts/imgs/comp-in-tify.png" medium="image" type="image/png" height="195" width="144"/>
 </item>
 <item>
   <title>The Complutensian Bible in IIIF</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/posts/2024-11-13-complutensian-iiif/</link>
+  <link>https://neelsmith.github.io/posts/2024-11-13-complutensian-iiif/</link>
   <description><![CDATA[ 
 
 
@@ -295,7 +295,7 @@ Notebooks.”</span> November 15. <a href="https://neelsmith.quarto.pub/posts/20
 <p>For the WDL, the Library of Congress has organized the publication of the Complutensian Bible in five groups, <a href="https://www.loc.gov/item/2021666855/">published on this web page</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.loc.gov/item/2021666855"><img src="https://neelsmith.quarto.pub/posts/2024-11-13-complutensian-iiif/LoC.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.loc.gov/item/2021666855"><img src="https://neelsmith.github.io/posts/2024-11-13-complutensian-iiif/LoC.png" class="img-fluid figure-img"></a></p>
 <figcaption>Part of the Library of Congress web page for the Complutensian Bible</figcaption>
 </figure>
 </div>
@@ -319,7 +319,7 @@ Notebooks.”</span> November 15. <a href="https://neelsmith.quarto.pub/posts/20
 <p>Here’s what the Tify browser looks like when you paste in the URL for the manifest for volume 1 of the Complutensian.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://neelsmith.quarto.pub/posts/2024-11-13-complutensian-iiif/complutensian-iiif.png" class="img-fluid figure-img"></p>
+<p><img src="https://neelsmith.github.io/posts/2024-11-13-complutensian-iiif/complutensian-iiif.png" class="img-fluid figure-img"></p>
 <figcaption>Volume 1 of the BNE Complutensian in the Tify image browser</figcaption>
 </figure>
 </div>
@@ -346,14 +346,14 @@ November 13. <a href="https://neelsmith.quarto.pub/posts/2024-10-24-complutensia
   <category>small digital</category>
   <category>iiif</category>
   <category>complutensian</category>
-  <guid>https://neelsmith.quarto.pub/posts/2024-11-13-complutensian-iiif/</guid>
+  <guid>https://neelsmith.github.io/posts/2024-11-13-complutensian-iiif/</guid>
   <pubDate>Wed, 13 Nov 2024 05:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/posts/imgs/comp-in-tify.png" medium="image" type="image/png" height="195" width="144"/>
+  <media:content url="https://neelsmith.github.io/posts/imgs/comp-in-tify.png" medium="image" type="image/png" height="195" width="144"/>
 </item>
 <item>
   <title>‘Small digital’</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/posts/2024-10-28-small-digital/</link>
+  <link>https://neelsmith.github.io/posts/2024-10-28-small-digital/</link>
   <description><![CDATA[ 
 
 
@@ -367,7 +367,7 @@ November 13. <a href="https://neelsmith.quarto.pub/posts/2024-10-24-complutensia
 <p>Small digital also offers a comfortable home for scholars whose research includes writing code. While such scholars are not in principle excluded from large digital humanities projects, in practice multi-year grants often divide participants between technology specialists (programmers) and content specialists (“scholars”). And since university departments already have tenure-line positions for “scholars,” the technology specialists are frequently supported by fixed-term positions funded by soft money: far easier for a university to stretch its budget with the overhead charges of a grant than to create new tenure lines, and easier for many academic departments to hire in traditional roles than to evaluate candidates working with code in new ways. Talented scholars who write code can thus find themselves stuck on a treadmill of temporary positions that ultimately define their career arc more as “tech support” than “academic,” further institutionalizing the false dichotomy of coding and research.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://neelsmith.quarto.pub/posts/2024-10-28-small-digital/2cultures.jpeg" class="img-fluid figure-img"></p>
+<p><img src="https://neelsmith.github.io/posts/2024-10-28-small-digital/2cultures.jpeg" class="img-fluid figure-img"></p>
 <figcaption>“Scientific coders”(according to Cox)<sup>1</sup></figcaption>
 </figure>
 </div>
@@ -396,14 +396,14 @@ Smith, Neel. 2024. <span>“<span>‘Small Digital’</span>.”</span> October
 </div></div></section></div> ]]></description>
   <category>small digital</category>
   <category>julia</category>
-  <guid>https://neelsmith.quarto.pub/posts/2024-10-28-small-digital/</guid>
+  <guid>https://neelsmith.github.io/posts/2024-10-28-small-digital/</guid>
   <pubDate>Mon, 28 Oct 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/posts/2024-10-28-small-digital/2cultures.jpeg" medium="image" type="image/jpeg"/>
+  <media:content url="https://neelsmith.github.io/posts/2024-10-28-small-digital/2cultures.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Why Julia?</title>
   <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.quarto.pub/posts/2024-10-22-why-julia/</link>
+  <link>https://neelsmith.github.io/posts/2024-10-22-why-julia/</link>
   <description><![CDATA[ 
 
 
@@ -440,9 +440,9 @@ Smith, Neel. 2024. <span>“Why Julia?”</span> October 22. <a href="https://ne
 </div></div></section></div> ]]></description>
   <category>julia</category>
   <category>small digital</category>
-  <guid>https://neelsmith.quarto.pub/posts/2024-10-22-why-julia/</guid>
+  <guid>https://neelsmith.github.io/posts/2024-10-22-why-julia/</guid>
   <pubDate>Tue, 22 Oct 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.quarto.pub/posts/2024-10-22-why-julia/julia.png" medium="image" type="image/png" height="93" width="144"/>
+  <media:content url="https://neelsmith.github.io/posts/2024-10-22-why-julia/julia.png" medium="image" type="image/png" height="93" width="144"/>
 </item>
 </channel>
 </rss>

@@ -1,1 +1,1 @@
-Sitemap: https://neelsmith.quarto.pub/sitemap.xml
+Sitemap: https://neelsmith.github.io/sitemap.xml
