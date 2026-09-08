@@ -5,7 +5,7 @@ bibliography: "biblio.bib"
 
 date: last-modified 
 website:
-  site-url: "https://neelsmith.quarto.pub"
+  site-url: "https://neelsmith.github.io"
   title: "neelsmith"
   navbar:
     background: primary
