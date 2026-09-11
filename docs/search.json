@@ -1,47 +1,5 @@
 [
   {
-    "objectID": "digitexts/parsing/kanones.html",
-    "href": "digitexts/parsing/kanones.html",
-    "title": "Kanónes",
-    "section": "",
-    "text": "CautionContent incomplete\n\n\n\nThis page will introduce the Kanónes system for building Greek morphological parsers\n\n\n\nimplements the citable parser model\nsee the full site"
-  },
-  {
-    "objectID": "digitexts/parsing/tabulae.html",
-    "href": "digitexts/parsing/tabulae.html",
-    "title": "Tabulae",
-    "section": "",
-    "text": "CautionContent incomplete\n\n\n\nThis page will introduce the Tabulae system for building Greek morphological parsers\n\n\n\nimplements the citable parser model\nsee the full site"
-  },
-  {
-    "objectID": "digitexts/physical/dse.html",
-    "href": "digitexts/physical/dse.html",
-    "title": "Text, artifact and image",
-    "section": "",
-    "text": "CautionContent incomplete\n\n\n\nThis page will introduce a model of the relations of artifacts, images and texts.\n\n\n\nCitablePhysicalText.jl: see documentation"
-  },
-  {
-    "objectID": "digitexts/physical/index.html",
-    "href": "digitexts/physical/index.html",
-    "title": "Digital scholarly editions",
-    "section": "",
-    "text": "CautionContent incomplete\n\n\n\nThis page will introduce a model of the relations of artifacts, images and texts.\n\n\n\nimages, physical artifacts, text content (“DSE triples”)\nhow they’re managed, served, sources"
-  },
-  {
-    "objectID": "digitexts/editions/markupreaders.html",
-    "href": "digitexts/editions/markupreaders.html",
-    "title": "Citable markup",
-    "section": "",
-    "text": "CautionContent incomplete\n\n\n\nThis page will introduce making structured text sources citable.\n\n\nMake the contents of a structured text source accessible using canonical citation.\nSee the documentation of the CitableTeiReaders package."
-  },
-  {
-    "objectID": "digitexts/editions/index.html",
-    "href": "digitexts/editions/index.html",
-    "title": "Building citable editions from structured text sources",
-    "section": "",
-    "text": "CautionContent incomplete\n\n\n\nThis page will introduce turning structured text sources into citable digital editions, and working with citable corpora.\n\n\nTwo abstractions developed at HC MID allow us to go from multivalent sources to computationally analyzable univocal editions in two steps:\n\nmake structured sources citable: map structured sources to canonical CTS URNs.\nedition builders: given a citable structured source, compose specified types of editions that can be computationally analyzed without any further structure than citation by URN.\n\nWe can use a citable corpus together with an orthography for higher-order manipulation and analysis."
-  },
-  {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "News and comments",
@@ -49,445 +7,298 @@
     "text": "NoteAnnouncements of updates\n\n\n\nIn in addition to these blog posts, I keep announcements of updates to data sets, Julia packages and documentation on this page.\n\n\n\n RSS feed\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Venetus A in a IIIF manifest\n\n\n\niiif\n\nhmt\n\n\n\nThe HMT project publishes a IIIF manifest with validated images of the Venetus A manuscript.\n\n\n\nNeel Smith\n\n\nJan 11, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew project web site: a digital Complutensian Bible\n\n\n\nsmall digital\n\ncomplutensian\n\n\n\nData sets and replicable Pluto notebooks along with background information about the project.\n\n\n\nNeel Smith\n\n\nNov 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdd a IIIF browser to your Pluto notebooks\n\n\n\nsmall digital\n\niiif\n\ntify\n\n\n\nThe TIFY library makes it easy to include an interactive IIIF browser in your Pluto notebooks.\n\n\n\nNeel Smith\n\n\nNov 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Complutensian Bible in IIIF\n\n\n\nsmall digital\n\niiif\n\ncomplutensian\n\n\n\nTailor image resources to your own project with a IIIF manifest.\n\n\n\nNeel Smith\n\n\nNov 13, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n‘Small digital’\n\n\n\nsmall digital\n\njulia\n\n\n\nIf we only focus on big projects, we’re missing a lot of the value of digital scholarship.\n\n\n\nNeel Smith\n\n\nOct 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy Julia?\n\n\n\njulia\n\nsmall digital\n\n\n\nJulia is my go-to language for digital scholarship.\n\n\n\nNeel Smith\n\n\nOct 22, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "digschol/narrative/index.html",
-    "href": "digschol/narrative/index.html",
-    "title": "Conceptual overview",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Acknowledgments",
     "section": "",
-    "text": "TipSummary\n\n\n\nScholarship in the humanities depends on citation to identify its unique objects of study. This section presents work on technology-independent citation using URNs: passages of texts (implemented with CTS URNs), physical artifacts (CITE2 URNs) and documentary images (CITE2 URNs, including extension for region of interest on an image)\n\n\n\nCitation and scholarship (concepts implemented in the CitableBase package)\nCiting texts (the CitableText package)\nCiting artifacts\nCiting images"
+    "text": "All the work on this site has grown out of stimulating collaborations from the early 1980s through my transition to emeritus status in 2024.\nI’m grateful my colleagues on:\n\nthe Perseus project\nthe Turkish-American excavations at Hacımusalar\nthe Homer Multitext project\nthe Holy Cross Manuscripts, Inscriptions and Documents Club"
   },
   {
-    "objectID": "digschol/narrative/index.html#citation",
-    "href": "digschol/narrative/index.html#citation",
-    "title": "Conceptual overview",
+    "objectID": "updates/2025-05-19-cex-lib/index.html",
+    "href": "updates/2025-05-19-cex-lib/index.html",
+    "title": "A vibe-coded javascript library for working with CEX data",
     "section": "",
-    "text": "TipSummary\n\n\n\nScholarship in the humanities depends on citation to identify its unique objects of study. This section presents work on technology-independent citation using URNs: passages of texts (implemented with CTS URNs), physical artifacts (CITE2 URNs) and documentary images (CITE2 URNs, including extension for region of interest on an image)\n\n\n\nCitation and scholarship (concepts implemented in the CitableBase package)\nCiting texts (the CitableText package)\nCiting artifacts\nCiting images"
+    "text": "cex.js is a javascript library for working with CEX data sources in a web browser or other javascript environment.\nThe Homer Multitext project publishes its data releases in a single, plain-text document on github. (The current release is always available at this URL.) The release file follows the Cite EXchange format (CEX), defined here.\nThe javascript library in cex.js simplifies working with CEX data in a web browser or other javascript environment."
   },
   {
-    "objectID": "digschol/narrative/index.html#digital-texts",
-    "href": "digschol/narrative/index.html#digital-texts",
-    "title": "Conceptual overview",
-    "section": "Digital texts",
-    "text": "Digital texts\n\n\n\n\n\n\nTipSummary\n\n\n\nAll analysis of digital texts must take account of how the text’s writing system, or orthography, is digitally encoded, and how we can derive citable digital editions from sources in a variety of structured text formats. I’m interested in digital scholarly editions of physical texts that encode both textual and non-textual contents.\n\n\n\nWriting and orthographic systems (the Orthography package)\nMaking archival documents citable (the CitableTeiReaders package)\nCompiling univocal textual editions (the EditionBuidlers package)"
-  },
-  {
-    "objectID": "digschol/narrative/index.html#morphological-parsing",
-    "href": "digschol/narrative/index.html#morphological-parsing",
-    "title": "Conceptual overview",
-    "section": "Morphological parsing",
-    "text": "Morphological parsing\n\n\n\n\n\n\nTipSummary\n\n\n\nMorphological parsing is especially important for the morphologically rich languages I study.\n\n\n\nBuilding citable parsers"
-  },
-  {
-    "objectID": "updates.html",
-    "href": "updates.html",
-    "title": "Updates",
+    "objectID": "updates/2025-05-19-cex-lib/index.html#new-package-announcement-cex.js",
+    "href": "updates/2025-05-19-cex-lib/index.html#new-package-announcement-cex.js",
+    "title": "A vibe-coded javascript library for working with CEX data",
     "section": "",
-    "text": "RSS feed\n\nNews about releases and updates to documentation of Julia packages.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA vibe-coded javascript library for working with citable text in polytonic Greek\n\n\n\nvibe coding\n\ncite\n\nnew package\n\n\n\nTools for parsing and manipulating Greek texts cited by Canonical Text Services (CTS) URNs.\n\n\n\nNeel Smith\n\n\nJun 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nA vibe-coded javascript library for working with published releases of the Homer Multitext project\n\n\n\nvibe coding\n\nHomer Multitext\n\ncite\n\nnew package\n\n\n\nSimplify working with normalized and diplomatic editions of texts, indexed relations of text passages to images and manuscript pages, and of Iliad lines to scholia. Use…\n\n\n\nNeel Smith\n\n\nMay 29, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nA vibe-coded javascript library for working with HMT publications\n\n\n\nvibe coding\n\ncite\n\nnew package\n\n\n\nhmt-lib.js is a javascript library for working with published releases of the Homer Multitext project’s archive in a web browser or other javascript environment.\n\n\n\nNeel Smith\n\n\nMay 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nA vibe-coded javascript library for working with CTS and CITE2 URNs\n\n\n\nvibe coding\n\ncite\n\nnew package\n\n\n\n\n\n\n\nNeel Smith\n\n\nMay 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nA vibe-coded javascript library for working with HMT images\n\n\n\nvibe coding\n\ncite\n\nhmt\n\niiif\n\nnew package\n\n\n\n\n\n\n\nNeel Smith\n\n\nMay 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nA vibe-coded javascript library for working with CEX data\n\n\n\nvibe coding\n\ncite\n\nnew package\n\n\n\nRead, navigate and retrieve data from CEX data sources (like the Homer Multitext project’s published releases).\n\n\n\nNeel Smith\n\n\nMay 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nUpdates to Obsidian.jl\n\n\n\nobsidian\n\nquarto\n\n\n\nVersion 0.4.0 of Obsidian.jl adds export of Obsidian vaults to Markdown.\n\n\n\nNeel Smith\n\n\nFeb 18, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nUpdates to LexiconMining.jl\n\n\n\nmorphology\n\nlexica\n\nLLMs\n\nlatin\n\nupdate\n\n\n\nVersion 0.3.0 of LexiconMining.jl is a ground-up rewrite using ChatGPT to extract data from Lewis-Short’s Latin Dictionary.\n\n\n\nNeel Smith\n\n\nJan 17, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew IIIF manifests for HMT manuscripts\n\n\n\niiif\n\nhmt\n\nupdate\n\n\n\nIIIF manifests added for photography of Venice, Biblioteca Marciana 841, and British Museum, Burney 86.\n\n\n\nNeel Smith\n\n\nJan 11, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nUpdates to HmtArchive.jl\n\n\n\niiif\n\nhmt\n\nupdate\n\n\n\nVersion 0.16.1 of HmtArchive.jl supports automated generation of IIIF manifests.\n\n\n\nNeel Smith\n\n\nJan 10, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nUpdated images of the Complutensian Bible\n\n\n\niiif\n\ncomplutensian\n\nupdate\n\n\n\nThe IIIF image server at the University of Houston now includes 100% of the documented images of the Complutensian Bible.\n\n\n\nNeel Smith\n\n\nJan 9, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nUpdates to CitablePhysicalText.jl\n\n\n\niiif\n\nupdate\n\n\n\nGenerate IIIF manifests for Codex objects automatically.\n\n\n\nNeel Smith\n\n\nJan 7, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew package: OpenScripturesHebrew.jl\n\n\n\nmorphology\n\nhebrew\n\nnew package\n\n\n\nA new Julia package for working with data from the Open Scriptures Hebrew Bible.\n\n\n\nNeel Smith\n\n\nNov 13, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive Lewis-Short: bug fix\n\n\n\nlexica\n\nlatin\n\nbug fix\n\n\n\nCorrects an error in usage instructions.\n\n\n\nNeel Smith\n\n\nNov 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nUpdate to interactive Lewis-Short\n\n\n\nlexica\n\nlatin\n\nupdate\n\n\n\nNew options for using a local dataset, and counting results.\n\n\n\nNeel Smith\n\n\nNov 5, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nTracking updates with RSS\n\n\n\nrss\n\n\n\nI’ve added an RSS feed to track announcments of new code releases or updates to documentation.\n\n\n\nNeel Smith\n\n\nOct 24, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "cex.js is a javascript library for working with CEX data sources in a web browser or other javascript environment.\nThe Homer Multitext project publishes its data releases in a single, plain-text document on github. (The current release is always available at this URL.) The release file follows the Cite EXchange format (CEX), defined here.\nThe javascript library in cex.js simplifies working with CEX data in a web browser or other javascript environment."
   },
   {
-    "objectID": "updates/2025-05-21-hmt-images/index.html",
-    "href": "updates/2025-05-21-hmt-images/index.html",
-    "title": "A vibe-coded javascript library for working with HMT images",
-    "section": "",
-    "text": "hmt-iiif-lib.js is a javascript library for working with images available from the Homer Multitext project’s IIIF image server, using URN notation. It provides a lightweight, from-scratch IIIF image viewer, along with utility functions for generating IIIF URLs.\nThe Homer Multitext project (HMT) makes its archive of images available via the IIIF protocol, but its published data releases use CITE2 URNs to provide stable references to images and regions of interest (ROIs) within those images. hmt-iiif-lib.js simplifies working with this material in a web browser or other javascript environment."
-  },
-  {
-    "objectID": "updates/2025-05-21-hmt-images/index.html#new-package-announcement-hmt-image-lib.js",
-    "href": "updates/2025-05-21-hmt-images/index.html#new-package-announcement-hmt-image-lib.js",
-    "title": "A vibe-coded javascript library for working with HMT images",
-    "section": "",
-    "text": "hmt-iiif-lib.js is a javascript library for working with images available from the Homer Multitext project’s IIIF image server, using URN notation. It provides a lightweight, from-scratch IIIF image viewer, along with utility functions for generating IIIF URLs.\nThe Homer Multitext project (HMT) makes its archive of images available via the IIIF protocol, but its published data releases use CITE2 URNs to provide stable references to images and regions of interest (ROIs) within those images. hmt-iiif-lib.js simplifies working with this material in a web browser or other javascript environment."
-  },
-  {
-    "objectID": "updates/2025-05-21-hmt-images/index.html#release-notes",
-    "href": "updates/2025-05-21-hmt-images/index.html#release-notes",
-    "title": "A vibe-coded javascript library for working with HMT images",
+    "objectID": "updates/2025-05-19-cex-lib/index.html#release-notes",
+    "href": "updates/2025-05-19-cex-lib/index.html#release-notes",
+    "title": "A vibe-coded javascript library for working with CEX data",
     "section": "Release notes",
-    "text": "Release notes\nInitial release. Main features:\n\nadd a pannable/zoomable image viewer to a web page for an image identified by CITE2. ROIs are visually highlighted.\noverlay multiple ROIs on a single image by invoking the viewer with a list of URNs with differeing ROIs\n“citation mode” allows users to select new ROIs with option-click/drag, and returns CITE2 URNs for all user-selected regions\ncompose an IIIF request for an image that can be embedded in a web page"
+    "text": "Release notes\nInitial release. Main features:\n\nload and parse CEX data from string values, local files or URLs\ndiscover CEX block labels, read contents of blocks by label\ndiscover data models, and find collections implementing a model\nretrieve a delimited-text table for the contents of all blocks of a given type"
   },
   {
-    "objectID": "updates/2025-05-21-hmt-images/index.html#installation",
-    "href": "updates/2025-05-21-hmt-images/index.html#installation",
-    "title": "A vibe-coded javascript library for working with HMT images",
+    "objectID": "updates/2025-05-19-cex-lib/index.html#installation",
+    "href": "updates/2025-05-19-cex-lib/index.html#installation",
+    "title": "A vibe-coded javascript library for working with CEX data",
     "section": "Installation",
-    "text": "Installation\nThe file hmt-image.js can be downloaded from github and used locally, or loaded vis jsDelivr from https://cdn.jsdelivr.net/gh/neelsmith/hmt-image-lib/hmt-iiif-lib.js."
+    "text": "Installation\nThe file cex.js can be downloaded from github and used locally, or loaded vis jsDelivr from https://cdn.jsdelivr.net/gh/neelsmith/cex-lib/cex.js."
   },
   {
-    "objectID": "updates/2025-05-21-hmt-images/index.html#documentation",
-    "href": "updates/2025-05-21-hmt-images/index.html#documentation",
-    "title": "A vibe-coded javascript library for working with HMT images",
+    "objectID": "updates/2025-05-19-cex-lib/index.html#documentation",
+    "href": "updates/2025-05-19-cex-lib/index.html#documentation",
+    "title": "A vibe-coded javascript library for working with CEX data",
     "section": "Documentation",
     "text": "Documentation\n\navailable on github"
   },
   {
-    "objectID": "updates/2025-05-21-hmt-images/index.html#source",
-    "href": "updates/2025-05-21-hmt-images/index.html#source",
-    "title": "A vibe-coded javascript library for working with HMT images",
+    "objectID": "updates/2025-05-19-cex-lib/index.html#source",
+    "href": "updates/2025-05-19-cex-lib/index.html#source",
+    "title": "A vibe-coded javascript library for working with CEX data",
     "section": "Source",
     "text": "Source\n\navailable on github"
   },
   {
-    "objectID": "updates/2025-05-21-hmt-images/index.html#caveats",
-    "href": "updates/2025-05-21-hmt-images/index.html#caveats",
-    "title": "A vibe-coded javascript library for working with HMT images",
-    "section": "Caveats",
-    "text": "Caveats\nThe javascript library and the markdown documentation were written entirely by gemini-2.5-pro. The code passes a series of sanity tests, but I have not even looked at the javascript. When I encountered errors, I let gemini fix them. Use the code as you like, but be aware that I have no idea what it does or how it works.\nAuditing the build:\n\ngithub repository includes a complete transcript of the chat used to generate the script, with saved intermediate versions of the javascript library. See the repository README for details."
-  },
-  {
-    "objectID": "updates/2025-01-17-lexiconmining/index.html",
-    "href": "updates/2025-01-17-lexiconmining/index.html",
-    "title": "Updates to LexiconMining.jl",
-    "section": "",
-    "text": "Version 0.3.0 (now available on the main branch of the github repository) is a complete reworking of the previous package. It uses ChatGPT to extract morphological information from Lewis-Short’s Latin Dictionary, parses the ChatGPT output into an object model, and from those objects generates data usable with the Tabulae system for building Latin morphological parsers.\nState of implementation in version 0.3.0:\n\ncomplete summaries of Lewis-Short from ChatGPT available\ninitial parsing of ChatGPT summaries for nouns, verbs and adjectives implemented\ngeneration of Tabulae data for nouns implemented\n\n\n\n\n\n\n\nTipMore information about Tabulae\n\n\n\nSee documentation for the Tabulae.jl package."
-  },
-  {
-    "objectID": "updates/2025-01-17-lexiconmining/index.html#release-notes-version-0.3.0",
-    "href": "updates/2025-01-17-lexiconmining/index.html#release-notes-version-0.3.0",
-    "title": "Updates to LexiconMining.jl",
-    "section": "",
-    "text": "Version 0.3.0 (now available on the main branch of the github repository) is a complete reworking of the previous package. It uses ChatGPT to extract morphological information from Lewis-Short’s Latin Dictionary, parses the ChatGPT output into an object model, and from those objects generates data usable with the Tabulae system for building Latin morphological parsers.\nState of implementation in version 0.3.0:\n\ncomplete summaries of Lewis-Short from ChatGPT available\ninitial parsing of ChatGPT summaries for nouns, verbs and adjectives implemented\ngeneration of Tabulae data for nouns implemented\n\n\n\n\n\n\n\nTipMore information about Tabulae\n\n\n\nSee documentation for the Tabulae.jl package."
-  },
-  {
-    "objectID": "updates/2025-01-17-lexiconmining/index.html#installation",
-    "href": "updates/2025-01-17-lexiconmining/index.html#installation",
-    "title": "Updates to LexiconMining.jl",
-    "section": "Installation",
-    "text": "Installation\nLexiconMining.jl is an unpublished package. You can install it directory from its github repository.\n\nin package mode from the Julia REPL ] add https://github.com/neelsmith/LexiconMining.jl.git\nfrom a Julia terminal session: using Pkg; Pkg.add(url=\"https://github.com/neelsmith/LexiconMining.jl.git\")"
-  },
-  {
-    "objectID": "updates/2025-01-17-lexiconmining/index.html#documentation",
-    "href": "updates/2025-01-17-lexiconmining/index.html#documentation",
-    "title": "Updates to LexiconMining.jl",
-    "section": "Documentation",
-    "text": "Documentation\n\npackage documentation is available on quarto.pub"
-  },
-  {
-    "objectID": "updates/2025-01-17-lexiconmining/index.html#source",
-    "href": "updates/2025-01-17-lexiconmining/index.html#source",
-    "title": "Updates to LexiconMining.jl",
-    "section": "Source",
-    "text": "Source\n\navailable on github"
-  },
-  {
-    "objectID": "updates/2025-01-17-lexiconmining/index.html#progress",
-    "href": "updates/2025-01-17-lexiconmining/index.html#progress",
-    "title": "Updates to LexiconMining.jl",
-    "section": "Progress",
-    "text": "Progress\n\ncheck this milestone in the github repository to follow progress in implementing generation of Tabulae data sets"
-  },
-  {
-    "objectID": "updates/2024-10-24-updates-rss-feed/index.html",
-    "href": "updates/2024-10-24-updates-rss-feed/index.html",
-    "title": "Tracking updates with RSS",
-    "section": "",
-    "text": "At http://neelsmith.quarto.pub/updates, I’m posting announcements about new releases and updates to documentation of the Julia packages I’m beginning to document here. I’ve added an RSS feed to simplify getting any of these announcements you’re interested in. (Thanks for automating that, Quarto!)\n\n\n\n\n\n\nNoteURL\n\n\n\nThe URL for the feed is https://neelsmith.quarto.pub/updates.xml"
-  },
-  {
-    "objectID": "updates/2024-10-24-updates-rss-feed/index.html#tracking-updates-with-rss",
-    "href": "updates/2024-10-24-updates-rss-feed/index.html#tracking-updates-with-rss",
-    "title": "Tracking updates with RSS",
-    "section": "",
-    "text": "At http://neelsmith.quarto.pub/updates, I’m posting announcements about new releases and updates to documentation of the Julia packages I’m beginning to document here. I’ve added an RSS feed to simplify getting any of these announcements you’re interested in. (Thanks for automating that, Quarto!)\n\n\n\n\n\n\nNoteURL\n\n\n\nThe URL for the feed is https://neelsmith.quarto.pub/updates.xml"
-  },
-  {
-    "objectID": "updates/2024-10-24-updates-rss-feed/index.html#back-to-the-future",
-    "href": "updates/2024-10-24-updates-rss-feed/index.html#back-to-the-future",
-    "title": "Tracking updates with RSS",
-    "section": "Back to the future",
-    "text": "Back to the future\nI used RSS feeds 15-20 years ago, but like a lot of other people, I thought RSS had died. It’s proven to be too simple and useful to go away altogether, however, and seems like a particularly good fit for following irregular announcements about changes to code and documentation.\nI hope it also proves to be a practical way to follow news while avoiding some of the worst features of social media"
-  },
-  {
-    "objectID": "updates/2025-06-01-greeklib/index.html",
-    "href": "updates/2025-06-01-greeklib/index.html",
-    "title": "A vibe-coded javascript library for working with citable text in polytonic Greek",
-    "section": "",
-    "text": "greeklib.js is a javascript library for working with citable text in polytonic ancient Greek in a web browser or other javascript environment."
-  },
-  {
-    "objectID": "updates/2025-06-01-greeklib/index.html#new-package-announcement-greeklib.js",
-    "href": "updates/2025-06-01-greeklib/index.html#new-package-announcement-greeklib.js",
-    "title": "A vibe-coded javascript library for working with citable text in polytonic Greek",
-    "section": "",
-    "text": "greeklib.js is a javascript library for working with citable text in polytonic ancient Greek in a web browser or other javascript environment."
-  },
-  {
-    "objectID": "updates/2025-06-01-greeklib/index.html#release-notes",
-    "href": "updates/2025-06-01-greeklib/index.html#release-notes",
-    "title": "A vibe-coded javascript library for working with citable text in polytonic Greek",
-    "section": "Release notes",
-    "text": "Release notes\nMain features:\n\ndefines the Token class to represent a citable, classified token\nimplements the tokenize function to tokenize a single citable text passage"
-  },
-  {
-    "objectID": "updates/2025-06-01-greeklib/index.html#installation",
-    "href": "updates/2025-06-01-greeklib/index.html#installation",
-    "title": "A vibe-coded javascript library for working with citable text in polytonic Greek",
-    "section": "Installation",
-    "text": "Installation\nThe file greeklib.js can be downloaded from github and used locally, or loaded via jsDelivr from https://cdn.jsdelivr.net/gh/neelsmith/greeklib@1.0.0/greeklib.js."
-  },
-  {
-    "objectID": "updates/2025-06-01-greeklib/index.html#documentation",
-    "href": "updates/2025-06-01-greeklib/index.html#documentation",
-    "title": "A vibe-coded javascript library for working with citable text in polytonic Greek",
-    "section": "Documentation",
-    "text": "Documentation\n\navailable on github"
-  },
-  {
-    "objectID": "updates/2025-06-01-greeklib/index.html#source",
-    "href": "updates/2025-06-01-greeklib/index.html#source",
-    "title": "A vibe-coded javascript library for working with citable text in polytonic Greek",
-    "section": "Source",
-    "text": "Source\n\navailable on github"
-  },
-  {
-    "objectID": "updates/2025-06-01-greeklib/index.html#caveats",
-    "href": "updates/2025-06-01-greeklib/index.html#caveats",
-    "title": "A vibe-coded javascript library for working with citable text in polytonic Greek",
+    "objectID": "updates/2025-05-19-cex-lib/index.html#caveats",
+    "href": "updates/2025-05-19-cex-lib/index.html#caveats",
+    "title": "A vibe-coded javascript library for working with CEX data",
     "section": "Caveats",
     "text": "Caveats\nThe javascript library and the markdown documentation were written entirely by gemini-2.5-pro. The code passes a series of sanity tests, but I have not even looked at the javascript. When I encountered errors, I let gemini fix them. Use the code as you like, but be aware that I have no idea what it does or how it works."
   },
   {
-    "objectID": "updates/2025-06-01-greeklib/index.html#auditing-the-build",
-    "href": "updates/2025-06-01-greeklib/index.html#auditing-the-build",
-    "title": "A vibe-coded javascript library for working with citable text in polytonic Greek",
-    "section": "Auditing the build:",
-    "text": "Auditing the build:\n\ngithub repository includes a complete transcript of the chat used to generate the script, with saved intermediate versions of the javascript library. See the repository README for details."
-  },
-  {
-    "objectID": "updates/2025-02-18-obsidian-to-web/index.html",
-    "href": "updates/2025-02-18-obsidian-to-web/index.html",
-    "title": "Updates to Obsidian.jl",
+    "objectID": "updates/2025-05-29-hmt-lib/index.html",
+    "href": "updates/2025-05-29-hmt-lib/index.html",
+    "title": "A vibe-coded javascript library for working with published releases of the Homer Multitext project",
     "section": "",
-    "text": "adds the mdcontent function to extract Markdown content from an Obsidian note, and exportmd to export an Obsidian note or entire vault to Markdown files that can be used with CMS like Quarto, Jekyll and Hugo."
+    "text": "hmt-lib.js is a javascript library for parsing and manipulating data in published releases of the Homer Multitext project (HMT), including normalized and diplomatic editions of texts, indexing of relations of text passages to images and manuscript pages, indexing of Iliad lines and scholia, and documentation of manuscript sources."
   },
   {
-    "objectID": "updates/2025-02-18-obsidian-to-web/index.html#release-notes-version-0.4.0",
-    "href": "updates/2025-02-18-obsidian-to-web/index.html#release-notes-version-0.4.0",
-    "title": "Updates to Obsidian.jl",
+    "objectID": "updates/2025-05-29-hmt-lib/index.html#new-package-announcement-hmt-lib.js",
+    "href": "updates/2025-05-29-hmt-lib/index.html#new-package-announcement-hmt-lib.js",
+    "title": "A vibe-coded javascript library for working with published releases of the Homer Multitext project",
     "section": "",
-    "text": "adds the mdcontent function to extract Markdown content from an Obsidian note, and exportmd to export an Obsidian note or entire vault to Markdown files that can be used with CMS like Quarto, Jekyll and Hugo."
+    "text": "hmt-lib.js is a javascript library for parsing and manipulating data in published releases of the Homer Multitext project (HMT), including normalized and diplomatic editions of texts, indexing of relations of text passages to images and manuscript pages, indexing of Iliad lines and scholia, and documentation of manuscript sources."
   },
   {
-    "objectID": "updates/2025-02-18-obsidian-to-web/index.html#installation",
-    "href": "updates/2025-02-18-obsidian-to-web/index.html#installation",
-    "title": "Updates to Obsidian.jl",
-    "section": "Installation",
-    "text": "Installation\nInstall from the central registry with Julia’s package manager.\n\nin package mode from the Julia REPL ] add Obsidian\nfrom a Julia terminal session: using Pkg; Pkg.add(\"Obsidian\")"
-  },
-  {
-    "objectID": "updates/2025-02-18-obsidian-to-web/index.html#documentation",
-    "href": "updates/2025-02-18-obsidian-to-web/index.html#documentation",
-    "title": "Updates to Obsidian.jl",
-    "section": "Documentation",
-    "text": "Documentation\n\npackage documentation is available on quarto.pub. Documentation includes a brief tutorial and more detailed guides on how to use the new functions."
-  },
-  {
-    "objectID": "updates/2025-02-18-obsidian-to-web/index.html#source",
-    "href": "updates/2025-02-18-obsidian-to-web/index.html#source",
-    "title": "Updates to Obsidian.jl",
-    "section": "Source",
-    "text": "Source\n\navailable on github"
-  },
-  {
-    "objectID": "updates/2025-01-07-iiif-manifests/index.html",
-    "href": "updates/2025-01-07-iiif-manifests/index.html",
-    "title": "Updates to CitablePhysicalText.jl",
-    "section": "",
-    "text": "adds the iiifmanifest function to generate IIIF manifests automatically from Codex objects.\n\n\n\n\nInstall from the central registry with Julia’s package manager.\n\nin package mode from the Julia REPL ] add CitablePhysicalText\nfrom a Julia terminal session: using Pkg; Pkg.add(\"CitablePhysicalText\")\n\n\n\n\n\npackage documentation is available on quarto.pub\nthe package documentation includes a tutorial on how to use the new iiifmanifest function.\n\n\n\n\n\navailable on github"
-  },
-  {
-    "objectID": "updates/2025-01-07-iiif-manifests/index.html#release-notes-version-0.12.0",
-    "href": "updates/2025-01-07-iiif-manifests/index.html#release-notes-version-0.12.0",
-    "title": "Updates to CitablePhysicalText.jl",
-    "section": "",
-    "text": "adds the iiifmanifest function to generate IIIF manifests automatically from Codex objects."
-  },
-  {
-    "objectID": "updates/2025-01-07-iiif-manifests/index.html#installation",
-    "href": "updates/2025-01-07-iiif-manifests/index.html#installation",
-    "title": "Updates to CitablePhysicalText.jl",
-    "section": "",
-    "text": "Install from the central registry with Julia’s package manager.\n\nin package mode from the Julia REPL ] add CitablePhysicalText\nfrom a Julia terminal session: using Pkg; Pkg.add(\"CitablePhysicalText\")"
-  },
-  {
-    "objectID": "updates/2025-01-07-iiif-manifests/index.html#documentation",
-    "href": "updates/2025-01-07-iiif-manifests/index.html#documentation",
-    "title": "Updates to CitablePhysicalText.jl",
-    "section": "",
-    "text": "package documentation is available on quarto.pub\nthe package documentation includes a tutorial on how to use the new iiifmanifest function."
-  },
-  {
-    "objectID": "updates/2025-01-07-iiif-manifests/index.html#source",
-    "href": "updates/2025-01-07-iiif-manifests/index.html#source",
-    "title": "Updates to CitablePhysicalText.jl",
-    "section": "",
-    "text": "available on github"
-  },
-  {
-    "objectID": "updates/2025-05-25-hmt-lib/index.html",
-    "href": "updates/2025-05-25-hmt-lib/index.html",
-    "title": "A vibe-coded javascript library for working with HMT publications",
-    "section": "",
-    "text": "hmt-lib.js is a javascript library for working with published releases of the Homer Multitext project’s archive in web browser or other javascript environment."
-  },
-  {
-    "objectID": "updates/2025-05-25-hmt-lib/index.html#new-package-announcement-hmt-lib.js",
-    "href": "updates/2025-05-25-hmt-lib/index.html#new-package-announcement-hmt-lib.js",
-    "title": "A vibe-coded javascript library for working with HMT publications",
-    "section": "",
-    "text": "hmt-lib.js is a javascript library for working with published releases of the Homer Multitext project’s archive in web browser or other javascript environment."
-  },
-  {
-    "objectID": "updates/2025-05-25-hmt-lib/index.html#release-notes",
-    "href": "updates/2025-05-25-hmt-lib/index.html#release-notes",
-    "title": "A vibe-coded javascript library for working with HMT publications",
+    "objectID": "updates/2025-05-29-hmt-lib/index.html#release-notes",
+    "href": "updates/2025-05-29-hmt-lib/index.html#release-notes",
+    "title": "A vibe-coded javascript library for working with published releases of the Homer Multitext project",
     "section": "Release notes",
-    "text": "Release notes\nInitial release. Main features:\n\nload current published release of the HMT archive\nextract diplomatic or normalized text corpora\nextract and query an index linking Iliad passages and scholia\nextract and query digital scholarly edition records linking texts, pages and images\nformat human readable labels for objects cited by CTS URN or CITE2 URN\nfind URNs for all documented codices\nextract a model of a given manuscript as a sequence of CodexPage objects\nadd a menu of HMT manuscripts to a web page"
+    "text": "Release notes\nThis announcement covers both the initial 1.0.0 release and immediately following 1.1.0 release. Main features:\n\nload a published release of HMT\nretrieve text corpora and specific text passages in diplomatic and normalized editions\ndiscover relations among text passages, documentary images, and manuscript pages\ndiscover relations between Iliad passages and scholia\nlabel texts and objects with catalog metadata\nadd precomposed menu widgets to web pages to select Iliad texts and manuscripts\n\nSee the github repository for more details."
   },
   {
-    "objectID": "updates/2025-05-25-hmt-lib/index.html#installation",
-    "href": "updates/2025-05-25-hmt-lib/index.html#installation",
-    "title": "A vibe-coded javascript library for working with HMT publications",
+    "objectID": "updates/2025-05-29-hmt-lib/index.html#installation",
+    "href": "updates/2025-05-29-hmt-lib/index.html#installation",
+    "title": "A vibe-coded javascript library for working with published releases of the Homer Multitext project",
     "section": "Installation",
-    "text": "Installation\nThe file hmt-lib.js can be downloaded from github and used locally, or loaded vis jsDelivr from https://cdn.jsdelivr.net/gh/neelsmith/hmt-lib/hmt-lib.js."
+    "text": "Installation\nThe file hmt-lib.js can be downloaded from github and used locally, or loaded vis jsDelivr from https://cdn.jsdelivr.net/gh/neelsmith/hmt-lib@1.1.0/hmt-lib.js."
   },
   {
-    "objectID": "updates/2025-05-25-hmt-lib/index.html#documentation",
-    "href": "updates/2025-05-25-hmt-lib/index.html#documentation",
-    "title": "A vibe-coded javascript library for working with HMT publications",
+    "objectID": "updates/2025-05-29-hmt-lib/index.html#documentation",
+    "href": "updates/2025-05-29-hmt-lib/index.html#documentation",
+    "title": "A vibe-coded javascript library for working with published releases of the Homer Multitext project",
     "section": "Documentation",
     "text": "Documentation\n\navailable on github"
   },
   {
-    "objectID": "updates/2025-05-25-hmt-lib/index.html#source",
-    "href": "updates/2025-05-25-hmt-lib/index.html#source",
-    "title": "A vibe-coded javascript library for working with HMT publications",
+    "objectID": "updates/2025-05-29-hmt-lib/index.html#source",
+    "href": "updates/2025-05-29-hmt-lib/index.html#source",
+    "title": "A vibe-coded javascript library for working with published releases of the Homer Multitext project",
     "section": "Source",
     "text": "Source\n\navailable on github"
   },
   {
-    "objectID": "updates/2025-05-25-hmt-lib/index.html#caveats",
-    "href": "updates/2025-05-25-hmt-lib/index.html#caveats",
-    "title": "A vibe-coded javascript library for working with HMT publications",
+    "objectID": "updates/2025-05-29-hmt-lib/index.html#caveats",
+    "href": "updates/2025-05-29-hmt-lib/index.html#caveats",
+    "title": "A vibe-coded javascript library for working with published releases of the Homer Multitext project",
     "section": "Caveats",
     "text": "Caveats\nThe javascript library and the markdown documentation were written entirely by gemini-2.5-pro. The code passes a series of sanity tests, but I have not even looked at the javascript. When I encountered errors, I let gemini fix them. Use the code as you like, but be aware that I have no idea what it does or how it works.\nAuditing the build:\n\ngithub repository includes a complete transcript of the chat used to generate the script, with saved intermediate versions of the javascript library. See the repository README for details."
   },
   {
-    "objectID": "updates/2024-11-12-lewis-short/index.html",
-    "href": "updates/2024-11-12-lewis-short/index.html",
-    "title": "Interactive Lewis-Short: bug fix",
+    "objectID": "updates/2024-11-13-open-scriptures-hebrew/index.html",
+    "href": "updates/2024-11-13-open-scriptures-hebrew/index.html",
+    "title": "New package: OpenScripturesHebrew.jl",
     "section": "",
-    "text": "The github repository at https://github.com/neelsmith/lewis-short includes a Pluto notebook and a script you can load in the Julia REPL to work with a digital Lewis and Short Latin Dictionary.\n\n\n\nversion 1.3.1 of the REPL script corrects an error in the interactively displayed usage instructions\n\nCurrent version:\n\nscript for use in REPL: 1.3.1\n\n\n\n\nSee the github repository."
+    "text": "OpenScripturesHebrew.jl is a Julia package for working with the morphological data of the Open Scriptures Hebrew Bible project (OSHB). OpenScripturesHebrew.jl parses the OSHB data into easily manipulated Julia tuples, and provides a Julia data model for the OSHB morphological data."
   },
   {
-    "objectID": "updates/2024-11-12-lewis-short/index.html#changes-and-current-versions-numbers",
-    "href": "updates/2024-11-12-lewis-short/index.html#changes-and-current-versions-numbers",
-    "title": "Interactive Lewis-Short: bug fix",
+    "objectID": "updates/2024-11-13-open-scriptures-hebrew/index.html#new-package-announcement",
+    "href": "updates/2024-11-13-open-scriptures-hebrew/index.html#new-package-announcement",
+    "title": "New package: OpenScripturesHebrew.jl",
     "section": "",
-    "text": "version 1.3.1 of the REPL script corrects an error in the interactively displayed usage instructions\n\nCurrent version:\n\nscript for use in REPL: 1.3.1"
+    "text": "OpenScripturesHebrew.jl is a Julia package for working with the morphological data of the Open Scriptures Hebrew Bible project (OSHB). OpenScripturesHebrew.jl parses the OSHB data into easily manipulated Julia tuples, and provides a Julia data model for the OSHB morphological data."
   },
   {
-    "objectID": "updates/2024-11-12-lewis-short/index.html#documentation",
-    "href": "updates/2024-11-12-lewis-short/index.html#documentation",
-    "title": "Interactive Lewis-Short: bug fix",
+    "objectID": "updates/2024-11-13-open-scriptures-hebrew/index.html#release-notes-version-0.1.0",
+    "href": "updates/2024-11-13-open-scriptures-hebrew/index.html#release-notes-version-0.1.0",
+    "title": "New package: OpenScripturesHebrew.jl",
+    "section": "Release notes: version 0.1.0",
+    "text": "Release notes: version 0.1.0\nInitial release. Some significant features:\n\ndownload and parse OSHB annotations for all or specified portions of the Hebrew Bible (more than 423,000 individually annotated words)\nall words keyed to canonically identified passages using CTS URNss\ncan instantiate Julia objects from OSHB morphological codes for Hebrew morphology"
+  },
+  {
+    "objectID": "updates/2024-11-13-open-scriptures-hebrew/index.html#installation",
+    "href": "updates/2024-11-13-open-scriptures-hebrew/index.html#installation",
+    "title": "New package: OpenScripturesHebrew.jl",
+    "section": "Installation",
+    "text": "Installation\nInstall from the central registry with Julia’s package manager.\n\nin package mode from the Julia REPL ] add OpenScripturesHebrew\nfrom a Julia terminal session: using Pkg; Pkg.add(\"OpenScripturesHebrew\")"
+  },
+  {
+    "objectID": "updates/2024-11-13-open-scriptures-hebrew/index.html#documentation",
+    "href": "updates/2024-11-13-open-scriptures-hebrew/index.html#documentation",
+    "title": "New package: OpenScripturesHebrew.jl",
+    "section": "Documentation",
+    "text": "Documentation\n\navailable on quarto.pub"
+  },
+  {
+    "objectID": "updates/2024-11-13-open-scriptures-hebrew/index.html#source",
+    "href": "updates/2024-11-13-open-scriptures-hebrew/index.html#source",
+    "title": "New package: OpenScripturesHebrew.jl",
+    "section": "Source",
+    "text": "Source\n\navailable on github"
+  },
+  {
+    "objectID": "updates/2024-11-05-lewis-short/index.html",
+    "href": "updates/2024-11-05-lewis-short/index.html",
+    "title": "Update to interactive Lewis-Short",
+    "section": "",
+    "text": "The github repository at https://github.com/neelsmith/lewis-short includes a Pluto notebook and a script you can load in the Julia REPL to work with a digital Lewis and Short Latin Dictionary.\n\n\n\neasier options for using the REPL offline with a previously downloaded dataset\noptions in both REPL script and Pluto notebook for counting results rather than formatting the full text of matching articles in Markdown\n\nCurrent versions:\n\nPluto notebook: 1.2.0\nscript for use in REPL: 1.3.0\n\n\n\n\nSee the github repository."
+  },
+  {
+    "objectID": "updates/2024-11-05-lewis-short/index.html#changes-and-current-versions-numbers",
+    "href": "updates/2024-11-05-lewis-short/index.html#changes-and-current-versions-numbers",
+    "title": "Update to interactive Lewis-Short",
+    "section": "",
+    "text": "easier options for using the REPL offline with a previously downloaded dataset\noptions in both REPL script and Pluto notebook for counting results rather than formatting the full text of matching articles in Markdown\n\nCurrent versions:\n\nPluto notebook: 1.2.0\nscript for use in REPL: 1.3.0"
+  },
+  {
+    "objectID": "updates/2024-11-05-lewis-short/index.html#documentation",
+    "href": "updates/2024-11-05-lewis-short/index.html#documentation",
+    "title": "Update to interactive Lewis-Short",
     "section": "",
     "text": "See the github repository."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Neel Smith",
+    "objectID": "updates/2025-01-09-complutensian-images/index.html",
+    "href": "updates/2025-01-09-complutensian-images/index.html",
+    "title": "Updated images of the Complutensian Bible",
     "section": "",
-    "text": "I’m an emeritus professor at the College of the Holy Cross. On this site, I’m beginning to gather some of the digital scholarly work I’m currently developing or maintaining.\n\n\n\n\n\n\nTip Two RSS feeds to follow changes and news\n\n\n\n\nadditions to or substantial revisions of the web site\nnew releases of code packages or updates to package documentation"
+    "text": "As part of my project on the Complutensian Polyglot Bible, I have mirrored the images of the copy in the National Library of Spain on a IIIF server at the University of Houston. The collection now includes 100% of the documented images."
   },
   {
-    "objectID": "walkthrough/index.html",
-    "href": "walkthrough/index.html",
-    "title": "A walkthrough: the American Declaration of Independence",
+    "objectID": "updates/2025-01-09-complutensian-images/index.html#changes",
+    "href": "updates/2025-01-09-complutensian-images/index.html#changes",
+    "title": "Updated images of the Complutensian Bible",
     "section": "",
-    "text": "TipSee versions of Julia packages used on this page\n\n\n\n\n\nThis page was compiled with the following versions of the packages illustrated here:\n\nCitableBase 10.4.0\nCitableCorpus 0.13.5\nCitableImage 0.7.2\nCitableObject 0.16.1\nCitablePhysicalText 0.11.0\nCitableTeiReaders 0.10.3\nCitableText 0.16.2\nEditionBuilders 0.8.5\nOrderedCollections 1.8.2\nOrthography 0.22.0\nStatsBase 0.34.13\nVectorAlignments 0.3.0"
+    "text": "As part of my project on the Complutensian Polyglot Bible, I have mirrored the images of the copy in the National Library of Spain on a IIIF server at the University of Houston. The collection now includes 100% of the documented images."
   },
   {
-    "objectID": "walkthrough/index.html#background-and-sources",
-    "href": "walkthrough/index.html#background-and-sources",
-    "title": "A walkthrough: the American Declaration of Independence",
-    "section": "Background and sources",
-    "text": "Background and sources\nThe historian and classicist Danielle Allen offers a new interpretation of the American Declaration of Independence that is literally based on a new reading: she punctuates the text differently from most printed editions. (See her book (Allen 2014) and the subsequent manuscript available from the Institute for Advanced Study (Allen 2015).)\nThis page briefly illustrates how we could apply the Julia packages for citation and for working with digital texts to the problem of reading the text of the Declaration.\n\nSources\n\nThe U.S. National Archives has published freely available, high-resolution images of both the original signed parchment, and a widely used engraved reproduction. (See the presentation of the Declaration of Independence from the National Archives, with links to downloadable images) These images have been added to the Homer Multitext project’s citable image service.\nTwo transcriptions of the text in TEI-compliant XML are included in this site’s github repository:\n\ntranscription 1: a transcription of the text of the engraving, taken from this page of the National Archives web site\ntranscription 2: a transcription of the text from the image of the original parchment\n\nThe relations of text, pages and documentary image are documented in a delimited-text file in this site’s github repository here."
+    "objectID": "updates/2025-01-09-complutensian-images/index.html#documentation",
+    "href": "updates/2025-01-09-complutensian-images/index.html#documentation",
+    "title": "Updated images of the Complutensian Bible",
+    "section": "Documentation",
+    "text": "Documentation\nThe images are documented in six IIIF manifests, one for each volume.\n\nlinks to the IIIF manifests\n\n\nGenerating the manifests\nThe manifests are generated from codex models of the six volumes of the Complutensian in this github repository via a Julia script using the CitablePhysicalText package. (See a tutorial from the package documentation on generating IIIF manifests.) The following Julia code generates the manifests from the same data.\nFirst, we follow the tutorial to instantiate an image service, configure settings for the IIIF manifests, and read in the codex model.\n\nusing CitablePhysicalText, CitableBase\nusing CitableImage\n\nimgsvc_baseurl = \"http://www.homermultitext.org/iipsrv\"\nimgsvc_root = \"/project/homer/pyramidal/deepzoom\"\nimgsvc = IIIFservice(imgsvc_baseurl, imgsvc_root)\n\nmanifestids = [\"https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v$(i)-manifest.json\" for i in 1:6]\nconfigs = iiifconfig.(manifestids)\n\n\ncodexurls = [\"https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/codex/bne_v$(i).cex\" for i in 1:6]\ncodices = [fromcex(f, Codex, UrlReader)[1] for f in codexurls]\n\ntotalpages = [length(c.pages) for c in codices] |&gt; sum\n@info(\"Total pages documented in manifests: $(totalpages)\")\n\n\n[ Info: Total pages documented in manifests: 3029\n\n\n\n\nThen generating the manifests is a one-ilner.\n\nmanifests = [iiifmanifest(codices[i], configs[i], imgsvc) for i in 1:6]"
   },
   {
-    "objectID": "walkthrough/index.html#citation-with-urns",
-    "href": "walkthrough/index.html#citation-with-urns",
-    "title": "A walkthrough: the American Declaration of Independence",
-    "section": "Citation with URNs",
-    "text": "Citation with URNs\n\n\n\n\n\n\nTipLearn more about scholarly citation with URNs\n\n\n\n\n\n\n\nCiting texts\nCite the text of the original and the engraving using CtsUrns with different version identifiers.\n\nusing CitableBase, CitableText\nengraving_text = CtsUrn(\"urn:cts:citeusnatarch:foundingdocuments.declindep.engraving:\")\noriginal_text = CtsUrn(\"urn:cts:citeusnatarch:foundingdocuments.declindep.original:\")\n\n\n\n\n\n\n\nTipLearn more about citation with CtsUrns\n\n\n\n\n\n\n\n\nCiting objects\nIdentify a collection of pages (front and back) for the original and for the engraving using Cite2Urns.\n\nusing CitableObject\nengraving_pages = Cite2Urn(\"urn:cite2:citeusnatarch:declindep.engraving:\")\noriginal_pages = Cite2Urn(\"urn:cite2:citeusnatarch:declindep.original:\")\n\n\n\n\n\n\n\nTipLearn more about citation with Cite2Urns\n\n\n\n\n\n\n\n\nCiting images\nIdentify documentary images for the front of the parchment and the first page of the engraving using Cite2Urns.\n\noriginal_img1 = Cite2Urn(\"urn:cite2:citeusnatarch:declindep.v1:Declaration_Pg1of1_AC\")\nengraving_img1 = Cite2Urn(\"urn:cite2:citeusnatarch:declindep.v1:Declaration_Engrav_Pg1of1_AC\")"
-  },
-  {
-    "objectID": "walkthrough/index.html#digital-texts",
-    "href": "walkthrough/index.html#digital-texts",
-    "title": "A walkthrough: the American Declaration of Independence",
-    "section": "Digital texts",
-    "text": "Digital texts\n\nOrthography\nDefine an orthographic system for the texts we will read.\n\nusing Orthography\northo = simpleAscii()\n\n\n\n\n\n\n\nTipLearn more about orthography\n\n\n\n\n\n\n\n\nCreate citable texts\nRead the XML source from a URL, and make the marked-up content accessible through canonical citation with the CitableTeiReaders package.\n\nusing CitableTeiReaders\nengraving_url = \"https://raw.githubusercontent.com/neelsmith/quart-home/main/walkthrough/adoi/declaration_engraving.xml\"\nengraving_corpus = readcitable(engraving_url, engraving_text, TEIAnonblock, UrlReader)\n\noriginal_url = \"https://raw.githubusercontent.com/neelsmith/quart-home/main/walkthrough/adoi/declaration_original.xml\"\noriginal_corpus = readcitable(original_url, engraving_text, TEIAnonblock, UrlReader)\n\nCompose a univocal diplomatic edition from the multivalent XML document with the EditionBuilders package.\n\nusing EditionBuilders\nbuilder = MidDiplomaticBuilder(\"Diplomatic edition buidler\", \"dipl\")\nengraving_dipl = edited(builder, engraving_corpus; edition = \"engraving_dip\")\noriginal_dipl = edited(builder, original_corpus; edition = \"original_dipl\")\n\n\n\n\n\n\n\nTipLearn more about creating citable texts\n\n\n\n\nmaking markup citable\nbuilding univocal editions\n\n\n\n\n\nA full digital scholarly edition\n\nCollect relations of text, image and artifact\nRead records relating text, image and artifact using the CitablePhysicalText package.\n\nusing CitablePhysicalText\ndelimited_url = \"https://raw.githubusercontent.com/neelsmith/quart-home/main/walkthrough/adoi/declaration.cex\"\ntriplesets = fromcex(delimited_url, DSECollection, UrlReader)\n\n\n\n\n\n\n\nTipLearn more about modelling physical texts.\n\n\n\n\n\n\n\n\nServices for images\nConfigure the Homer Mulitext project’s image service using the CitableImage package.\n\nusing CitableImage\nimgbaseurl = \"http://www.homermultitext.org/iipsrv\"\nimgroot = \"/project/homer/pyramidal/deepzoom\"\nimgservice = IIIFservice(imgbaseurl, imgroot)\n\n\n\n\n\n\n\nTipLearn more about citable image services"
-  },
-  {
-    "objectID": "walkthrough/index.html#application-explore-differences-in-the-texts-visually",
-    "href": "walkthrough/index.html#application-explore-differences-in-the-texts-visually",
-    "title": "A walkthrough: the American Declaration of Independence",
-    "section": "Application: explore differences in the texts visually",
-    "text": "Application: explore differences in the texts visually\n\n\n\n\n\n\nWarningTBA\n\n\n\n\n\n\nFirst, we’ll find passages where the two editions differ. One way to focus our attention on differences in content rather than formatting is to compare tokenizations of each text. The following function compares two citable text passages by tokenizing each and comparing the result.\n\nusing CitableCorpus\n\n\"\"\"True if text content of tokens in two citable passages matches.\"\"\"\nfunction tokensmatch(psg1::CitableCorpus.CitablePassage, psg2::CitableCorpus.CitablePassage, orthography::OrthographicSystem)\n    tkns1 = tokenize(psg1,ortho)\n    tkns2 = tokenize(psg2,ortho)\n    text1 = map(t -&gt; t.passage.text, tkns1)\n    text2 = map(t -&gt; t.passage.text, tkns2)\n    text1 == text2\nend\n\nNext we use the function to find parallel passages where the texts differ.\n\n@assert length(original_dipl) == length(engraving_dipl.passages)\n\ndifflist = []   \nfor (orig,dipl) in zip(original_dipl.passages, engraving_dipl.passages)\n    if ! tokensmatch(orig,dipl,ortho)\n        push!(difflist,(orig,dipl))\n    end\nend\n\nLook in appropriate set of triples:\n\ntriplesets[1] |&gt; label\n\n\"Collection of DSE records for the stone engraving of the American Declaration of Independence\"\n\n\n\ntriples_engraving = triplesets[1]\ntriples_original = triplesets[2]\n\nNow find images\n\n(psg1_orig, psg1_engraving) = difflist[1]\nimgs_orig = imagesfortext(psg1_orig.urn, triples_original; keepversion = false)\nimgs_engraving = imagesfortext(psg1_engraving.urn, triples_engraving; keepversion = false)\n\n\n[ Info: Txt urn:cts:citeusnatarch:foundingdocuments.declindep.original_dipl:2\n[ Info: Look for txturn urn:cts:citeusnatarch:foundingdocuments.declindep:2\n[ Info: Txt urn:cts:citeusnatarch:foundingdocuments.declindep.engraving_dip:2\n[ Info: Look for txturn urn:cts:citeusnatarch:foundingdocuments.declindep:2\n\n\n\n\n1-element Vector{Cite2Urn}:\n urn:cite2:citeusnatarch:declindep.v1:Declaration_Engrav_Pg1of1_AC@0.03594,0.1768,0.9243,0.1439\n\n\nDisplay the result on this web page!\n\nict = \"http://www.homermultitext.org/ict2/?\"\nimg_md_original = linkedMarkdownImage(ict, imgs_orig[1], imgservice; w=600, caption=\"Passage in original\")\n\nimg_md_engraving = linkedMarkdownImage(ict, imgs_orig[1], imgservice; w=600, caption=\"Passage in engraving\")\n\n\n\"\"\"\n $(img_md_original)\n\n $(img_md_engraving) \n\"\"\" |&gt; Markdown.parse\n\n\n \n\n\n\n\nmanually use the Homer Multitext project’s Image Citation Tool to zoom in to more specific region of interest and cite it with a URN. Here we save references to the region of two images illustrating the word “Happiness.”\n\nManually explore, create two more detailed references.\n\nhappiness_engraving = Cite2Urn(\"urn:cite2:citeusnatarch:declindep.v1:Declaration_Engrav_Pg1of1_AC@0.4672,0.1935,0.07188,0.01804\")\nhappiness_original = Cite2Urn(\"urn:cite2:citeusnatarch:declindep.v1:Declaration_Pg1of1_AC@0.4765,0.1892,0.07596,0.01857\")\n\n\ndetail_md_original = linkedMarkdownImage(ict, happiness_original, imgservice; w=600, caption=\"Passage in original\")\n\ndetail_md_engraving = linkedMarkdownImage(ict,happiness_engraving, imgservice; w=600, caption=\"Passage in engraving\")\n\n\n\"\"\"\n $(detail_md_original)\n\n $(detail_md_engraving) \n\"\"\" |&gt; Markdown.parse"
-  },
-  {
-    "objectID": "walkthrough/index.html#application-organize-differences-in-the-texts-as-a-sequence-alignment",
-    "href": "walkthrough/index.html#application-organize-differences-in-the-texts-as-a-sequence-alignment",
-    "title": "A walkthrough: the American Declaration of Independence",
-    "section": "Application: organize differences in the texts as a sequence alignment",
-    "text": "Application: organize differences in the texts as a sequence alignment\n\n\n\n\n\n\nWarningTBA\n\n\n\n\n\n\n\n\n\n\n\n\nTipLearn more about citable text corpora\n\n\n\n\n\n\n\nusing VectorAlignments\ntkns1 = split(\"Now is the time\")\ntkns2 = split(\"Now is a time\")\nfeaturematrix(tkns1, tkns2)\n\n5×2 Matrix{Any}:\n \"Now\"    \"Now\"\n \"is\"     \"is\"\n \"the\"    nothing\n nothing  \"a\"\n \"time\"   \"time\"\n\n\n\n\n\n\n\n\nTipLearn more about sequence alignments"
-  },
-  {
-    "objectID": "walkthrough/index.html#application-basic-vocabulary-frequency",
-    "href": "walkthrough/index.html#application-basic-vocabulary-frequency",
-    "title": "A walkthrough: the American Declaration of Independence",
-    "section": "Application: basic vocabulary frequency",
-    "text": "Application: basic vocabulary frequency\nIt is straightforward to find the vocabulary of a citable corpus with a known orthography.\n\ntkns = tokenize(original_dipl, ortho)\nlex = filter(tkn -&gt; tokencategory(tkn) isa LexicalToken,tkns)  \nvocab = map(tkn -&gt; tokentext(tkn), lex)\n\n1328-element Vector{SubString{String}}:\n \"In\"\n \"Congress\"\n \"July\"\n \"The\"\n \"unanimous\"\n \"Declaration\"\n \"of\"\n \"the\"\n \"thirteen\"\n \"united\"\n ⋮\n \"other\"\n \"our\"\n \"Lives\"\n \"our\"\n \"Fortunes\"\n \"and\"\n \"our\"\n \"sacred\"\n \"Honor\"\n\n\nWe can use the StatsBase package to count frequencies of items in a list, and can convert that dictionary to a sortable ordered dictionary with the OrderedCollections package.\n\nusing StatsBase, OrderedCollections\ncounts = countmap(vocab) |&gt; OrderedDict\nsort!(counts; byvalue = true, rev = true)\n\nOrderedDict{SubString{String}, Int64} with 576 entries:\n  \"of\"    =&gt; 78\n  \"the\"   =&gt; 76\n  \"to\"    =&gt; 64\n  \"and\"   =&gt; 55\n  \"our\"   =&gt; 25\n  \"for\"   =&gt; 20\n  \"their\" =&gt; 20\n  \"has\"   =&gt; 20\n  \"He\"    =&gt; 18\n  \"in\"    =&gt; 18\n  \"a\"     =&gt; 15\n  \"them\"  =&gt; 15\n  \"these\" =&gt; 13\n  \"by\"    =&gt; 13\n  \"us\"    =&gt; 11\n  \"have\"  =&gt; 11\n  \"that\"  =&gt; 10\n  \"all\"   =&gt; 10\n  \"which\" =&gt; 10\n  ⋮       =&gt; ⋮"
-  },
-  {
-    "objectID": "hmt/index.html",
-    "href": "hmt/index.html",
-    "title": "The Homer Multitext project",
+    "objectID": "updates/2025-05-23-urns-lib/index.html",
+    "href": "updates/2025-05-23-urns-lib/index.html",
+    "title": "A vibe-coded javascript library for working with CTS and CITE2 URNs",
     "section": "",
-    "text": "The HMT archive on github, and the HmtArchive package\nManuscript orthography (the ManuscriptOrthography) package\nthe HmtGutenberg package for publishing pure-text editions of HMT project texts\nAuthority lists\nA HMT Greek lexicon\nDashboards for exploring the digital archive"
+    "text": "urn-lib.js is a javascript library for parsing, validating, comparing, and retrieving data associated with CTS (Canonical Text Services) URNs and CITE2 URNs."
   },
   {
-    "objectID": "hmt/index.html#digital-infrastructure-for-the-hmt-project",
-    "href": "hmt/index.html#digital-infrastructure-for-the-hmt-project",
-    "title": "The Homer Multitext project",
+    "objectID": "updates/2025-05-23-urns-lib/index.html#new-package-announcement-urn-lib.js",
+    "href": "updates/2025-05-23-urns-lib/index.html#new-package-announcement-urn-lib.js",
+    "title": "A vibe-coded javascript library for working with CTS and CITE2 URNs",
     "section": "",
-    "text": "The HMT archive on github, and the HmtArchive package\nManuscript orthography (the ManuscriptOrthography) package\nthe HmtGutenberg package for publishing pure-text editions of HMT project texts\nAuthority lists\nA HMT Greek lexicon\nDashboards for exploring the digital archive"
+    "text": "urn-lib.js is a javascript library for parsing, validating, comparing, and retrieving data associated with CTS (Canonical Text Services) URNs and CITE2 URNs."
   },
   {
-    "objectID": "hmt/index.html#analysis-of-digital-material-from-the-hmt-project",
-    "href": "hmt/index.html#analysis-of-digital-material-from-the-hmt-project",
-    "title": "The Homer Multitext project",
-    "section": "Analysis of digital material from the HMT project",
-    "text": "Analysis of digital material from the HMT project\n\nManuscript layout\nScholiastic language\nHomeric language\nFinding Aristarchus"
+    "objectID": "updates/2025-05-23-urns-lib/index.html#release-notes",
+    "href": "updates/2025-05-23-urns-lib/index.html#release-notes",
+    "title": "A vibe-coded javascript library for working with CTS and CITE2 URNs",
+    "section": "Release notes",
+    "text": "Release notes\nInitial release. Main features:\n\nanalyze and manipulate CTS URNs and CITE2 URNs\ncomparison of CTS URNs and CITE2 URNs based on equality or URN congruence\nretrieve data from delimited-text sources based on URN congruence"
   },
   {
-    "objectID": "cite/index.html",
-    "href": "cite/index.html",
-    "title": "Citation",
+    "objectID": "updates/2025-05-23-urns-lib/index.html#installation",
+    "href": "updates/2025-05-23-urns-lib/index.html#installation",
+    "title": "A vibe-coded javascript library for working with CTS and CITE2 URNs",
+    "section": "Installation",
+    "text": "Installation\nThe file urn-lib.js can be downloaded from github and used locally, or loaded vis jsDelivr from https://cdn.jsdelivr.net/gh/neelsmith/urns-lib/urn-lib.js."
+  },
+  {
+    "objectID": "updates/2025-05-23-urns-lib/index.html#documentation",
+    "href": "updates/2025-05-23-urns-lib/index.html#documentation",
+    "title": "A vibe-coded javascript library for working with CTS and CITE2 URNs",
+    "section": "Documentation",
+    "text": "Documentation\n\navailable on github"
+  },
+  {
+    "objectID": "updates/2025-05-23-urns-lib/index.html#source",
+    "href": "updates/2025-05-23-urns-lib/index.html#source",
+    "title": "A vibe-coded javascript library for working with CTS and CITE2 URNs",
+    "section": "Source",
+    "text": "Source\n\navailable on github"
+  },
+  {
+    "objectID": "updates/2025-05-23-urns-lib/index.html#caveats",
+    "href": "updates/2025-05-23-urns-lib/index.html#caveats",
+    "title": "A vibe-coded javascript library for working with CTS and CITE2 URNs",
+    "section": "Caveats",
+    "text": "Caveats\nThe javascript library and the markdown documentation were written entirely by gemini-2.5-pro. The code passes a series of sanity tests, but I have not even looked at the javascript. When I encountered errors, I let gemini fix them. Use the code as you like, but be aware that I have no idea what it does or how it works.\nAuditing the build:\n\ngithub repository includes a complete transcript of the chat used to generate the script, with saved intermediate versions of the javascript library. See the repository README for details."
+  },
+  {
+    "objectID": "updates/2025-01-10-hmtarchive.jl/index.html",
+    "href": "updates/2025-01-10-hmtarchive.jl/index.html",
+    "title": "Updates to HmtArchive.jl",
     "section": "",
-    "text": "CautionContent incomplete\n\n\n\nThis page will fundamental ideas about scholarly citation using digital resources.\n\n\nOverview:\n\nscholarship in the humanities starts from citation: we study specific, unique examples of cultural material\ncitation expresses a semantic model of different types of content\n\nThe right technology for this is the URN.\nMuch of my work with digital texts considers texts contents in relation to the physical artifacts preserving the text. For this work, citation models:\n\npassages of texts (CTS URNs)\nphysical artifacts (CITE2 URNs)\ndocumentary images (CITE2 URNs, including extension for region of interest on an image)"
+    "text": "adds support for yesterday’s update to CitablePhysicalImage.jl which introduced the iiifmanifest function.\n\n\n\n\n\n\n\nNote\n\n\n\nThe package’s hmt_codices function returns a list of Codex objects from the most recent published release of the HMT archive. With an image service and configuration for a manifest, you can now create IIIF manifests directly from a codex in this list."
   },
   {
-    "objectID": "cite/urns/cts/index.html",
-    "href": "cite/urns/cts/index.html",
-    "title": "Citable texts",
+    "objectID": "updates/2025-01-10-hmtarchive.jl/index.html#release-notes-version-0.16.1",
+    "href": "updates/2025-01-10-hmtarchive.jl/index.html#release-notes-version-0.16.1",
+    "title": "Updates to HmtArchive.jl",
     "section": "",
-    "text": "CautionContent incomplete\n\n\n\nThis page will introduce citation of passages of texts.\n\n\nSee the documentation of the CitableText package."
+    "text": "adds support for yesterday’s update to CitablePhysicalImage.jl which introduced the iiifmanifest function.\n\n\n\n\n\n\n\nNote\n\n\n\nThe package’s hmt_codices function returns a list of Codex objects from the most recent published release of the HMT archive. With an image service and configuration for a manifest, you can now create IIIF manifests directly from a codex in this list."
   },
   {
-    "objectID": "cite/urns/cite2/index.html",
-    "href": "cite/urns/cite2/index.html",
-    "title": "Citable objects",
+    "objectID": "updates/2025-01-10-hmtarchive.jl/index.html#installation",
+    "href": "updates/2025-01-10-hmtarchive.jl/index.html#installation",
+    "title": "Updates to HmtArchive.jl",
+    "section": "Installation",
+    "text": "Installation\nInstall from the central registry with Julia’s package manager.\n\nin package mode from the Julia REPL ] add HmtArchive\nfrom a Julia terminal session: using Pkg; Pkg.add(\"HmtArchive\")"
+  },
+  {
+    "objectID": "updates/2025-01-10-hmtarchive.jl/index.html#documentation",
+    "href": "updates/2025-01-10-hmtarchive.jl/index.html#documentation",
+    "title": "Updates to HmtArchive.jl",
+    "section": "Documentation",
+    "text": "Documentation\n\npackage documentation is available on quarto.pub\nthe documentation of CitablePhysicalText.jl includes a tutorial on how to use the new iiifmanifest function."
+  },
+  {
+    "objectID": "updates/2025-01-10-hmtarchive.jl/index.html#source",
+    "href": "updates/2025-01-10-hmtarchive.jl/index.html#source",
+    "title": "Updates to HmtArchive.jl",
+    "section": "Source",
+    "text": "Source\n\navailable on github"
+  },
+  {
+    "objectID": "updates/2025-01-11-new-iiif-manifests/index.html",
+    "href": "updates/2025-01-11-new-iiif-manifests/index.html",
+    "title": "New IIIF manifests for HMT manuscripts",
     "section": "",
-    "text": "CautionContent incomplete\n\n\n\nThis page will introduce citation of objects in collections.\n\n\nSee the documentation of the CitableObject package."
+    "text": "The Homer Multitext project’s published IIIF manifestsnow cover three manuscripts of the Iliad with scholia. Use any of the following links with an IIIF viewer:\n\nthe Venetus A\nVenice, Biblioteca Marciana 841\nBritish Museum, Burney 86 (“the Townley Homer”)"
+  },
+  {
+    "objectID": "updates/2025-01-11-new-iiif-manifests/index.html#changes",
+    "href": "updates/2025-01-11-new-iiif-manifests/index.html#changes",
+    "title": "New IIIF manifests for HMT manuscripts",
+    "section": "",
+    "text": "The Homer Multitext project’s published IIIF manifestsnow cover three manuscripts of the Iliad with scholia. Use any of the following links with an IIIF viewer:\n\nthe Venetus A\nVenice, Biblioteca Marciana 841\nBritish Museum, Burney 86 (“the Townley Homer”)"
+  },
+  {
+    "objectID": "utils/index.html",
+    "href": "utils/index.html",
+    "title": "Some generic utilities",
+    "section": "",
+    "text": "VectorAlignments.jl: see the current documentation on github\nObsidian.jl: a Julia package for working with Obsidian “vaults”\nLectionary.jl: a Julia package for coordinating the liturgical calendar year with the Gregorian civil calendar and with the readings from the Revised Common Lectionary (RCL).\nParashah.jl: a Julia package for coordinating readings of the Parashat HaShavua with the representation of the Hebrew calendar implemented in Calendars.jl (preliminary work, not yet published on juliahub)."
   },
   {
     "objectID": "posts/2024-11-15-pluto-iiif/index.html",
@@ -529,7 +340,7 @@
     "href": "posts/2025-01-10-venetus-a-iiif/index.html#how-we-do-it",
     "title": "The Venetus A in a IIIF manifest",
     "section": "How we do it",
-    "text": "How we do it\nHmtArchive.jl is a Julia package that streamlines working with the HMT project’s published data sets. The hmt_codices function instantiates all the documented manuscripts in a release (currently seven).\n\nusing HmtArchive.Analysis\ncurrentrelease =  hmt_cex()\nmss = hmt_codices(currentrelease)\n\n\nPrecompiling packages...\n   1071.0 ms  ✓ QuartoNotebookWorkerJSONExt (serial)\n  1 dependency successfully precompiled in 1 seconds\nPrecompiling packages...\n    622.7 ms  ✓ QuartoNotebookWorkerTablesExt (serial)\n  1 dependency successfully precompiled in 1 seconds\n\n\n\n\n7-element Vector{CitablePhysicalText.Codex}:\n Burney 86 manuscript\n Escorial Y 1.1 manuscript\n Escorial, codex Ω 1.12\n Laurentian Library codex 32.3\n Venice, Biblioteca Marciana 841\n Venetus A manuscript\n Venetus B manuscript\n\n\nAs the example shows, the output is a list of Codex objects. Last week, I released a version of the CitablePhysicalText.jl package that includes a new function, iiifmanifest, for directly generating a presentation manifest from a Codex object.\n\n\n\n\n\n\nTip\n\n\n\nThe documentation for the CitablePhysicalText package includes a tutorial on how to build a IIIF manifest from a Codex object.\n\n\nThis is not only convenient: iiifmanifest also validates both the syntax and the referential integrity of its reply. It parses the JSON syntax that IIIF viewers expect, and queries the configured image service for metadata about each image in the manifest, guaranteeing that viewer applications can correctly find the documented image.\nI’ve added a iiif directory to the HMT project’s github archive where we will publish IIIF manifests for each of our documented manuscripts. Today we’re publishing a manifest for the uniquely important Venetus A manuscript (Marciana 454 = 822). Use this URL with any IIIF viewer that accepts a URL for a IIIF manifest, and you’ll be browsing the Venetus A."
+    "text": "How we do it\nHmtArchive.jl is a Julia package that streamlines working with the HMT project’s published data sets. The hmt_codices function instantiates all the documented manuscripts in a release (currently seven).\n\nusing HmtArchive.Analysis\ncurrentrelease =  hmt_cex()\nmss = hmt_codices(currentrelease)\n\n7-element Vector{CitablePhysicalText.Codex}:\n Burney 86 manuscript\n Escorial Y 1.1 manuscript\n Escorial, codex Ω 1.12\n Laurentian Library codex 32.3\n Venice, Biblioteca Marciana 841\n Venetus A manuscript\n Venetus B manuscript\n\n\nAs the example shows, the output is a list of Codex objects. Last week, I released a version of the CitablePhysicalText.jl package that includes a new function, iiifmanifest, for directly generating a presentation manifest from a Codex object.\n\n\n\n\n\n\nTip\n\n\n\nThe documentation for the CitablePhysicalText package includes a tutorial on how to build a IIIF manifest from a Codex object.\n\n\nThis is not only convenient: iiifmanifest also validates both the syntax and the referential integrity of its reply. It parses the JSON syntax that IIIF viewers expect, and queries the configured image service for metadata about each image in the manifest, guaranteeing that viewer applications can correctly find the documented image.\nI’ve added a iiif directory to the HMT project’s github archive where we will publish IIIF manifests for each of our documented manuscripts. Today we’re publishing a manifest for the uniquely important Venetus A manuscript (Marciana 454 = 822). Use this URL with any IIIF viewer that accepts a URL for a IIIF manifest, and you’ll be browsing the Venetus A."
   },
   {
     "objectID": "posts/2025-01-10-venetus-a-iiif/index.html#next-steps",
@@ -609,32 +420,11 @@
     "text": "Yesterday, Ashley Terjanian and I presented our work on a digital Complutensian Bible at the 2024 meeting of the Society for Biblical Literature. (The abstract and slide stack of our presentation are available here.) Our project illustrates what I’ve called a “small-digital” approach to scholarly work.\nWe introduced a new web site for the project where you can find background information about the project, and details about our ongoing work. Main sections of the site include:\n\nfull information about the openly available data sets we are reusing or developing ourselves\nreplicable applications using the data sets\n\nThe bulk of the replicable applications are the Pluto notebooks we use to explore the digital Complutensian interactively, but they also include examples of static documents that we format for publication with Quarto – including the project website itself.\n\n\n\nCitationBibTeX citation:@online{smith2024,\n  author = {Smith, Neel},\n  title = {New Project Web Site: A Digital {Complutensian} {Bible}},\n  date = {2024-11-26},\n  url = {https://neelsmith.quarto.pub/posts/2024-11-26-complutensian-site/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSmith, Neel. 2024. “New Project Web Site: A Digital Complutensian\nBible.” November 26. https://neelsmith.quarto.pub/posts/2024-11-26-complutensian-site/."
   },
   {
-    "objectID": "debug.html",
-    "href": "debug.html",
-    "title": "Check or debug Quarto install",
-    "section": "",
-    "text": "Check or debug Quarto install\n\n\n\n\n\n\nWarning\n\n\n\nNote that when this page was posted, Quarto’s julia engine only works with versions of Julia &lt; 1.11.\n\n\n\nversioninfo()\n\nJulia Version 1.12.3\nCommit 966d0af0fdf (2025-12-15 11:20 UTC)\nBuild Info:\n  Official https://julialang.org release\nPlatform Info:\n  OS: macOS (arm64-apple-darwin24.0.0)\n  CPU: 8 × Apple M3\n  WORD_SIZE: 64\n  LLVM: libLLVM-18.1.7 (ORCJIT, apple-m3)\n  GC: Built with stock GC\nThreads: 1 default, 1 interactive, 1 GC (on 4 virtual cores)\nEnvironment:\n  JULIA_PROJECT = @.\n  JULIA_LOAD_PATH = @:@stdlib"
-  },
-  {
-    "objectID": "cite/urns/images/index.html",
-    "href": "cite/urns/images/index.html",
-    "title": "Citable images",
-    "section": "",
-    "text": "CautionContent incomplete\n\n\n\nThis page will introduce citation of images including specific regions of interest..\n\n\nSee the documentation of the CitableImage package."
-  },
-  {
-    "objectID": "cite/urns/index.html",
-    "href": "cite/urns/index.html",
-    "title": "Citation with URNs",
-    "section": "",
-    "text": "Why it’s right\n\n\n\n\n\n\nCautionContent incomplete\n\n\n\nThis page will introduce scholarly citation using URNs.\n\n\nSee the documentation of the CitableBase package."
-  },
-  {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
     "title": "Current projects",
     "section": "",
-    "text": "In 2026, I’m focused on syntactic anaysis of historical languages. I’m using DSPy to develop Python packages that leverage language models:"
+    "text": "In 2026, I’m focused on syntactic anaysis of historical languages. I’m using DSPy to develop Python packages that leverage language models.\nLanguage-specific models for analyzing syntax:\nPackages for working with universal models of natural language syntax:"
   },
   {
     "objectID": "projects/index.html#adjacent-projects",
@@ -644,381 +434,325 @@
     "text": "Adjacent projects\nI’m beginning to apply this syntactic analysis in:\n\na digital Complutensian polyglot Bible: digital resources for both experts and novices, supporting aligned multilingual reading\nthe Homer Multitext project: a personal site about how I work with the Homer Multitext project’s digital archive"
   },
   {
-    "objectID": "other/lectionary/index.html",
-    "href": "other/lectionary/index.html",
-    "title": "Lectionary",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Neel Smith",
     "section": "",
-    "text": "Lectionary\nTBA"
+    "text": "I’m an emeritus professor at the College of the Holy Cross. On this site, I’m beginning to gather some of the digital scholarly work I’m currently developing or maintaining.\n\n\n\n\n\n\nTip Two RSS feeds to follow changes and news\n\n\n\n\nadditions to or substantial revisions of the web site\nnew releases of code packages or updates to package documentation"
   },
   {
-    "objectID": "utils/index.html",
-    "href": "utils/index.html",
-    "title": "Some generic utilities",
+    "objectID": "updates/2024-11-12-lewis-short/index.html",
+    "href": "updates/2024-11-12-lewis-short/index.html",
+    "title": "Interactive Lewis-Short: bug fix",
     "section": "",
-    "text": "VectorAlignments.jl: see the current documentation on github\nObsidian.jl: a Julia package for working with Obsidian “vaults”\nLectionary.jl: a Julia package for coordinating the liturgical calendar year with the Gregorian civil calendar and with the readings from the Revised Common Lectionary (RCL).\nParashah.jl: a Julia package for coordinating readings of the Parashat HaShavua with the representation of the Hebrew calendar implemented in Calendars.jl (preliminary work, not yet published on juliahub)."
+    "text": "The github repository at https://github.com/neelsmith/lewis-short includes a Pluto notebook and a script you can load in the Julia REPL to work with a digital Lewis and Short Latin Dictionary.\n\n\n\nversion 1.3.1 of the REPL script corrects an error in the interactively displayed usage instructions\n\nCurrent version:\n\nscript for use in REPL: 1.3.1\n\n\n\n\nSee the github repository."
   },
   {
-    "objectID": "updates/2025-01-11-new-iiif-manifests/index.html",
-    "href": "updates/2025-01-11-new-iiif-manifests/index.html",
-    "title": "New IIIF manifests for HMT manuscripts",
+    "objectID": "updates/2024-11-12-lewis-short/index.html#changes-and-current-versions-numbers",
+    "href": "updates/2024-11-12-lewis-short/index.html#changes-and-current-versions-numbers",
+    "title": "Interactive Lewis-Short: bug fix",
     "section": "",
-    "text": "The Homer Multitext project’s published IIIF manifestsnow cover three manuscripts of the Iliad with scholia. Use any of the following links with an IIIF viewer:\n\nthe Venetus A\nVenice, Biblioteca Marciana 841\nBritish Museum, Burney 86 (“the Townley Homer”)"
+    "text": "version 1.3.1 of the REPL script corrects an error in the interactively displayed usage instructions\n\nCurrent version:\n\nscript for use in REPL: 1.3.1"
   },
   {
-    "objectID": "updates/2025-01-11-new-iiif-manifests/index.html#changes",
-    "href": "updates/2025-01-11-new-iiif-manifests/index.html#changes",
-    "title": "New IIIF manifests for HMT manuscripts",
-    "section": "",
-    "text": "The Homer Multitext project’s published IIIF manifestsnow cover three manuscripts of the Iliad with scholia. Use any of the following links with an IIIF viewer:\n\nthe Venetus A\nVenice, Biblioteca Marciana 841\nBritish Museum, Burney 86 (“the Townley Homer”)"
-  },
-  {
-    "objectID": "updates/2025-01-10-hmtarchive.jl/index.html",
-    "href": "updates/2025-01-10-hmtarchive.jl/index.html",
-    "title": "Updates to HmtArchive.jl",
-    "section": "",
-    "text": "adds support for yesterday’s update to CitablePhysicalImage.jl which introduced the iiifmanifest function.\n\n\n\n\n\n\n\nNote\n\n\n\nThe package’s hmt_codices function returns a list of Codex objects from the most recent published release of the HMT archive. With an image service and configuration for a manifest, you can now create IIIF manifests directly from a codex in this list."
-  },
-  {
-    "objectID": "updates/2025-01-10-hmtarchive.jl/index.html#release-notes-version-0.16.1",
-    "href": "updates/2025-01-10-hmtarchive.jl/index.html#release-notes-version-0.16.1",
-    "title": "Updates to HmtArchive.jl",
-    "section": "",
-    "text": "adds support for yesterday’s update to CitablePhysicalImage.jl which introduced the iiifmanifest function.\n\n\n\n\n\n\n\nNote\n\n\n\nThe package’s hmt_codices function returns a list of Codex objects from the most recent published release of the HMT archive. With an image service and configuration for a manifest, you can now create IIIF manifests directly from a codex in this list."
-  },
-  {
-    "objectID": "updates/2025-01-10-hmtarchive.jl/index.html#installation",
-    "href": "updates/2025-01-10-hmtarchive.jl/index.html#installation",
-    "title": "Updates to HmtArchive.jl",
-    "section": "Installation",
-    "text": "Installation\nInstall from the central registry with Julia’s package manager.\n\nin package mode from the Julia REPL ] add HmtArchive\nfrom a Julia terminal session: using Pkg; Pkg.add(\"HmtArchive\")"
-  },
-  {
-    "objectID": "updates/2025-01-10-hmtarchive.jl/index.html#documentation",
-    "href": "updates/2025-01-10-hmtarchive.jl/index.html#documentation",
-    "title": "Updates to HmtArchive.jl",
-    "section": "Documentation",
-    "text": "Documentation\n\npackage documentation is available on quarto.pub\nthe documentation of CitablePhysicalText.jl includes a tutorial on how to use the new iiifmanifest function."
-  },
-  {
-    "objectID": "updates/2025-01-10-hmtarchive.jl/index.html#source",
-    "href": "updates/2025-01-10-hmtarchive.jl/index.html#source",
-    "title": "Updates to HmtArchive.jl",
-    "section": "Source",
-    "text": "Source\n\navailable on github"
-  },
-  {
-    "objectID": "updates/2025-05-23-urns-lib/index.html",
-    "href": "updates/2025-05-23-urns-lib/index.html",
-    "title": "A vibe-coded javascript library for working with CTS and CITE2 URNs",
-    "section": "",
-    "text": "urn-lib.js is a javascript library for parsing, validating, comparing, and retrieving data associated with CTS (Canonical Text Services) URNs and CITE2 URNs."
-  },
-  {
-    "objectID": "updates/2025-05-23-urns-lib/index.html#new-package-announcement-urn-lib.js",
-    "href": "updates/2025-05-23-urns-lib/index.html#new-package-announcement-urn-lib.js",
-    "title": "A vibe-coded javascript library for working with CTS and CITE2 URNs",
-    "section": "",
-    "text": "urn-lib.js is a javascript library for parsing, validating, comparing, and retrieving data associated with CTS (Canonical Text Services) URNs and CITE2 URNs."
-  },
-  {
-    "objectID": "updates/2025-05-23-urns-lib/index.html#release-notes",
-    "href": "updates/2025-05-23-urns-lib/index.html#release-notes",
-    "title": "A vibe-coded javascript library for working with CTS and CITE2 URNs",
-    "section": "Release notes",
-    "text": "Release notes\nInitial release. Main features:\n\nanalyze and manipulate CTS URNs and CITE2 URNs\ncomparison of CTS URNs and CITE2 URNs based on equality or URN congruence\nretrieve data from delimited-text sources based on URN congruence"
-  },
-  {
-    "objectID": "updates/2025-05-23-urns-lib/index.html#installation",
-    "href": "updates/2025-05-23-urns-lib/index.html#installation",
-    "title": "A vibe-coded javascript library for working with CTS and CITE2 URNs",
-    "section": "Installation",
-    "text": "Installation\nThe file urn-lib.js can be downloaded from github and used locally, or loaded vis jsDelivr from https://cdn.jsdelivr.net/gh/neelsmith/urns-lib/urn-lib.js."
-  },
-  {
-    "objectID": "updates/2025-05-23-urns-lib/index.html#documentation",
-    "href": "updates/2025-05-23-urns-lib/index.html#documentation",
-    "title": "A vibe-coded javascript library for working with CTS and CITE2 URNs",
-    "section": "Documentation",
-    "text": "Documentation\n\navailable on github"
-  },
-  {
-    "objectID": "updates/2025-05-23-urns-lib/index.html#source",
-    "href": "updates/2025-05-23-urns-lib/index.html#source",
-    "title": "A vibe-coded javascript library for working with CTS and CITE2 URNs",
-    "section": "Source",
-    "text": "Source\n\navailable on github"
-  },
-  {
-    "objectID": "updates/2025-05-23-urns-lib/index.html#caveats",
-    "href": "updates/2025-05-23-urns-lib/index.html#caveats",
-    "title": "A vibe-coded javascript library for working with CTS and CITE2 URNs",
-    "section": "Caveats",
-    "text": "Caveats\nThe javascript library and the markdown documentation were written entirely by gemini-2.5-pro. The code passes a series of sanity tests, but I have not even looked at the javascript. When I encountered errors, I let gemini fix them. Use the code as you like, but be aware that I have no idea what it does or how it works.\nAuditing the build:\n\ngithub repository includes a complete transcript of the chat used to generate the script, with saved intermediate versions of the javascript library. See the repository README for details."
-  },
-  {
-    "objectID": "updates/2025-01-09-complutensian-images/index.html",
-    "href": "updates/2025-01-09-complutensian-images/index.html",
-    "title": "Updated images of the Complutensian Bible",
-    "section": "",
-    "text": "As part of my project on the Complutensian Polyglot Bible, I have mirrored the images of the copy in the National Library of Spain on a IIIF server at the University of Houston. The collection now includes 100% of the documented images."
-  },
-  {
-    "objectID": "updates/2025-01-09-complutensian-images/index.html#changes",
-    "href": "updates/2025-01-09-complutensian-images/index.html#changes",
-    "title": "Updated images of the Complutensian Bible",
-    "section": "",
-    "text": "As part of my project on the Complutensian Polyglot Bible, I have mirrored the images of the copy in the National Library of Spain on a IIIF server at the University of Houston. The collection now includes 100% of the documented images."
-  },
-  {
-    "objectID": "updates/2025-01-09-complutensian-images/index.html#documentation",
-    "href": "updates/2025-01-09-complutensian-images/index.html#documentation",
-    "title": "Updated images of the Complutensian Bible",
-    "section": "Documentation",
-    "text": "Documentation\nThe images are documented in six IIIF manifests, one for each volume.\n\nlinks to the IIIF manifests\n\n\nGenerating the manifests\nThe manifests are generated from codex models of the six volumes of the Complutensian in this github repository via a Julia script using the CitablePhysicalText package. (See a tutorial from the package documentation on generating IIIF manifests.) The following Julia code generates the manifests from the same data.\nFirst, we follow the tutorial to instantiate an image service, configure settings for the IIIF manifests, and read in the codex model.\n\nusing CitablePhysicalText, CitableBase\nusing CitableImage\n\nimgsvc_baseurl = \"http://www.homermultitext.org/iipsrv\"\nimgsvc_root = \"/project/homer/pyramidal/deepzoom\"\nimgsvc = IIIFservice(imgsvc_baseurl, imgsvc_root)\n\nmanifestids = [\"https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v$(i)-manifest.json\" for i in 1:6]\nconfigs = iiifconfig.(manifestids)\n\n\ncodexurls = [\"https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/codex/bne_v$(i).cex\" for i in 1:6]\ncodices = [fromcex(f, Codex, UrlReader)[1] for f in codexurls]\n\ntotalpages = [length(c.pages) for c in codices] |&gt; sum\n@info(\"Total pages documented in manifests: $(totalpages)\")\n\n\n[ Info: Total pages documented in manifests: 3029\n\n\n\n\nThen generating the manifests is a one-ilner.\n\nmanifests = [iiifmanifest(codices[i], configs[i], imgsvc) for i in 1:6]"
-  },
-  {
-    "objectID": "updates/2024-11-05-lewis-short/index.html",
-    "href": "updates/2024-11-05-lewis-short/index.html",
-    "title": "Update to interactive Lewis-Short",
-    "section": "",
-    "text": "The github repository at https://github.com/neelsmith/lewis-short includes a Pluto notebook and a script you can load in the Julia REPL to work with a digital Lewis and Short Latin Dictionary.\n\n\n\neasier options for using the REPL offline with a previously downloaded dataset\noptions in both REPL script and Pluto notebook for counting results rather than formatting the full text of matching articles in Markdown\n\nCurrent versions:\n\nPluto notebook: 1.2.0\nscript for use in REPL: 1.3.0\n\n\n\n\nSee the github repository."
-  },
-  {
-    "objectID": "updates/2024-11-05-lewis-short/index.html#changes-and-current-versions-numbers",
-    "href": "updates/2024-11-05-lewis-short/index.html#changes-and-current-versions-numbers",
-    "title": "Update to interactive Lewis-Short",
-    "section": "",
-    "text": "easier options for using the REPL offline with a previously downloaded dataset\noptions in both REPL script and Pluto notebook for counting results rather than formatting the full text of matching articles in Markdown\n\nCurrent versions:\n\nPluto notebook: 1.2.0\nscript for use in REPL: 1.3.0"
-  },
-  {
-    "objectID": "updates/2024-11-05-lewis-short/index.html#documentation",
-    "href": "updates/2024-11-05-lewis-short/index.html#documentation",
-    "title": "Update to interactive Lewis-Short",
+    "objectID": "updates/2024-11-12-lewis-short/index.html#documentation",
+    "href": "updates/2024-11-12-lewis-short/index.html#documentation",
+    "title": "Interactive Lewis-Short: bug fix",
     "section": "",
     "text": "See the github repository."
   },
   {
-    "objectID": "updates/2024-11-13-open-scriptures-hebrew/index.html",
-    "href": "updates/2024-11-13-open-scriptures-hebrew/index.html",
-    "title": "New package: OpenScripturesHebrew.jl",
+    "objectID": "updates/2025-05-25-hmt-lib/index.html",
+    "href": "updates/2025-05-25-hmt-lib/index.html",
+    "title": "A vibe-coded javascript library for working with HMT publications",
     "section": "",
-    "text": "OpenScripturesHebrew.jl is a Julia package for working with the morphological data of the Open Scriptures Hebrew Bible project (OSHB). OpenScripturesHebrew.jl parses the OSHB data into easily manipulated Julia tuples, and provides a Julia data model for the OSHB morphological data."
+    "text": "hmt-lib.js is a javascript library for working with published releases of the Homer Multitext project’s archive in web browser or other javascript environment."
   },
   {
-    "objectID": "updates/2024-11-13-open-scriptures-hebrew/index.html#new-package-announcement",
-    "href": "updates/2024-11-13-open-scriptures-hebrew/index.html#new-package-announcement",
-    "title": "New package: OpenScripturesHebrew.jl",
+    "objectID": "updates/2025-05-25-hmt-lib/index.html#new-package-announcement-hmt-lib.js",
+    "href": "updates/2025-05-25-hmt-lib/index.html#new-package-announcement-hmt-lib.js",
+    "title": "A vibe-coded javascript library for working with HMT publications",
     "section": "",
-    "text": "OpenScripturesHebrew.jl is a Julia package for working with the morphological data of the Open Scriptures Hebrew Bible project (OSHB). OpenScripturesHebrew.jl parses the OSHB data into easily manipulated Julia tuples, and provides a Julia data model for the OSHB morphological data."
+    "text": "hmt-lib.js is a javascript library for working with published releases of the Homer Multitext project’s archive in web browser or other javascript environment."
   },
   {
-    "objectID": "updates/2024-11-13-open-scriptures-hebrew/index.html#release-notes-version-0.1.0",
-    "href": "updates/2024-11-13-open-scriptures-hebrew/index.html#release-notes-version-0.1.0",
-    "title": "New package: OpenScripturesHebrew.jl",
-    "section": "Release notes: version 0.1.0",
-    "text": "Release notes: version 0.1.0\nInitial release. Some significant features:\n\ndownload and parse OSHB annotations for all or specified portions of the Hebrew Bible (more than 423,000 individually annotated words)\nall words keyed to canonically identified passages using CTS URNss\ncan instantiate Julia objects from OSHB morphological codes for Hebrew morphology"
-  },
-  {
-    "objectID": "updates/2024-11-13-open-scriptures-hebrew/index.html#installation",
-    "href": "updates/2024-11-13-open-scriptures-hebrew/index.html#installation",
-    "title": "New package: OpenScripturesHebrew.jl",
-    "section": "Installation",
-    "text": "Installation\nInstall from the central registry with Julia’s package manager.\n\nin package mode from the Julia REPL ] add OpenScripturesHebrew\nfrom a Julia terminal session: using Pkg; Pkg.add(\"OpenScripturesHebrew\")"
-  },
-  {
-    "objectID": "updates/2024-11-13-open-scriptures-hebrew/index.html#documentation",
-    "href": "updates/2024-11-13-open-scriptures-hebrew/index.html#documentation",
-    "title": "New package: OpenScripturesHebrew.jl",
-    "section": "Documentation",
-    "text": "Documentation\n\navailable on quarto.pub"
-  },
-  {
-    "objectID": "updates/2024-11-13-open-scriptures-hebrew/index.html#source",
-    "href": "updates/2024-11-13-open-scriptures-hebrew/index.html#source",
-    "title": "New package: OpenScripturesHebrew.jl",
-    "section": "Source",
-    "text": "Source\n\navailable on github"
-  },
-  {
-    "objectID": "updates/2025-05-29-hmt-lib/index.html",
-    "href": "updates/2025-05-29-hmt-lib/index.html",
-    "title": "A vibe-coded javascript library for working with published releases of the Homer Multitext project",
-    "section": "",
-    "text": "hmt-lib.js is a javascript library for parsing and manipulating data in published releases of the Homer Multitext project (HMT), including normalized and diplomatic editions of texts, indexing of relations of text passages to images and manuscript pages, indexing of Iliad lines and scholia, and documentation of manuscript sources."
-  },
-  {
-    "objectID": "updates/2025-05-29-hmt-lib/index.html#new-package-announcement-hmt-lib.js",
-    "href": "updates/2025-05-29-hmt-lib/index.html#new-package-announcement-hmt-lib.js",
-    "title": "A vibe-coded javascript library for working with published releases of the Homer Multitext project",
-    "section": "",
-    "text": "hmt-lib.js is a javascript library for parsing and manipulating data in published releases of the Homer Multitext project (HMT), including normalized and diplomatic editions of texts, indexing of relations of text passages to images and manuscript pages, indexing of Iliad lines and scholia, and documentation of manuscript sources."
-  },
-  {
-    "objectID": "updates/2025-05-29-hmt-lib/index.html#release-notes",
-    "href": "updates/2025-05-29-hmt-lib/index.html#release-notes",
-    "title": "A vibe-coded javascript library for working with published releases of the Homer Multitext project",
+    "objectID": "updates/2025-05-25-hmt-lib/index.html#release-notes",
+    "href": "updates/2025-05-25-hmt-lib/index.html#release-notes",
+    "title": "A vibe-coded javascript library for working with HMT publications",
     "section": "Release notes",
-    "text": "Release notes\nThis announcement covers both the initial 1.0.0 release and immediately following 1.1.0 release. Main features:\n\nload a published release of HMT\nretrieve text corpora and specific text passages in diplomatic and normalized editions\ndiscover relations among text passages, documentary images, and manuscript pages\ndiscover relations between Iliad passages and scholia\nlabel texts and objects with catalog metadata\nadd precomposed menu widgets to web pages to select Iliad texts and manuscripts\n\nSee the github repository for more details."
+    "text": "Release notes\nInitial release. Main features:\n\nload current published release of the HMT archive\nextract diplomatic or normalized text corpora\nextract and query an index linking Iliad passages and scholia\nextract and query digital scholarly edition records linking texts, pages and images\nformat human readable labels for objects cited by CTS URN or CITE2 URN\nfind URNs for all documented codices\nextract a model of a given manuscript as a sequence of CodexPage objects\nadd a menu of HMT manuscripts to a web page"
   },
   {
-    "objectID": "updates/2025-05-29-hmt-lib/index.html#installation",
-    "href": "updates/2025-05-29-hmt-lib/index.html#installation",
-    "title": "A vibe-coded javascript library for working with published releases of the Homer Multitext project",
+    "objectID": "updates/2025-05-25-hmt-lib/index.html#installation",
+    "href": "updates/2025-05-25-hmt-lib/index.html#installation",
+    "title": "A vibe-coded javascript library for working with HMT publications",
     "section": "Installation",
-    "text": "Installation\nThe file hmt-lib.js can be downloaded from github and used locally, or loaded vis jsDelivr from https://cdn.jsdelivr.net/gh/neelsmith/hmt-lib@1.1.0/hmt-lib.js."
+    "text": "Installation\nThe file hmt-lib.js can be downloaded from github and used locally, or loaded vis jsDelivr from https://cdn.jsdelivr.net/gh/neelsmith/hmt-lib/hmt-lib.js."
   },
   {
-    "objectID": "updates/2025-05-29-hmt-lib/index.html#documentation",
-    "href": "updates/2025-05-29-hmt-lib/index.html#documentation",
-    "title": "A vibe-coded javascript library for working with published releases of the Homer Multitext project",
+    "objectID": "updates/2025-05-25-hmt-lib/index.html#documentation",
+    "href": "updates/2025-05-25-hmt-lib/index.html#documentation",
+    "title": "A vibe-coded javascript library for working with HMT publications",
     "section": "Documentation",
     "text": "Documentation\n\navailable on github"
   },
   {
-    "objectID": "updates/2025-05-29-hmt-lib/index.html#source",
-    "href": "updates/2025-05-29-hmt-lib/index.html#source",
-    "title": "A vibe-coded javascript library for working with published releases of the Homer Multitext project",
+    "objectID": "updates/2025-05-25-hmt-lib/index.html#source",
+    "href": "updates/2025-05-25-hmt-lib/index.html#source",
+    "title": "A vibe-coded javascript library for working with HMT publications",
     "section": "Source",
     "text": "Source\n\navailable on github"
   },
   {
-    "objectID": "updates/2025-05-29-hmt-lib/index.html#caveats",
-    "href": "updates/2025-05-29-hmt-lib/index.html#caveats",
-    "title": "A vibe-coded javascript library for working with published releases of the Homer Multitext project",
+    "objectID": "updates/2025-05-25-hmt-lib/index.html#caveats",
+    "href": "updates/2025-05-25-hmt-lib/index.html#caveats",
+    "title": "A vibe-coded javascript library for working with HMT publications",
     "section": "Caveats",
     "text": "Caveats\nThe javascript library and the markdown documentation were written entirely by gemini-2.5-pro. The code passes a series of sanity tests, but I have not even looked at the javascript. When I encountered errors, I let gemini fix them. Use the code as you like, but be aware that I have no idea what it does or how it works.\nAuditing the build:\n\ngithub repository includes a complete transcript of the chat used to generate the script, with saved intermediate versions of the javascript library. See the repository README for details."
   },
   {
-    "objectID": "updates/2025-05-19-cex-lib/index.html",
-    "href": "updates/2025-05-19-cex-lib/index.html",
-    "title": "A vibe-coded javascript library for working with CEX data",
+    "objectID": "updates/2025-01-07-iiif-manifests/index.html",
+    "href": "updates/2025-01-07-iiif-manifests/index.html",
+    "title": "Updates to CitablePhysicalText.jl",
     "section": "",
-    "text": "cex.js is a javascript library for working with CEX data sources in a web browser or other javascript environment.\nThe Homer Multitext project publishes its data releases in a single, plain-text document on github. (The current release is always available at this URL.) The release file follows the Cite EXchange format (CEX), defined here.\nThe javascript library in cex.js simplifies working with CEX data in a web browser or other javascript environment."
+    "text": "adds the iiifmanifest function to generate IIIF manifests automatically from Codex objects.\n\n\n\n\nInstall from the central registry with Julia’s package manager.\n\nin package mode from the Julia REPL ] add CitablePhysicalText\nfrom a Julia terminal session: using Pkg; Pkg.add(\"CitablePhysicalText\")\n\n\n\n\n\npackage documentation is available on quarto.pub\nthe package documentation includes a tutorial on how to use the new iiifmanifest function.\n\n\n\n\n\navailable on github"
   },
   {
-    "objectID": "updates/2025-05-19-cex-lib/index.html#new-package-announcement-cex.js",
-    "href": "updates/2025-05-19-cex-lib/index.html#new-package-announcement-cex.js",
-    "title": "A vibe-coded javascript library for working with CEX data",
+    "objectID": "updates/2025-01-07-iiif-manifests/index.html#release-notes-version-0.12.0",
+    "href": "updates/2025-01-07-iiif-manifests/index.html#release-notes-version-0.12.0",
+    "title": "Updates to CitablePhysicalText.jl",
     "section": "",
-    "text": "cex.js is a javascript library for working with CEX data sources in a web browser or other javascript environment.\nThe Homer Multitext project publishes its data releases in a single, plain-text document on github. (The current release is always available at this URL.) The release file follows the Cite EXchange format (CEX), defined here.\nThe javascript library in cex.js simplifies working with CEX data in a web browser or other javascript environment."
+    "text": "adds the iiifmanifest function to generate IIIF manifests automatically from Codex objects."
   },
   {
-    "objectID": "updates/2025-05-19-cex-lib/index.html#release-notes",
-    "href": "updates/2025-05-19-cex-lib/index.html#release-notes",
-    "title": "A vibe-coded javascript library for working with CEX data",
-    "section": "Release notes",
-    "text": "Release notes\nInitial release. Main features:\n\nload and parse CEX data from string values, local files or URLs\ndiscover CEX block labels, read contents of blocks by label\ndiscover data models, and find collections implementing a model\nretrieve a delimited-text table for the contents of all blocks of a given type"
+    "objectID": "updates/2025-01-07-iiif-manifests/index.html#installation",
+    "href": "updates/2025-01-07-iiif-manifests/index.html#installation",
+    "title": "Updates to CitablePhysicalText.jl",
+    "section": "",
+    "text": "Install from the central registry with Julia’s package manager.\n\nin package mode from the Julia REPL ] add CitablePhysicalText\nfrom a Julia terminal session: using Pkg; Pkg.add(\"CitablePhysicalText\")"
   },
   {
-    "objectID": "updates/2025-05-19-cex-lib/index.html#installation",
-    "href": "updates/2025-05-19-cex-lib/index.html#installation",
-    "title": "A vibe-coded javascript library for working with CEX data",
+    "objectID": "updates/2025-01-07-iiif-manifests/index.html#documentation",
+    "href": "updates/2025-01-07-iiif-manifests/index.html#documentation",
+    "title": "Updates to CitablePhysicalText.jl",
+    "section": "",
+    "text": "package documentation is available on quarto.pub\nthe package documentation includes a tutorial on how to use the new iiifmanifest function."
+  },
+  {
+    "objectID": "updates/2025-01-07-iiif-manifests/index.html#source",
+    "href": "updates/2025-01-07-iiif-manifests/index.html#source",
+    "title": "Updates to CitablePhysicalText.jl",
+    "section": "",
+    "text": "available on github"
+  },
+  {
+    "objectID": "updates/2025-02-18-obsidian-to-web/index.html",
+    "href": "updates/2025-02-18-obsidian-to-web/index.html",
+    "title": "Updates to Obsidian.jl",
+    "section": "",
+    "text": "adds the mdcontent function to extract Markdown content from an Obsidian note, and exportmd to export an Obsidian note or entire vault to Markdown files that can be used with CMS like Quarto, Jekyll and Hugo."
+  },
+  {
+    "objectID": "updates/2025-02-18-obsidian-to-web/index.html#release-notes-version-0.4.0",
+    "href": "updates/2025-02-18-obsidian-to-web/index.html#release-notes-version-0.4.0",
+    "title": "Updates to Obsidian.jl",
+    "section": "",
+    "text": "adds the mdcontent function to extract Markdown content from an Obsidian note, and exportmd to export an Obsidian note or entire vault to Markdown files that can be used with CMS like Quarto, Jekyll and Hugo."
+  },
+  {
+    "objectID": "updates/2025-02-18-obsidian-to-web/index.html#installation",
+    "href": "updates/2025-02-18-obsidian-to-web/index.html#installation",
+    "title": "Updates to Obsidian.jl",
     "section": "Installation",
-    "text": "Installation\nThe file cex.js can be downloaded from github and used locally, or loaded vis jsDelivr from https://cdn.jsdelivr.net/gh/neelsmith/cex-lib/cex.js."
+    "text": "Installation\nInstall from the central registry with Julia’s package manager.\n\nin package mode from the Julia REPL ] add Obsidian\nfrom a Julia terminal session: using Pkg; Pkg.add(\"Obsidian\")"
   },
   {
-    "objectID": "updates/2025-05-19-cex-lib/index.html#documentation",
-    "href": "updates/2025-05-19-cex-lib/index.html#documentation",
-    "title": "A vibe-coded javascript library for working with CEX data",
+    "objectID": "updates/2025-02-18-obsidian-to-web/index.html#documentation",
+    "href": "updates/2025-02-18-obsidian-to-web/index.html#documentation",
+    "title": "Updates to Obsidian.jl",
     "section": "Documentation",
-    "text": "Documentation\n\navailable on github"
+    "text": "Documentation\n\npackage documentation is available on quarto.pub. Documentation includes a brief tutorial and more detailed guides on how to use the new functions."
   },
   {
-    "objectID": "updates/2025-05-19-cex-lib/index.html#source",
-    "href": "updates/2025-05-19-cex-lib/index.html#source",
-    "title": "A vibe-coded javascript library for working with CEX data",
+    "objectID": "updates/2025-02-18-obsidian-to-web/index.html#source",
+    "href": "updates/2025-02-18-obsidian-to-web/index.html#source",
+    "title": "Updates to Obsidian.jl",
     "section": "Source",
     "text": "Source\n\navailable on github"
   },
   {
-    "objectID": "updates/2025-05-19-cex-lib/index.html#caveats",
-    "href": "updates/2025-05-19-cex-lib/index.html#caveats",
-    "title": "A vibe-coded javascript library for working with CEX data",
+    "objectID": "updates/2025-06-01-greeklib/index.html",
+    "href": "updates/2025-06-01-greeklib/index.html",
+    "title": "A vibe-coded javascript library for working with citable text in polytonic Greek",
+    "section": "",
+    "text": "greeklib.js is a javascript library for working with citable text in polytonic ancient Greek in a web browser or other javascript environment."
+  },
+  {
+    "objectID": "updates/2025-06-01-greeklib/index.html#new-package-announcement-greeklib.js",
+    "href": "updates/2025-06-01-greeklib/index.html#new-package-announcement-greeklib.js",
+    "title": "A vibe-coded javascript library for working with citable text in polytonic Greek",
+    "section": "",
+    "text": "greeklib.js is a javascript library for working with citable text in polytonic ancient Greek in a web browser or other javascript environment."
+  },
+  {
+    "objectID": "updates/2025-06-01-greeklib/index.html#release-notes",
+    "href": "updates/2025-06-01-greeklib/index.html#release-notes",
+    "title": "A vibe-coded javascript library for working with citable text in polytonic Greek",
+    "section": "Release notes",
+    "text": "Release notes\nMain features:\n\ndefines the Token class to represent a citable, classified token\nimplements the tokenize function to tokenize a single citable text passage"
+  },
+  {
+    "objectID": "updates/2025-06-01-greeklib/index.html#installation",
+    "href": "updates/2025-06-01-greeklib/index.html#installation",
+    "title": "A vibe-coded javascript library for working with citable text in polytonic Greek",
+    "section": "Installation",
+    "text": "Installation\nThe file greeklib.js can be downloaded from github and used locally, or loaded via jsDelivr from https://cdn.jsdelivr.net/gh/neelsmith/greeklib@1.0.0/greeklib.js."
+  },
+  {
+    "objectID": "updates/2025-06-01-greeklib/index.html#documentation",
+    "href": "updates/2025-06-01-greeklib/index.html#documentation",
+    "title": "A vibe-coded javascript library for working with citable text in polytonic Greek",
+    "section": "Documentation",
+    "text": "Documentation\n\navailable on github"
+  },
+  {
+    "objectID": "updates/2025-06-01-greeklib/index.html#source",
+    "href": "updates/2025-06-01-greeklib/index.html#source",
+    "title": "A vibe-coded javascript library for working with citable text in polytonic Greek",
+    "section": "Source",
+    "text": "Source\n\navailable on github"
+  },
+  {
+    "objectID": "updates/2025-06-01-greeklib/index.html#caveats",
+    "href": "updates/2025-06-01-greeklib/index.html#caveats",
+    "title": "A vibe-coded javascript library for working with citable text in polytonic Greek",
     "section": "Caveats",
     "text": "Caveats\nThe javascript library and the markdown documentation were written entirely by gemini-2.5-pro. The code passes a series of sanity tests, but I have not even looked at the javascript. When I encountered errors, I let gemini fix them. Use the code as you like, but be aware that I have no idea what it does or how it works."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Acknowledgments",
+    "objectID": "updates/2025-06-01-greeklib/index.html#auditing-the-build",
+    "href": "updates/2025-06-01-greeklib/index.html#auditing-the-build",
+    "title": "A vibe-coded javascript library for working with citable text in polytonic Greek",
+    "section": "Auditing the build:",
+    "text": "Auditing the build:\n\ngithub repository includes a complete transcript of the chat used to generate the script, with saved intermediate versions of the javascript library. See the repository README for details."
+  },
+  {
+    "objectID": "updates/2024-10-24-updates-rss-feed/index.html",
+    "href": "updates/2024-10-24-updates-rss-feed/index.html",
+    "title": "Tracking updates with RSS",
     "section": "",
-    "text": "All the work on this site has grown out of stimulating collaborations from the early 1980s through my transition to emeritus status in 2024.\nI’m grateful my colleagues on:\n\nthe Perseus project\nthe Turkish-American excavations at Hacımusalar\nthe Homer Multitext project\nthe Holy Cross Manuscripts, Inscriptions and Documents Club"
+    "text": "At http://neelsmith.quarto.pub/updates, I’m posting announcements about new releases and updates to documentation of the Julia packages I’m beginning to document here. I’ve added an RSS feed to simplify getting any of these announcements you’re interested in. (Thanks for automating that, Quarto!)\n\n\n\n\n\n\nNoteURL\n\n\n\nThe URL for the feed is https://neelsmith.quarto.pub/updates.xml"
   },
   {
-    "objectID": "digschol/pkg_graph/index.html",
-    "href": "digschol/pkg_graph/index.html",
-    "title": "Relations of fundamental packages",
+    "objectID": "updates/2024-10-24-updates-rss-feed/index.html#tracking-updates-with-rss",
+    "href": "updates/2024-10-24-updates-rss-feed/index.html#tracking-updates-with-rss",
+    "title": "Tracking updates with RSS",
     "section": "",
-    "text": "Arrows indicate package dependencies.\n\n\n\n\n\ngraph RL;\nCitableText --&gt; CitableBase\nclick CitableText \"https://neelsmith.quarto.pub/citabletext/\" \"Citing texts\"\n\nCitableObject --&gt; CitableBase\nclick CitableObject \"https://neelsmith.quarto.pub/citableobject/\" \"Citing objects\"\nCiteEXchange --&gt; CitableBase\nclick CiteEXchange \"https://neelsmith.quarto.pub/citeexchange/\" \"Serializing citable data\"\n\n\n\nCitableCorpus --&gt; CitableText\nCitableCorpus --&gt; CiteEXchange\nCitableCorpus --&gt; CitableBase\nclick CitableCorpus \"https://neelsmith.quarto.pub/citablecorpus/\" \"Citable text corpora\"\n\n\nCitableCollection --&gt; CitableObject\nCitableCollection --&gt; CiteEXchange\nCitableCollection --&gt; CitableBase\nclick CitableCollection \"https://neelsmith.quarto.pub/citablecollection/\" \"Citable collections\"\n\nCitableImage --&gt; CitableObject\nCitableImage --&gt; CiteEXchange\nCitableImage --&gt; CitableBase\nclick CitableImage \"https://neelsmith.quarto.pub/citableimage/\" \"Citable images\"\n\n\nCitablePhysicalText --&gt; CitableBase\nCitablePhysicalText --&gt; CitableImage\nCitablePhysicalText --&gt; CitableObject\nCitablePhysicalText --&gt; CitableText\nCitablePhysicalText --&gt; CiteEXchange\nclick CitablePhysicalText \"https://neelsmith.quarto.pub/citablephysicaltext/\" \"Citable physical texts\"\n\nCitableTeiReaders --&gt; CitableText\nCitableTeiReaders --&gt; CitableCorpus\nclick CitableTeiReaders \"https://neelsmith.quarto.pub/citableteireaders/\" \"Make marked up texts citable\"\n\n\n\nEditionBuilders --&gt; CitableText\nEditionBuilders --&gt; CitableCorpus\nclick EditionBuilders \"https://neelsmith.quarto.pub/editionbuilders/\" \"Make univocal editions\"\n\n\nOrthography --&gt; CitableCorpus\nOrthography --&gt; CitableText\nclick Orthography \"https://neelsmith.quarto.pub/orthography/\" \"Orthographic systems\"\n\nPolytonicGreek --&gt; Orthography\nclick PolytonicGreek \"https://neelsmith.quarto.pub/polytonicgreek/\" \"PolytonicGreek\"\nAtticGreek  --&gt; Orthography\nclick AtticGreek \"https://neelsmith.quarto.pub/atticgreek/\" \"AtticGreek\"\n\nManuscriptOrthography  --&gt; Orthography\nManuscriptOrthography  --&gt; PolytonicGreek\nGreekScientificOrthography  --&gt; Orthography\nGreekScientificOrthography  --&gt; PolytonicGreek\n\nBiblicalHebrew  --&gt; Orthography\nLatinOrthography --&gt; Orthography\n\n\nCitableParserBuilder --&gt; CitableBase\nCitableParserBuilder --&gt; CitableText\nCitableParserBuilder --&gt; CitableCorpus\nCitableParserBuilder --&gt; CitableObject\nCitableParserBuilder --&gt; Orthography\nclick CitableParserBuilder \"https://neelsmith.quarto.pub/citableparserbuilder/\" \"Build citable parsers\"\n\nKanones --&gt; AtticGreek\nKanones --&gt; CitableBase\nKanones --&gt; CitableObject\nKanones --&gt; CitableParserBuilder\nKanones --&gt; Orthography\nKanones --&gt; PolytonicGreek\n\nTabulae --&gt; CitableParserBuilder\nTabulae --&gt; CitableObject\nclick Tabulae \"https://neelsmith.quarto.pub/tabulae/\" \"Build Latin morphological parsers\"\n\nCitableCorpusAnalysis --&gt; CitableText\nCitableCorpusAnalysis --&gt; CitableCorpus\nCitableCorpusAnalysis --&gt; CitableParserBuilder\nCitableCorpusAnalysis --&gt; Orthography\n\n\nLycian --&gt; Orthography\nLycian --&gt; CitableText\nLycian --&gt; CitableCorpus\nLycian --&gt; CitableObject\nLycian --&gt; CitableParserBuilder\n\n\n\n\n\n\n\nclassDef morph fill:#d8d4f2\nclass CitableParserBuilder,Kanones,Tabulae morph\n\nclassDef ortho fill:#ffdfba\nclass PolytonicGreek,AtticGreek,ManuscriptOrthography,GreekScientificOrthography,BiblicalHebrew,LatinOrthography,Lycian ortho\n\nclassDef base fill:#ffffba\nclass CitableBase base\nclick CitableBase \"https://neelsmith.quarto.pub/citablebase/\" \"Build citable parser\"\n\n\nclassDef mid fill:#baffc9\nclass CitableTeiReaders,EditionBuilders,Orthography mid\n\n\nclassDef cite fill:#bae1ff\nclass CitableText,CitableObject,CitableImage,CiteEXchange cite\nclass CitableCollection,CitableCorpus,CitablePhysicalText cite\n\nclass CitableBase,CitableText,CitableObject,CiteEXchange,CitableImage,CitableCorpus,CitableCollection,CitablePhysicalText,Orthography,CitableTeiReaders,EditionBuilders,CitableParserBuilder,Tabulae,PolytonicGreek quarto\n\nclassDef quarto stroke-width:4,stroke:#1E90FF\n\n\n\n\n\n\n\nColor key:\n\n\n\n\n\ngraph TD;\n    cite[\"Core\\nCITE architecture\"]\n    mid[\"Digital texts\\n(from HC MID)\"]\n    ortho[\"Orthographic\\nsystems\"]\n    morph[\"Morphological\\nparsing\"]\n\n \n\n    classDef citeclass fill:#bae1ff,stroke:black\n    class cite citeclass\n    click cite \"https://neelsmith.quarto.pub/cite/\" \"CITE core\"\n\n    classDef midclass fill:#baffc9,stroke:black\n    class mid midclass\n    click mid \"https://neelsmith.quarto.pub/digitexts/\" \"MID abstractions for digital text study\"\n\n    classDef orthclass fill:#ffdfba,stroke:black\n    class ortho orthclass\n    click ortho \"https://neelsmith.quarto.pub/digitexts/orthography/\" \"Orthographic systems\"\n\n    classDef morphclass fill:#d8d4f2,stroke:black\n    class morph morphclass\n    click morph \"https://neelsmith.quarto.pub/digitexts/parsing/\" \"Morphological parsing\"\n\n\n\n\n\n\n\nPackages highlighted like this are linked to documentation on neelsmith.quarto.pub:\n\n\n\n\n\ngraph TD;\nquarto[\"Documented on quarto.pub\"]\nclick quarto \"http://neelsmith.quarto.pub\" \"toolie\"\nclassDef quartoclass stroke-width:4,stroke:#1E90FF,fill:#ffffff\nclass quarto quartoclass"
+    "text": "At http://neelsmith.quarto.pub/updates, I’m posting announcements about new releases and updates to documentation of the Julia packages I’m beginning to document here. I’ve added an RSS feed to simplify getting any of these announcements you’re interested in. (Thanks for automating that, Quarto!)\n\n\n\n\n\n\nNoteURL\n\n\n\nThe URL for the feed is https://neelsmith.quarto.pub/updates.xml"
   },
   {
-    "objectID": "digschol/index.html",
-    "href": "digschol/index.html",
-    "title": "Digital infrastructure",
+    "objectID": "updates/2024-10-24-updates-rss-feed/index.html#back-to-the-future",
+    "href": "updates/2024-10-24-updates-rss-feed/index.html#back-to-the-future",
+    "title": "Tracking updates with RSS",
+    "section": "Back to the future",
+    "text": "Back to the future\nI used RSS feeds 15-20 years ago, but like a lot of other people, I thought RSS had died. It’s proven to be too simple and useful to go away altogether, however, and seems like a particularly good fit for following irregular announcements about changes to code and documentation.\nI hope it also proves to be a practical way to follow news while avoiding some of the worst features of social media"
+  },
+  {
+    "objectID": "updates/2025-01-17-lexiconmining/index.html",
+    "href": "updates/2025-01-17-lexiconmining/index.html",
+    "title": "Updates to LexiconMining.jl",
     "section": "",
-    "text": "The digital scholarship presented here has an overall logic: there is a natural progression from citation, to successsive forms of textual manipulation and analysis, to applications of those concepts.\nWhile the discussion of this work could be read in a single sequence like a book, I’ve chosen to compose it in separate sections integrated within documentation of Julia packages implementing the concepts under discussion, since I don’t believe that we can ever adequately assess or critique ideas about digital scholarship without running code. I’m trying to have it both ways by linking together a sequence of the prose presentations that you can follow in something more like a single narrative."
+    "text": "Version 0.3.0 (now available on the main branch of the github repository) is a complete reworking of the previous package. It uses ChatGPT to extract morphological information from Lewis-Short’s Latin Dictionary, parses the ChatGPT output into an object model, and from those objects generates data usable with the Tabulae system for building Latin morphological parsers.\nState of implementation in version 0.3.0:\n\ncomplete summaries of Lewis-Short from ChatGPT available\ninitial parsing of ChatGPT summaries for nouns, verbs and adjectives implemented\ngeneration of Tabulae data for nouns implemented\n\n\n\n\n\n\n\nTipMore information about Tabulae\n\n\n\nSee documentation for the Tabulae.jl package."
   },
   {
-    "objectID": "digschol/index.html#infrastructure-for-digital-scholarship-concepts-and-code",
-    "href": "digschol/index.html#infrastructure-for-digital-scholarship-concepts-and-code",
-    "title": "Digital infrastructure",
+    "objectID": "updates/2025-01-17-lexiconmining/index.html#release-notes-version-0.3.0",
+    "href": "updates/2025-01-17-lexiconmining/index.html#release-notes-version-0.3.0",
+    "title": "Updates to LexiconMining.jl",
     "section": "",
-    "text": "The digital scholarship presented here has an overall logic: there is a natural progression from citation, to successsive forms of textual manipulation and analysis, to applications of those concepts.\nWhile the discussion of this work could be read in a single sequence like a book, I’ve chosen to compose it in separate sections integrated within documentation of Julia packages implementing the concepts under discussion, since I don’t believe that we can ever adequately assess or critique ideas about digital scholarship without running code. I’m trying to have it both ways by linking together a sequence of the prose presentations that you can follow in something more like a single narrative."
+    "text": "Version 0.3.0 (now available on the main branch of the github repository) is a complete reworking of the previous package. It uses ChatGPT to extract morphological information from Lewis-Short’s Latin Dictionary, parses the ChatGPT output into an object model, and from those objects generates data usable with the Tabulae system for building Latin morphological parsers.\nState of implementation in version 0.3.0:\n\ncomplete summaries of Lewis-Short from ChatGPT available\ninitial parsing of ChatGPT summaries for nouns, verbs and adjectives implemented\ngeneration of Tabulae data for nouns implemented\n\n\n\n\n\n\n\nTipMore information about Tabulae\n\n\n\nSee documentation for the Tabulae.jl package."
   },
   {
-    "objectID": "digschol/index.html#concepts",
-    "href": "digschol/index.html#concepts",
-    "title": "Digital infrastructure",
-    "section": "(1) Concepts",
-    "text": "(1) Concepts\n\nread about the concepts underlying this digital work in a single narrative sequence"
+    "objectID": "updates/2025-01-17-lexiconmining/index.html#installation",
+    "href": "updates/2025-01-17-lexiconmining/index.html#installation",
+    "title": "Updates to LexiconMining.jl",
+    "section": "Installation",
+    "text": "Installation\nLexiconMining.jl is an unpublished package. You can install it directory from its github repository.\n\nin package mode from the Julia REPL ] add https://github.com/neelsmith/LexiconMining.jl.git\nfrom a Julia terminal session: using Pkg; Pkg.add(url=\"https://github.com/neelsmith/LexiconMining.jl.git\")"
   },
   {
-    "objectID": "digschol/index.html#code",
-    "href": "digschol/index.html#code",
-    "title": "Digital infrastructure",
-    "section": "(2) Code",
-    "text": "(2) Code\nAll code linked from the following sections is written in Julia. Documentation for each Julia package includes tutorials, “how-to” guides for particular tasks, and API documentation. The documentation was built with Quarto, so that all examples of code output are generated from running source code, and all API documentation is extracted from the package’s source code.\n\nsee a graph showing relations among these packages\n\n\n\n\nGraph of package dependencies\n\n\n\nFundamentals: citation and textual analysis\n\ncitation\ndigital texts\na simple illustration: a brief notebook using Julia to apply ideas about citation and digital texts to the American Declaration of Independence.\n\n\n\nProjects built on this infrastructure\nFor examples of work built on this digital infrastructure, see the projects section of this site.\n\n\nUtilities\nA few other Julia packages for various generic tasks."
+    "objectID": "updates/2025-01-17-lexiconmining/index.html#documentation",
+    "href": "updates/2025-01-17-lexiconmining/index.html#documentation",
+    "title": "Updates to LexiconMining.jl",
+    "section": "Documentation",
+    "text": "Documentation\n\npackage documentation is available on quarto.pub"
   },
   {
-    "objectID": "julia/index.html",
-    "href": "julia/index.html",
-    "title": "Why Julia?",
+    "objectID": "updates/2025-01-17-lexiconmining/index.html#source",
+    "href": "updates/2025-01-17-lexiconmining/index.html#source",
+    "title": "Updates to LexiconMining.jl",
+    "section": "Source",
+    "text": "Source\n\navailable on github"
+  },
+  {
+    "objectID": "updates/2025-01-17-lexiconmining/index.html#progress",
+    "href": "updates/2025-01-17-lexiconmining/index.html#progress",
+    "title": "Updates to LexiconMining.jl",
+    "section": "Progress",
+    "text": "Progress\n\ncheck this milestone in the github repository to follow progress in implementing generation of Tabulae data sets"
+  },
+  {
+    "objectID": "updates/2025-05-21-hmt-images/index.html",
+    "href": "updates/2025-05-21-hmt-images/index.html",
+    "title": "A vibe-coded javascript library for working with HMT images",
     "section": "",
-    "text": "All the code presented on this site is written in Julia.\nI started using Julia when I was desperately looking for better ways to teach remotely during the pandemic. I discovered the famous MIT course “Introduction to Computational Thinking”, and was immediately taken with teaching using Pluto notebooks, written in Julia.\nBy January of 2021, Julia had become my language of choice. A few reasons:\n\nI don’t spend time trying to manage versions and environments\nJulia runs everywhere\nIt’s fast\nTwenty-first century features are part of the language, not add-ons: Julia has mature handling of Unicode, built-in support for unit testing, and many other features\nGreat tooling makes for a productive working environment (Julia REPL, VS Code including options like Quarto plugin, Pluto notebooks)\nPluto notebooks are awesome"
+    "text": "hmt-iiif-lib.js is a javascript library for working with images available from the Homer Multitext project’s IIIF image server, using URN notation. It provides a lightweight, from-scratch IIIF image viewer, along with utility functions for generating IIIF URLs.\nThe Homer Multitext project (HMT) makes its archive of images available via the IIIF protocol, but its published data releases use CITE2 URNs to provide stable references to images and regions of interest (ROIs) within those images. hmt-iiif-lib.js simplifies working with this material in a web browser or other javascript environment."
   },
   {
-    "objectID": "digitexts/editions/editionbuilders.html",
-    "href": "digitexts/editions/editionbuilders.html",
-    "title": "Build univocal editions",
+    "objectID": "updates/2025-05-21-hmt-images/index.html#new-package-announcement-hmt-image-lib.js",
+    "href": "updates/2025-05-21-hmt-images/index.html#new-package-announcement-hmt-image-lib.js",
+    "title": "A vibe-coded javascript library for working with HMT images",
     "section": "",
-    "text": "CautionContent incomplete\n\n\n\nThis page will introduce building specified editions from a citable multivalent source.\n\n\nBuild specific univocal editions (diplomatic, normalized in various ways…)\nI use the term “univocal edition” to refer to an edition that makes a single version of the text with specified semantics available via canonical citation: text content can be directly analyzed without further knowledge of the source document’s format.\nSee the documentation for the EditionBuilders package."
+    "text": "hmt-iiif-lib.js is a javascript library for working with images available from the Homer Multitext project’s IIIF image server, using URN notation. It provides a lightweight, from-scratch IIIF image viewer, along with utility functions for generating IIIF URLs.\nThe Homer Multitext project (HMT) makes its archive of images available via the IIIF protocol, but its published data releases use CITE2 URNs to provide stable references to images and regions of interest (ROIs) within those images. hmt-iiif-lib.js simplifies working with this material in a web browser or other javascript environment."
   },
   {
-    "objectID": "digitexts/editions/citablecorpora.html",
-    "href": "digitexts/editions/citablecorpora.html",
-    "title": "Working with citable corpora",
-    "section": "",
-    "text": "CautionContent incomplete\n\n\n\nThis page will introduce high-level functions for working with a citable text corpus.\n\n\nSee the documentation for the CitableCorpus package."
+    "objectID": "updates/2025-05-21-hmt-images/index.html#release-notes",
+    "href": "updates/2025-05-21-hmt-images/index.html#release-notes",
+    "title": "A vibe-coded javascript library for working with HMT images",
+    "section": "Release notes",
+    "text": "Release notes\nInitial release. Main features:\n\nadd a pannable/zoomable image viewer to a web page for an image identified by CITE2. ROIs are visually highlighted.\noverlay multiple ROIs on a single image by invoking the viewer with a list of URNs with differeing ROIs\n“citation mode” allows users to select new ROIs with option-click/drag, and returns CITE2 URNs for all user-selected regions\ncompose an IIIF request for an image that can be embedded in a web page"
   },
   {
-    "objectID": "digitexts/physical/images.html",
-    "href": "digitexts/physical/images.html",
-    "title": "Services for citable images",
-    "section": "",
-    "text": "CautionContent incomplete\n\n\n\nThis page will introduce working with services for citable images.\n\n\n\nCitableImage.jl: see documentation"
+    "objectID": "updates/2025-05-21-hmt-images/index.html#installation",
+    "href": "updates/2025-05-21-hmt-images/index.html#installation",
+    "title": "A vibe-coded javascript library for working with HMT images",
+    "section": "Installation",
+    "text": "Installation\nThe file hmt-image.js can be downloaded from github and used locally, or loaded vis jsDelivr from https://cdn.jsdelivr.net/gh/neelsmith/hmt-image-lib/hmt-iiif-lib.js."
   },
   {
-    "objectID": "digitexts/index.html",
-    "href": "digitexts/index.html",
-    "title": "Digital texts",
-    "section": "",
-    "text": "CautionContent incomplete\n\n\n\nThis page will introduce concepts and code for digital text analysis.\n\n\nOverview: what’s different about computational study of texts in historical languages?\n\nbuilds on central ideas of citation\nlanguages known to us only through written sources: essential to be explicit about the relation of orthography to language\nwe often need to construct unambiguous editions from source material in a variety of structured text formats\nthe Indo-European and Semitic languages I work in are morphologically rich: we need to take advantage of thats\n\nOrthography\nCitable texts\nDigital scholarly editions\nMorphological parsing"
+    "objectID": "updates/2025-05-21-hmt-images/index.html#documentation",
+    "href": "updates/2025-05-21-hmt-images/index.html#documentation",
+    "title": "A vibe-coded javascript library for working with HMT images",
+    "section": "Documentation",
+    "text": "Documentation\n\navailable on github"
   },
   {
-    "objectID": "digitexts/parsing/index.html",
-    "href": "digitexts/parsing/index.html",
-    "title": "Morphological parsing",
+    "objectID": "updates/2025-05-21-hmt-images/index.html#source",
+    "href": "updates/2025-05-21-hmt-images/index.html#source",
+    "title": "A vibe-coded javascript library for working with HMT images",
+    "section": "Source",
+    "text": "Source\n\navailable on github"
+  },
+  {
+    "objectID": "updates/2025-05-21-hmt-images/index.html#caveats",
+    "href": "updates/2025-05-21-hmt-images/index.html#caveats",
+    "title": "A vibe-coded javascript library for working with HMT images",
+    "section": "Caveats",
+    "text": "Caveats\nThe javascript library and the markdown documentation were written entirely by gemini-2.5-pro. The code passes a series of sanity tests, but I have not even looked at the javascript. When I encountered errors, I let gemini fix them. Use the code as you like, but be aware that I have no idea what it does or how it works.\nAuditing the build:\n\ngithub repository includes a complete transcript of the chat used to generate the script, with saved intermediate versions of the javascript library. See the repository README for details."
+  },
+  {
+    "objectID": "updates.html",
+    "href": "updates.html",
+    "title": "Updates",
     "section": "",
-    "text": "CautionContent incomplete\n\n\n\nThis page will introduce a model and Julia interface for morphological parsing.\n\n\nSee documentation for the CitableParserBuilder package (begin updated here)\nAnd see some implementations:\n\nKanónes\nTabulae\nLuhot\nTrmilli\n\nQuarrying lexica for vocabulary:\n\nLSJMining.jl\nLexiconMining.jl"
+    "text": "RSS feed\n\nNews about releases and updates to documentation of Julia packages.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA vibe-coded javascript library for working with citable text in polytonic Greek\n\n\n\nvibe coding\n\ncite\n\nnew package\n\n\n\nTools for parsing and manipulating Greek texts cited by Canonical Text Services (CTS) URNs.\n\n\n\nNeel Smith\n\n\nJun 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nA vibe-coded javascript library for working with published releases of the Homer Multitext project\n\n\n\nvibe coding\n\nHomer Multitext\n\ncite\n\nnew package\n\n\n\nSimplify working with normalized and diplomatic editions of texts, indexed relations of text passages to images and manuscript pages, and of Iliad lines to scholia. Use…\n\n\n\nNeel Smith\n\n\nMay 29, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nA vibe-coded javascript library for working with HMT publications\n\n\n\nvibe coding\n\ncite\n\nnew package\n\n\n\nhmt-lib.js is a javascript library for working with published releases of the Homer Multitext project’s archive in a web browser or other javascript environment.\n\n\n\nNeel Smith\n\n\nMay 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nA vibe-coded javascript library for working with CTS and CITE2 URNs\n\n\n\nvibe coding\n\ncite\n\nnew package\n\n\n\n\n\n\n\nNeel Smith\n\n\nMay 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nA vibe-coded javascript library for working with HMT images\n\n\n\nvibe coding\n\ncite\n\nhmt\n\niiif\n\nnew package\n\n\n\n\n\n\n\nNeel Smith\n\n\nMay 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nA vibe-coded javascript library for working with CEX data\n\n\n\nvibe coding\n\ncite\n\nnew package\n\n\n\nRead, navigate and retrieve data from CEX data sources (like the Homer Multitext project’s published releases).\n\n\n\nNeel Smith\n\n\nMay 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nUpdates to Obsidian.jl\n\n\n\nobsidian\n\nquarto\n\n\n\nVersion 0.4.0 of Obsidian.jl adds export of Obsidian vaults to Markdown.\n\n\n\nNeel Smith\n\n\nFeb 18, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nUpdates to LexiconMining.jl\n\n\n\nmorphology\n\nlexica\n\nLLMs\n\nlatin\n\nupdate\n\n\n\nVersion 0.3.0 of LexiconMining.jl is a ground-up rewrite using ChatGPT to extract data from Lewis-Short’s Latin Dictionary.\n\n\n\nNeel Smith\n\n\nJan 17, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew IIIF manifests for HMT manuscripts\n\n\n\niiif\n\nhmt\n\nupdate\n\n\n\nIIIF manifests added for photography of Venice, Biblioteca Marciana 841, and British Museum, Burney 86.\n\n\n\nNeel Smith\n\n\nJan 11, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nUpdates to HmtArchive.jl\n\n\n\niiif\n\nhmt\n\nupdate\n\n\n\nVersion 0.16.1 of HmtArchive.jl supports automated generation of IIIF manifests.\n\n\n\nNeel Smith\n\n\nJan 10, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nUpdated images of the Complutensian Bible\n\n\n\niiif\n\ncomplutensian\n\nupdate\n\n\n\nThe IIIF image server at the University of Houston now includes 100% of the documented images of the Complutensian Bible.\n\n\n\nNeel Smith\n\n\nJan 9, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nUpdates to CitablePhysicalText.jl\n\n\n\niiif\n\nupdate\n\n\n\nGenerate IIIF manifests for Codex objects automatically.\n\n\n\nNeel Smith\n\n\nJan 7, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew package: OpenScripturesHebrew.jl\n\n\n\nmorphology\n\nhebrew\n\nnew package\n\n\n\nA new Julia package for working with data from the Open Scriptures Hebrew Bible.\n\n\n\nNeel Smith\n\n\nNov 13, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive Lewis-Short: bug fix\n\n\n\nlexica\n\nlatin\n\nbug fix\n\n\n\nCorrects an error in usage instructions.\n\n\n\nNeel Smith\n\n\nNov 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nUpdate to interactive Lewis-Short\n\n\n\nlexica\n\nlatin\n\nupdate\n\n\n\nNew options for using a local dataset, and counting results.\n\n\n\nNeel Smith\n\n\nNov 5, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nTracking updates with RSS\n\n\n\nrss\n\n\n\nI’ve added an RSS feed to track announcments of new code releases or updates to documentation.\n\n\n\nNeel Smith\n\n\nOct 24, 2024\n\n\n\n\n\n\nNo matching items"
   }
 ]
