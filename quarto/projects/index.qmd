@@ -9,7 +9,7 @@ Language-specific models for analyzing syntax:
 
 - [arsgrammatica](https://neelsmith.github.io/arsgrammatica/): a Python package leveraging LLMs with `dspy` to analyze the syntax of passages of Latin.
 - [grammatike](https://neelsmith.github.io/grammatike/): a Python package leveraging LLMs with `dspy` to analyze the syntax of passages of ancient Greek.
-- [diqduq](https://neelsmith.github.io/grammatike/): a Python package leveraging LLMs with `dspy` to analyze the syntax of passages of Biblical Hebrew.
+- [diqduq](https://neelsmith.github.io/diqduq/): a Python package leveraging LLMs with `dspy` to analyze the syntax of passages of Biblical Hebrew.
 
 Packages for working with universal models of natural language syntax:
 
