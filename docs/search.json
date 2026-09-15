@@ -424,7 +424,7 @@
     "href": "projects/index.html",
     "title": "Current projects",
     "section": "",
-    "text": "In 2026, I’m focused on syntactic anaysis of historical languages. I’m using DSPy to develop Python packages that leverage language models.\nLanguage-specific models for analyzing syntax:\nPackages for working with universal models of natural language syntax:"
+    "text": "In 2026, I’m focused on syntactic anaysis of historical languages. I’m using DSPy to develop Python packages that leverage language models.\nLanguage-specific models for analyzing syntax:\nA universal model of natural language syntax:\nPackages for extracting information from nlp analysis with spaCy:"
   },
   {
     "objectID": "projects/index.html#adjacent-projects",
