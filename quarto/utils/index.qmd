@@ -1,6 +1,5 @@
 ---
 title: "Some generic utilities"
-engine: julia
 ---
 
 

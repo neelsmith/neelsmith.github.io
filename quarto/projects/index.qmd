@@ -22,6 +22,10 @@ Packages for extracting information from nlp analysis with spaCy:
 - [udsyntax](https://neelsmith.github.io/udsyntax/): get Universal Dependency (syntactic) data from spaCy into a simple syntax graph format.
 - [latincymorph](https://github.com/neelsmith/latincymorph): get morphological data from spaCy analysis of Latin texts into a structured object format.
 
+Packages extending syntax analysis with contextually disambiguated morphological anlayses:
+
+- [tabulaedspy](https://neelsmith.github.io/tabulaedspy/): a Python package leveraging LLMs with `dspy` to add Latin morphological anlayses to `arsgrammatica` tokens.
+- *kanonesdspy*: a Python package leveraging LLMs with `dspy` to add ancient Greek morphological anlayses to `grammatike` tokens. (*Not yet publicly released.*)
 
 
 
