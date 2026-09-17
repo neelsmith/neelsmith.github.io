@@ -8,7 +8,8 @@ I'm an emeritus professor at the College of the Holy Cross.  On this site, I'm b
 
 
 
-
+- links to [projects I'm currently working on](./projects/index.qmd)
+- notes and comments about my work as [blog posts](./posts.qmd)
 
 ::: {.callout-tip appearance="minimal" title="<i class=\"bi bi-rss\"></i> RSS feed to follow changes and news"}
 

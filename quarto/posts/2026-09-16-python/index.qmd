@@ -3,7 +3,7 @@ title: "Python, reluctantly"
 description: "In 2026, I can no longer avoid Python."
 author:
   - name: Neel Smith
-date: 2026-09-16
+date: 2026-09-17
 categories: [python] # self-defined categories
 image: python-logo-master-v3-TM.png
 citation: 
@@ -18,5 +18,7 @@ For a number of years, I genuinely enjoyed writing in Scala (and got *really* go
 But now it's 2026. Claude actually writes most of my code, and the research problems that most interest me center on how we can tease out of contemporary language models the extraordinarily rich encoding of natural languages lurking in their vectors of weights. And that means I really have to use Python.
 
 There is not a single moment of joy for me in reading or writing Python code. Python's syntax is a constant irritant, like an open wound that won't heal. In the 1980s, I lost irretrievable hours of my life editing `makefile`s with semantically significant alignment of white space characters. How could I ever have imagined that I would voluntarily re-enter that hell in 2026? But I have, and now must agonize every time a simple copy and paste of Python code fails because of a space too many or too few. And yet, even though line breaks are already semantic, we have to add logically otiose trailing colons to all sorts of blocks. Why? And while there's no arguing over tastes, I personally would much rather read code with explicit, symmetrical beginning and ending markers for hierarchically contained structural units, than try to guess how deeply indented a Python expression is. (Who can tell, when all you see is white space?) I don't care if the markers are curly brackets, `begin..end` keywords, or some other convention. Explicit symmetric tokens make structure clear at glance, and have an aesthetic elegance I personally prefer. Python's embedded structures just drift off further and further to the right. They always seem to me like a sloppy student's first draft that was turned in without revision.
+
+Mostly, I don't care that much that Python is slow. When I'm sending queries to a language model, Python is not the bottleneck. But it *is* slow, and that brings a further problem: if you work with any serious datasets you'll eventually find yourself actually violating my first concession, that I will only work in one language at a time. You might only be seeing Python source code, but in fact you're running Rust or C underneath a Python skin, and now have to add a new layer of system administration, even if your toolchain automates. Your "convenient" language has moved you one step further away from straightforward portability.
 
 But we stand on the shoulders of giants, and the giants working with language models have decided that Python is where the work will happen. While this may reinforce my scepticism about the "wisdom of crowds,"  the fact is that the libraries I want to use and the examples I want to study are virtually all in Python. Some of them really are wonderful, and I'll be blogging about my work using [DSPy](https://dspy.ai) in particular. But all in all, I'm happiest that Claude writes Python reliably and without complaint, so that I don't have to.

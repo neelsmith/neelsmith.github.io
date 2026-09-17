@@ -10,7 +10,7 @@
 <atom:link href="https://neelsmith.github.io/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.9.33</generator>
-<lastBuildDate>Wed, 16 Sep 2026 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 17 Sep 2026 04:00:00 GMT</lastBuildDate>
 <item>
   <title>Python, reluctantly</title>
   <dc:creator>Neel Smith</dc:creator>
@@ -25,6 +25,7 @@
 <p>For a number of years, I genuinely enjoyed writing in Scala (and got <em>really</em> good at recursion, in the process). In the traumatic circumstances of the COVID-19 pandemic, I discovered and adopted Julia, as I described <a href="../../posts/2024-10-22-why-julia/index.html">here</a>. I gave up the ideological purity of writing side-effect free code in exchange for the mind-bending power of Julia’s multiple dispatch model, and the best environment and tooling I had ever experienced in 40 years of trying to get computers to bend to my will.</p>
 <p>But now it’s 2026. Claude actually writes most of my code, and the research problems that most interest me center on how we can tease out of contemporary language models the extraordinarily rich encoding of natural languages lurking in their vectors of weights. And that means I really have to use Python.</p>
 <p>There is not a single moment of joy for me in reading or writing Python code. Python’s syntax is a constant irritant, like an open wound that won’t heal. In the 1980s, I lost irretrievable hours of my life editing <code>makefile</code>s with semantically significant alignment of white space characters. How could I ever have imagined that I would voluntarily re-enter that hell in 2026? But I have, and now must agonize every time a simple copy and paste of Python code fails because of a space too many or too few. And yet, even though line breaks are already semantic, we have to add logically otiose trailing colons to all sorts of blocks. Why? And while there’s no arguing over tastes, I personally would much rather read code with explicit, symmetrical beginning and ending markers for hierarchically contained structural units, than try to guess how deeply indented a Python expression is. (Who can tell, when all you see is white space?) I don’t care if the markers are curly brackets, <code>begin..end</code> keywords, or some other convention. Explicit symmetric tokens make structure clear at glance, and have an aesthetic elegance I personally prefer. Python’s embedded structures just drift off further and further to the right. They always seem to me like a sloppy student’s first draft that was turned in without revision.</p>
+<p>Mostly, I don’t care that much that Python is slow. When I’m sending queries to a language model, Python is not the bottleneck. But it <em>is</em> slow, and that brings a further problem: if you work with any serious datasets you’ll eventually find yourself actually violating my first concession, that I will only work in one language at a time. You might only be seeing Python source code, but in fact you’re running Rust or C underneath a Python skin, and now have to add a new layer of system administration, even if your toolchain automates. Your “convenient” language has moved you one step further away from straightforward portability.</p>
 <p>But we stand on the shoulders of giants, and the giants working with language models have decided that Python is where the work will happen. While this may reinforce my scepticism about the “wisdom of crowds,” the fact is that the libraries I want to use and the examples I want to study are virtually all in Python. Some of them really are wonderful, and I’ll be blogging about my work using <a href="https://dspy.ai">DSPy</a> in particular. But all in all, I’m happiest that Claude writes Python reliably and without complaint, so that I don’t have to.</p>
 
 
@@ -32,16 +33,16 @@
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{smith2026,
   author = {Smith, Neel},
   title = {Python, Reluctantly},
-  date = {2026-09-16},
+  date = {2026-09-17},
   url = {https://neelsmith.github.io/posts/2026-09-16-python/},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-smith2026" class="csl-entry quarto-appendix-citeas">
-Smith, Neel. 2026. <span>“Python, Reluctantly.”</span> September 16. <a href="https://neelsmith.github.io/posts/2026-09-16-python/">https://neelsmith.github.io/posts/2026-09-16-python/</a>.
+Smith, Neel. 2026. <span>“Python, Reluctantly.”</span> September 17. <a href="https://neelsmith.github.io/posts/2026-09-16-python/">https://neelsmith.github.io/posts/2026-09-16-python/</a>.
 </div></div></section></div> ]]></description>
   <category>python</category>
   <guid>https://neelsmith.github.io/posts/2026-09-16-python/</guid>
-  <pubDate>Wed, 16 Sep 2026 04:00:00 GMT</pubDate>
+  <pubDate>Thu, 17 Sep 2026 04:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/posts/2026-09-16-python/python-logo-master-v3-TM.png" medium="image" type="image/png" height="49" width="144"/>
 </item>
 <item>
