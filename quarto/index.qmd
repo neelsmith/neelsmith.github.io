@@ -3,6 +3,13 @@ title: "Neel Smith"
 ---
 
 
+:::: {.aside}
+::: {.callout-tip appearance="minimal" title="<i class=\"bi bi-rss\"></i> RSS feed to follow changes and news"}
+
+[Additions and substantial revisions of the site](https://neelsmith.github.io/posts.xml) 
+:::
+::::
+
 
 I'm an emeritus professor at the College of the Holy Cross.  On this site, I'm presenting my current digital scholarly work.
 
@@ -11,7 +18,8 @@ I'm an emeritus professor at the College of the Holy Cross.  On this site, I'm p
 - links to [projects I'm currently working on](./projects/index.qmd)
 - notes and comments about my work in [blog posts](./posts.qmd)
 
-::: {.callout-tip appearance="minimal" title="<i class=\"bi bi-rss\"></i> RSS feed to follow changes and news"}
-
-- [additions to or substantial revisions of the web site](https://neelsmith.github.io/posts.xml) 
+::: {.callout-note}
+The blog posts include a handful of notes from a personal site I was maintaining at [https://neelsmith.quarto.pub](https://neelsmith.quarto.pub), until quarto.pub stopped publishing new material. I've copied material from the quarto site about my work in Julia from 2020-2024 to a frozen site at [https://neelsmith.github.io/juliawork/](https://neelsmith.github.io/juliawork).
 :::
+
+
