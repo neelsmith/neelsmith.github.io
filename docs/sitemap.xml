@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://neelsmith.github.io/posts.html</loc>
-    <lastmod>2026-09-08T11:56:26.030Z</lastmod>
+    <lastmod>2026-09-17T01:22:13.348Z</lastmod>
   </url>
   <url>
     <loc>https://neelsmith.github.io/about.html</loc>
@@ -57,6 +57,10 @@
     <lastmod>2026-09-08T11:56:26.031Z</lastmod>
   </url>
   <url>
+    <loc>https://neelsmith.github.io/posts/2026-09-16-python/index.html</loc>
+    <lastmod>2026-09-17T02:19:48.497Z</lastmod>
+  </url>
+  <url>
     <loc>https://neelsmith.github.io/posts/2024-11-13-complutensian-iiif/index.html</loc>
     <lastmod>2026-09-08T11:56:26.055Z</lastmod>
   </url>
@@ -70,11 +74,11 @@
   </url>
   <url>
     <loc>https://neelsmith.github.io/projects/index.html</loc>
-    <lastmod>2026-09-16T08:42:26.912Z</lastmod>
+    <lastmod>2026-09-16T16:39:19.484Z</lastmod>
   </url>
   <url>
     <loc>https://neelsmith.github.io/index.html</loc>
-    <lastmod>2026-09-08T12:36:17.677Z</lastmod>
+    <lastmod>2026-09-17T01:23:26.679Z</lastmod>
   </url>
   <url>
     <loc>https://neelsmith.github.io/updates/2024-11-12-lewis-short/index.html</loc>
