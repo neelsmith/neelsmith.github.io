@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Neel Smith">
-<meta name="dcterms.date" content="2024-11-13">
-<meta name="description" content="Tailor image resources to your own project with a IIIF manifest.">
+<meta name="dcterms.date" content="2026-09-16">
+<meta name="description" content="In 2026, I can no longer avoid Python.">
 
-<title>The Complutensian Bible in IIIF – neelsmith</title>
+<title>Python, reluctantly – neelsmith</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -141,16 +141,14 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">The Complutensian Bible in IIIF</h1>
+      <h1 class="title">Python, reluctantly</h1>
                   <div>
         <div class="description">
-          Tailor image resources to your own project with a IIIF manifest.
+          In 2026, I can no longer avoid Python.
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">small digital</div>
-                <div class="quarto-category">iiif</div>
-                <div class="quarto-category">complutensian</div>
+                <div class="quarto-category">python</div>
               </div>
                   </div>
   </div>
@@ -168,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">November 13, 2024</p>
+        <p class="date">September 16, 2026</p>
       </div>
     </div>
     
@@ -179,16 +177,8 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#image-resources-from-big-digital-projects" id="toc-image-resources-from-big-digital-projects" class="nav-link active" data-scroll-target="#image-resources-from-big-digital-projects">Image resources from “big-digital” projects</a></li>
-  <li><a href="#custom-iiif-manifests-to-the-rescue" id="toc-custom-iiif-manifests-to-the-rescue" class="nav-link" data-scroll-target="#custom-iiif-manifests-to-the-rescue">Custom IIIF manifests to the rescue</a></li>
-  <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps">Next steps</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -197,61 +187,23 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="image-resources-from-big-digital-projects" class="level2">
-<h2 class="anchored" data-anchor-id="image-resources-from-big-digital-projects">Image resources from “big-digital” projects</h2>
-<p>One project I’m currently working on is a <a href="https://neelsmith.quarto.pub/digitalcomplutensian/">digital multilingual Bible, inspired by the sixteenth-century Complutensian polyglot</a>. The Biblioteca Nacional de España (BNE) has digitized its copy as part of its <a href="https://bdh.bne.es/bnesearch/Inicio.do">Biblioteca Digital Hispánica</a>. You can browse the BNE’s Complutensian Bible interactively <a href="http://bdh-rd.bne.es/viewer.vm?id=0000050739&amp;page=1">here</a>.</p>
-<p>Even better, the BNE participated in the <a href="https://www.loc.gov/collections/world-digital-library/about-this-collection/">World Digital Library</a> project (WDL), an extensive collection of digitized cultural heritage materials assembled under the leadership of the Library of Congress with support from UNESCO. As a result, the high-quality images of the BNE’s Complutensian Bible are available without restrictions, and documented following the standards of the <a href="https://iiif.io">International Image Interoperability Framework</a> (IIIF).</p>
-<p>These are examples of large DH projects at their best: investing in creating high-quality primary source material, and guaranteeing by their use of open technologies and open legal licensing that the resources will be as widely reusable as possible. My work on the Complutensian polyglot would not have been possible without this digital infrastructure. The well documented JSON format of IIIF manifests makes it straightforward for a “small-digital” project to explore a collection of images hosted on a IIIF server.</p>
-<p>For the WDL, the Library of Congress has organized the publication of the Complutensian Bible in five groups, <a href="https://www.loc.gov/item/2021666855/">published on this web page</a>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://www.loc.gov/item/2021666855"><img src="./LoC.png" class="img-fluid figure-img"></a></p>
-<figcaption>Part of the Library of Congress web page for the Complutensian Bible</figcaption>
-</figure>
-</div>
-<p>On the LoC web site, the thumbnails illustrated above correctly lead to browsable images, but all five of the links for IIIF manifests actually point to only one manifest, covering only the first of the five sets of images. It’s not possible to find associated data for the other four sets of images.</p>
-<p>This illustrates a problem familiar from other digital infrastructure projects: even large institutions may lack the resources for continued curation of digital material once a large project has reached the end of its term. When I reported the erroneous links to the Library of Congress in 2023, I was told that this was already a known problem. “The Digital Collections team … don’t have an ETA for a fix though, sorry.”</p>
-</section>
-<section id="custom-iiif-manifests-to-the-rescue" class="level2">
-<h2 class="anchored" data-anchor-id="custom-iiif-manifests-to-the-rescue">Custom IIIF manifests to the rescue</h2>
-<p>The hard work had been done: the physical volumes had been conserved, photographed and documented. To work with the full set of images, all I really needed was a series of IIIF manifests – simple JSON files that are perfect candidates for automated generation from a short script.</p>
-<p>I considered trying to write manifests that would provide information for the images already hosted at the Library of Congress, but I couldn’t discover or correctly guess the configuration of the files’ organization on the LoC server. The images were openly licensed, however, and I was fortunate to have access through the <a href="https://neelsmith.quarto.pub/hmt/">Homer Multitext project</a> to an IIIF-compliant image server at the University of Houston’s High-Peformance Computing Center, so I decided to download all of the images hosted at the Library of Congress, and serve them from Houston.</p>
-<p>The IIIF Presentation API offers an appropriate structure for describing a series of pages in a physical volume, with each page illustrated by an image. I took as a template JSON file an example of a <a href="https://iiif.io/api/presentation/3.0/">minimal manifest for the IIIF Presentation API</a>. I decided to create six manifests, one for each physical volume of the BNE Complutensian. Literally within minutes, I had six valid IIIF manifests, which I added to a github repository.</p>
-<p>There are <a href="https://iiif.io/get-started/iiif-viewers/">numerous freely available viewer applications</a> for browsing images from a IIIF manifest. At this point, to browse the images for a volume of the Complutensian, you can copy any one of these URLs, and paste them in to the IIIF viewer of your choice.</p>
-<ul>
-<li>volume 1: <code>https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v1-manifest.json</code></li>
-<li>volume 2: <code>https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v2-manifest.json</code></li>
-<li>volume 3: <code>https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v3-manifest.json</code></li>
-<li>volume 4: <code>https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v4-manifest.json</code></li>
-<li>volume 5: <code>https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v5-manifest.json</code></li>
-<li>volume 6: <code>https://raw.githubusercontent.com/neelsmith/complutensian-texts/refs/heads/main/iiif/complutensian-bne-v6-manifest.json</code></li>
-</ul>
-<p>Here’s what the Tify browser looks like when you paste in the URL for the manifest for volume 1 of the Complutensian.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./complutensian-iiif.png" class="img-fluid figure-img"></p>
-<figcaption>Volume 1 of the BNE Complutensian in the Tify image browser</figcaption>
-</figure>
-</div>
-</section>
-<section id="next-steps" class="level2">
-<h2 class="anchored" data-anchor-id="next-steps">Next steps</h2>
-<p>With the a complete Complutensian Bible accessible via the IIIF’s APIs, I am now using all six volumes of the BNE’s Bible in my digital polyglot Bible project: the comparatively simple task of scripting out some JSON documentation has let me incorporate resources from major digital infrastructure initiatives into my small-digital project. As the project develops, I plan to use IIIF manifests to select and organize subsets of the Complutensian images for different purposes.</p>
-<p>In addition, it’s very straightforward to add functionality for browsing IIIF images in a Pluto notebook, my favorite environment for working interactively with datasets including images. I’ll add a post soon on how to incorporate IIIF resources into interactive Pluto notebooks in three steps.</p>
+<p>I am a humanist, not an engineer or computer scientist: I make no apology for coding all of my work in a single programming language at any given moment. Let the engineers choose the best language for a given task. My scholarly contribution comes from my understanding of the material I study, so I happily, eagerly, assiduously give up the cognitive load of working in multiple programming languages simultaneously.</p>
+<p>For a number of years, I genuinely enjoyed writing in Scala (and got <em>really</em> good at recursion, in the process). In the traumatic circumstances of the COVID-19 pandemic, I discovered and adopted Julia, as I described <a href="../../posts/2024-10-22-why-julia/index.html">here</a>. I gave up the ideological purity of writing side-effect free code in exchange for the mind-bending power of Julia’s multiple dispatch model, and the best environment and tooling I had ever experienced in 40 years of trying to get computers to bend to my will.</p>
+<p>But now it’s 2026. Claude actually writes most of my code, and the research problems that most interest me center on how we can tease out of contemporary language models the extraordinarily rich encoding of natural languages lurking in their vectors of weights. And that means I really have to use Python.</p>
+<p>There is not a single moment of joy for me in reading or writing Python code. Python’s syntax is a constant irritant, like an open wound that won’t heal. In the 1980s, I lost irretrievable hours of my life editing <code>makefile</code>s with semantically significant alignment of white space characters. How could I ever have imagined that I would voluntarily re-enter that hell in 2026? But I have, and now must agonize every time a simple copy and paste of Python code fails because of a space too many or too few. And yet, even though line breaks are already semantic, we have to add logically otiose trailing colons to all sorts of blocks. Why? And while there’s no arguing over tastes, I personally would much rather read code with explicit, symmetrical beginning and ending markers for hierarchically contained structural units, than try to guess how deeply indented a Python expression is. (Who can tell, when all you see is white space?) I don’t care if the markers are curly brackets, <code>begin..end</code> keywords, or some other convention. Explicit symmetric tokens make structure clear at glance, and have an aesthetic elegance I personally prefer. Python’s embedded structures just drift off further and further to the right. They always seem to me like a sloppy student’s first draft that was turned in without revision.</p>
+<p>But we stand on the shoulders of giants, and the giants working with language models have decided that Python is where the work will happen. While this may reinforce my scepticism about the “wisdom of crowds,” the fact is that the libraries I want to use and the examples I want to study are virtually all in Python. Some of them really are wonderful, and I’ll be blogging about my work using <a href="https://dspy.ai">DSPy</a> in particular. But all in all, I’m happiest that Claude writes Python reliably and without complaint, so that I don’t have to.</p>
 
 
-</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{smith2024,
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{smith2026,
   author = {Smith, Neel},
-  title = {The {Complutensian} {Bible} in {IIIF}},
-  date = {2024-11-13},
-  url = {https://neelsmith.quarto.pub/posts/2024-10-24-complutensian-iiif/},
+  title = {Python, Reluctantly},
+  date = {2026-09-16},
+  url = {https://neelsmith.github.io/posts/2026-09-16-python/},
   langid = {en}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-smith2024" class="csl-entry quarto-appendix-citeas" role="listitem">
-Smith, Neel. 2024. <span>“The Complutensian Bible in IIIF.”</span>
-November 13. <a href="https://neelsmith.quarto.pub/posts/2024-10-24-complutensian-iiif/">https://neelsmith.quarto.pub/posts/2024-10-24-complutensian-iiif/</a>.
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-smith2026" class="csl-entry quarto-appendix-citeas" role="listitem">
+Smith, Neel. 2026. <span>“Python, Reluctantly.”</span> September 16. <a href="https://neelsmith.github.io/posts/2026-09-16-python/">https://neelsmith.github.io/posts/2026-09-16-python/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
