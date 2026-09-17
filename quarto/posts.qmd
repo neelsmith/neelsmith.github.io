@@ -12,12 +12,9 @@ listing:
 
 
 
-::: {.callout-note title="Announcements of updates"}
-In in addition to these blog posts, I keep announcements of updates to data sets, Julia packages and documentation
-[on this page](./updates.qmd).
-:::
+
 
 
 :::{.rsstag}
-[<i class="bi bi-rss"></i> RSS feed](https://neelsmith.quarto.pub/posts.xml)
+[<i class="bi bi-rss"></i> RSS feed](https://neelsmith.github.io/posts.xml)
 :::

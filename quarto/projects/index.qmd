@@ -12,6 +12,12 @@ Language-specific models for analyzing syntax:
 - [diqduq](https://neelsmith.github.io/diqduq/): a Python package leveraging LLMs with `dspy` to analyze the syntax of passages of Biblical Hebrew.
 
 
+Single-page web apps for exploring syntactic analyses:
+
+- [syntaxexplorer](https://github.com/neelsmith/syntaxexplorer): visualize syntactic analyses encoding tokens and verbal units. Currently tested againts [arsgrammatica](https://neelsmith.github.io/arsgrammatica).
+
+
+
 A universal model of natural language syntax:
 
 - [aat](https://neelsmith.github.io/aat/): an Agent-Action-Target model of natural-language syntax in Python.
@@ -21,6 +27,8 @@ Packages for extracting information from nlp analysis with spaCy:
 
 - [udsyntax](https://neelsmith.github.io/udsyntax/): get Universal Dependency (syntactic) data from spaCy into a simple syntax graph format.
 - [latincymorph](https://github.com/neelsmith/latincymorph): get morphological data from spaCy analysis of Latin texts into a structured object format.
+
+
 
 Packages extending syntax analysis with contextually disambiguated morphological anlayses:
 
