@@ -15,7 +15,7 @@ I'm an emeritus professor at the College of the Holy Cross.  On this site, I'm p
 
 
 
-- links to [projects I'm currently working on](./projects/index.qmd)
+- [projects I'm currently working on](./projects/index.qmd)
 - notes and comments about my work in [blog posts](./posts.qmd)
 
 ::: {.callout-note}

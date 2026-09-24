@@ -29,6 +29,14 @@ website:
             href: https://neelsmith.github.io/projects/            
         aria-label: Home
 
+  sidebar:
+    - title: "Projects"
+      contents:
+        - projects/index.qmd
+        - "---"
+        - projects/syntax.qmd
+        - projects/morphology.qmd
+        - projects/resources.qmd
 
 
 
