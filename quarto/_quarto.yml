@@ -37,6 +37,9 @@ website:
         - projects/syntax.qmd
         - projects/morphology.qmd
         - projects/resources.qmd
+        - "---"
+        - projects/corpusprojects.qmd
+        
 
 
 

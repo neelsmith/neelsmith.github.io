@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-09-16">
+<meta name="dcterms.date" content="2026-09-24">
 
 <title>Current projects – neelsmith</title>
 <style>
@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar floating nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -134,17 +134,67 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../projects/index.html">Current projects</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../projects/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Current projects</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../projects/syntax.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Syntactic analysis of natural languages</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../projects/morphology.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Morphological analysis of historical languages</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../projects/resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Scholarly resources for historical languages</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../projects/corpusprojects.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Exploring complex text corpora</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#adjacent-projects" id="toc-adjacent-projects" class="nav-link active" data-scroll-target="#adjacent-projects">Adjacent projects</a></li>
+  <li><a href="#computational-analysis-of-historical-languages" id="toc-computational-analysis-of-historical-languages" class="nav-link active" data-scroll-target="#computational-analysis-of-historical-languages">Computational analysis of historical languages</a></li>
+  <li><a href="#exploring-complex-text-corpora" id="toc-exploring-complex-text-corpora" class="nav-link" data-scroll-target="#exploring-complex-text-corpora">Exploring complex text corpora</a></li>
   </ul>
 </nav>
     </div>
@@ -164,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 16, 2026</p>
+      <p class="date">September 24, 2026</p>
     </div>
   </div>
   
@@ -176,34 +226,18 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>In 2026, I’m focused on syntactic anaysis of historical languages. I’m using <a href="https://dspy.ai">DSPy</a> to develop Python packages that leverage language models.</p>
-<p>Language-specific models for analyzing syntax:</p>
+<p>In 2026, I’m focused primarily on syntactic anaysis of historical languages (Latin, Greek, Hebrew, Aramaic).</p>
+<section id="computational-analysis-of-historical-languages" class="level2">
+<h2 class="anchored" data-anchor-id="computational-analysis-of-historical-languages">Computational analysis of historical languages</h2>
 <ul>
-<li><a href="https://neelsmith.github.io/arsgrammatica/">arsgrammatica</a>: a Python package leveraging LLMs with <code>dspy</code> to analyze the syntax of passages of Latin.</li>
-<li><a href="https://neelsmith.github.io/grammatike/">grammatike</a>: a Python package leveraging LLMs with <code>dspy</code> to analyze the syntax of passages of ancient Greek.</li>
-<li><a href="https://neelsmith.github.io/diqduq/">diqduq</a>: a Python package leveraging LLMs with <code>dspy</code> to analyze the syntax of passages of Biblical Hebrew.</li>
+<li><a href="../projects/syntax.html">Syntax</a></li>
+<li><a href="../projects/morphology.html">Morphology</a></li>
+<li><a href="../projects/resources.html">Scholarly resources</a> (lexica)</li>
 </ul>
-<p>Single-page web apps for exploring syntactic analyses:</p>
-<ul>
-<li><a href="https://github.com/neelsmith/syntaxexplorer">syntaxexplorer</a>: visualize syntactic analyses encoding tokens and verbal units. Currently tested againts <a href="https://neelsmith.github.io/arsgrammatica">arsgrammatica</a>.</li>
-</ul>
-<p>A universal model of natural language syntax:</p>
-<ul>
-<li><a href="https://neelsmith.github.io/aat/">aat</a>: an Agent-Action-Target model of natural-language syntax in Python.</li>
-</ul>
-<p>Packages for extracting information from nlp analysis with spaCy:</p>
-<ul>
-<li><a href="https://neelsmith.github.io/udsyntax/">udsyntax</a>: get Universal Dependency (syntactic) data from spaCy into a simple syntax graph format.</li>
-<li><a href="https://github.com/neelsmith/latincymorph">latincymorph</a>: get morphological data from spaCy analysis of Latin texts into a structured object format.</li>
-</ul>
-<p>Packages extending syntax analysis with contextually disambiguated morphological anlayses:</p>
-<ul>
-<li><a href="https://neelsmith.github.io/tabulaedspy/">tabulaedspy</a>: a Python package leveraging LLMs with <code>dspy</code> to add Latin morphological anlayses to <code>arsgrammatica</code> tokens.</li>
-<li><em>kanonesdspy</em>: a Python package leveraging LLMs with <code>dspy</code> to add ancient Greek morphological anlayses to <code>grammatike</code> tokens. (<em>Not yet publicly released.</em>)</li>
-</ul>
-<section id="adjacent-projects" class="level2">
-<h2 class="anchored" data-anchor-id="adjacent-projects">Adjacent projects</h2>
-<p>I’m beginning to apply this syntactic analysis in:</p>
+</section>
+<section id="exploring-complex-text-corpora" class="level2">
+<h2 class="anchored" data-anchor-id="exploring-complex-text-corpora">Exploring complex text corpora</h2>
+<p>I’m beginning to apply syntactic analysis in particular in these projects:</p>
 <ul>
 <li>a <strong>digital Complutensian polyglot Bible</strong>: digital resources for both experts and novices, supporting aligned multilingual reading</li>
 <li>the <strong>Homer Multitext project</strong>: a personal site about how I work with the Homer Multitext project’s digital archive</li>

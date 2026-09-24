@@ -13,9 +13,9 @@ In 2026, I'm focused primarily on syntactic anaysis of historical languages (Lat
 - [Scholarly resources](./resources.qmd) (lexica)
 
 
-## Adjacent projects
+## Exploring complex text corpora
 
-I'm beginning to apply this syntactic analysis in:
+I'm beginning to apply syntactic analysis in particular in these projects:
 
 - a **digital Complutensian polyglot Bible**: digital resources for both experts and novices, supporting aligned multilingual reading 
 - the **Homer Multitext project**:  a personal site about how I work with the Homer Multitext project’s digital archive
