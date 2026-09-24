@@ -1,0 +1,30 @@
+---
+title: Syntactic analysis of natural languages
+---
+
+
+## Language-specific syntactic models
+
+I'm using [DSPy](https://dspy.ai) to develop Python packages that leverage language models to analyze the syntax of historical languages:
+
+
+- [arsgrammatica](https://neelsmith.github.io/arsgrammatica/): a Python package leveraging LLMs with `dspy` to analyze the syntax of passages of Latin.
+- [grammatike](https://neelsmith.github.io/grammatike/): a Python package leveraging LLMs with `dspy` to analyze the syntax of passages of ancient Greek.
+- [diqduq](https://neelsmith.github.io/diqduq/): a Python package leveraging LLMs with `dspy` to analyze the syntax of passages of Biblical Hebrew.
+
+### Single-page web apps for exploring syntactic analyses
+
+- [syntaxexplorer](https://github.com/neelsmith/syntaxexplorer): visualize syntactic analyses encoding tokens and verbal units. Currently tested against [arsgrammatica](https://neelsmith.github.io/arsgrammatica).
+
+
+## Universal syntax models
+
+A universal model of natural language syntax:
+
+- [aat](https://neelsmith.github.io/aat/): an Agent-Action-Target model of natural-language syntax in Python.
+
+
+A package for extracting Universal Dependency (UD) information from nlp analysis with spaCy:
+
+- [udsyntax](https://neelsmith.github.io/udsyntax/): get Universal Dependency (syntactic) data from spaCy into a simple syntax graph format.
+

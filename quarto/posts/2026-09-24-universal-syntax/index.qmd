@@ -1,0 +1,14 @@
+---
+title: '"Universal" syntax analysis'
+description: "Simple reductive models for alignment, language-specific models for detailed analysis."
+author:
+  - name: Neel Smith
+date: 2026-09-24
+categories: [syntax nlp] # self-defined categories
+image: 4score.png
+citation: 
+  url: https://neelsmith.github.io/posts/2026-09-24-universal-syntax/ 
+draft: true
+---
+
+Hey

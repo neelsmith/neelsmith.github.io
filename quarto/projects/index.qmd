@@ -2,44 +2,20 @@
 title: Current projects
 ---
 
-In 2026, I'm focused on syntactic anaysis of historical languages. I'm using [DSPy](https://dspy.ai) to develop Python packages that leverage language models.
-
-Language-specific models for analyzing syntax:
+In 2026, I'm focused primarily on syntactic anaysis of historical languages (Latin, Greek, Hebrew, Aramaic). 
 
 
-- [arsgrammatica](https://neelsmith.github.io/arsgrammatica/): a Python package leveraging LLMs with `dspy` to analyze the syntax of passages of Latin.
-- [grammatike](https://neelsmith.github.io/grammatike/): a Python package leveraging LLMs with `dspy` to analyze the syntax of passages of ancient Greek.
-- [diqduq](https://neelsmith.github.io/diqduq/): a Python package leveraging LLMs with `dspy` to analyze the syntax of passages of Biblical Hebrew.
+## Computational analysis of historical languages
 
 
-Single-page web apps for exploring syntactic analyses:
-
-- [syntaxexplorer](https://github.com/neelsmith/syntaxexplorer): visualize syntactic analyses encoding tokens and verbal units. Currently tested againts [arsgrammatica](https://neelsmith.github.io/arsgrammatica).
-
-
-
-A universal model of natural language syntax:
-
-- [aat](https://neelsmith.github.io/aat/): an Agent-Action-Target model of natural-language syntax in Python.
+- [Syntax](./syntax.qmd)
+- [Morphology](./morphology.qmd)
+- [Scholarly resources](./resources.qmd) (lexica)
 
 
-Packages for extracting information from nlp analysis with spaCy:
+## Exploring complex text corpora
 
-- [udsyntax](https://neelsmith.github.io/udsyntax/): get Universal Dependency (syntactic) data from spaCy into a simple syntax graph format.
-- [latincymorph](https://github.com/neelsmith/latincymorph): get morphological data from spaCy analysis of Latin texts into a structured object format.
-
-
-
-Packages extending syntax analysis with contextually disambiguated morphological anlayses:
-
-- [tabulaedspy](https://neelsmith.github.io/tabulaedspy/): a Python package leveraging LLMs with `dspy` to add Latin morphological anlayses to `arsgrammatica` tokens.
-- *kanonesdspy*: a Python package leveraging LLMs with `dspy` to add ancient Greek morphological anlayses to `grammatike` tokens. (*Not yet publicly released.*)
-
-
-
-## Adjacent projects
-
-I'm beginning to apply this syntactic analysis in:
+I'm beginning to apply syntactic analysis in particular in these projects:
 
 - a **digital Complutensian polyglot Bible**: digital resources for both experts and novices, supporting aligned multilingual reading 
 - the **Homer Multitext project**:  a personal site about how I work with the Homer Multitext project’s digital archive

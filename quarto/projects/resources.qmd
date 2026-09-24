@@ -1,0 +1,10 @@
+---
+title: Scholarly resources for historical languages
+---
+
+
+
+## Lexica
+
+- Lewis-Short *Latin Dictionary*in a Marimo notebook: [hosted on gh pages](https://neelsmith.github.io/marimo_lewis-short/); or get it from [this github repository](https://github.com/neelsmith/marimo_lewis-short)
+- LSJ *Greek Lexicon* in a Marimo notebook: functioning pre-release version is [on github](https://github.com/neelsmith/marimo_lsj)
