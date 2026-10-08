@@ -1,0 +1,10 @@
+---
+title: SHOT
+---
+
+
+[`shot.holycross.edu`](https://shot.holycross.edu) has been on the internet since 2004. I'm continuing to manage a small web server there, and in 2026 am beginning to repurpose it as a home where I can host some scholarly datasets and apps.
+
+Apps:
+
+- a searchable [Lewis-Short *Latin Dictionary*](https://shot.holycross.edu/lexica/lewis-short/)

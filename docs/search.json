@@ -473,6 +473,13 @@
     "text": "Next steps\nWith the a complete Complutensian Bible accessible via the IIIF’s APIs, I am now using all six volumes of the BNE’s Bible in my digital polyglot Bible project: the comparatively simple task of scripting out some JSON documentation has let me incorporate resources from major digital infrastructure initiatives into my small-digital project. As the project develops, I plan to use IIIF manifests to select and organize subsets of the Complutensian images for different purposes.\nIn addition, it’s very straightforward to add functionality for browsing IIIF images in a Pluto notebook, my favorite environment for working interactively with datasets including images. I’ll add a post soon on how to incorporate IIIF resources into interactive Pluto notebooks in three steps."
   },
   {
+    "objectID": "shot.html",
+    "href": "shot.html",
+    "title": "SHOT",
+    "section": "",
+    "text": "shot.holycross.edu has been on the internet since 2004. I’m continuing to manage a small web server there, and in 2026 am beginning to repurpose it as a home where I can host some scholarly datasets and apps.\nApps:\n\na searchable Lewis-Short Latin Dictionary"
+  },
+  {
     "objectID": "posts/2024-10-22-why-julia/index.html",
     "href": "posts/2024-10-22-why-julia/index.html",
     "title": "Why Julia?",
@@ -570,7 +577,7 @@
     "href": "index.html",
     "title": "Neel Smith",
     "section": "",
-    "text": "Tip RSS feed to follow changes and news\n\n\n\nAdditions and substantial revisions of the site\n\n\nI’m an emeritus professor at the College of the Holy Cross. On this site, I’m presenting my current digital scholarly work.\n\nprojects I’m currently working on\nnotes and comments about my work in blog posts\n\n\n\n\n\n\n\nNote\n\n\n\nThe blog posts include a handful of notes from a personal site I was maintaining at https://neelsmith.quarto.pub, until quarto.pub stopped publishing new material. I’ve copied material from the quarto site about my work in Julia from 2020-2024 to a frozen site at https://neelsmith.github.io/juliawork/."
+    "text": "Tip RSS feed to follow changes and news\n\n\n\nAdditions and substantial revisions of the site\n\n\nI’m an emeritus professor at the College of the Holy Cross. On this site, I’m presenting my current digital scholarly work.\n\nprojects I’m currently working on\nnotes and comments about my work in blog posts\nshot.holycross.edu\n\n\n\n\n\n\n\nNote\n\n\n\nThe blog posts include a handful of notes from a personal site I was maintaining at https://neelsmith.quarto.pub, until quarto.pub stopped publishing new material. I’ve copied material from the quarto site about my work in Julia from 2020-2024 to a frozen site at https://neelsmith.github.io/juliawork/."
   },
   {
     "objectID": "updates/2024-11-12-lewis-short/index.html",
