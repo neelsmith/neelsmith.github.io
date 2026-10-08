@@ -26,7 +26,10 @@ website:
           - text: "About me"
             href: https://neelsmith.github.io
           - text: "Projects"
-            href: https://neelsmith.github.io/projects/            
+            href: https://neelsmith.github.io/projects/    
+          - text: "SHOT"          
+            href: https://shot.holycross.edu/
+          
         aria-label: Home
 
   sidebar:

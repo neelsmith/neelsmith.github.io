@@ -6,11 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Neel Smith">
-<meta name="dcterms.date" content="2025-05-29">
-<meta name="description" content="Simplify working with normalized and diplomatic editions of texts, indexed relations of text passages to images and manuscript pages, and of Iliad lines to scholia. Use precomposed HTML widgets in web pages.">
+<meta name="dcterms.date" content="2026-10-08">
 
-<title>A vibe-coded javascript library for working with published releases of the Homer Multitext project – neelsmith</title>
+<title>SHOT – neelsmith</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,23 +27,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-6d4e4c6c342646cac9792aff734a6985.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-8c38fd85d21bfe44b50360969156fb14.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-6d4e4c6c342646cac9792aff734a6985.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-8c38fd85d21bfe44b50360969156fb14.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,17 +73,17 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">neelsmith</span>
     </a>
   </div>
@@ -96,19 +94,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../posts.html"> 
+    <a class="nav-link" href="./posts.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects/index.html"> 
+    <a class="nav-link" href="./projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">Acknowledgments</span></a>
   </li>  
 </ul>
@@ -142,118 +140,47 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">A vibe-coded javascript library for working with published releases of the Homer Multitext project</h1>
-                  <div>
-        <div class="description">
-          Simplify working with normalized and diplomatic editions of texts, indexed relations of text passages to images and manuscript pages, and of <em>Iliad</em> lines to <em>scholia</em>. Use precomposed HTML widgets in web pages.
-        </div>
-      </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">vibe coding</div>
-                <div class="quarto-category">Homer Multitext</div>
-                <div class="quarto-category">cite</div>
-                <div class="quarto-category">new package</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Neel Smith </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">May 29, 2025</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#new-package-announcement-hmt-lib.js" id="toc-new-package-announcement-hmt-lib.js" class="nav-link active" data-scroll-target="#new-package-announcement-hmt-lib.js">New package announcement: <code>hmt-lib.js</code></a>
-  <ul class="collapse">
-  <li><a href="#summary-and-motivation" id="toc-summary-and-motivation" class="nav-link" data-scroll-target="#summary-and-motivation">Summary and motivation</a></li>
-  </ul></li>
-  <li><a href="#release-notes" id="toc-release-notes" class="nav-link" data-scroll-target="#release-notes">Release notes</a></li>
-  <li><a href="#installation" id="toc-installation" class="nav-link" data-scroll-target="#installation">Installation</a></li>
-  <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation">Documentation</a></li>
-  <li><a href="#source" id="toc-source" class="nav-link" data-scroll-target="#source">Source</a></li>
-  <li><a href="#caveats" id="toc-caveats" class="nav-link" data-scroll-target="#caveats">Caveats</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">SHOT</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 8, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
-<section id="new-package-announcement-hmt-lib.js" class="level2">
-<h2 class="anchored" data-anchor-id="new-package-announcement-hmt-lib.js">New package announcement: <code>hmt-lib.js</code></h2>
-<section id="summary-and-motivation" class="level3">
-<h3 class="anchored" data-anchor-id="summary-and-motivation">Summary and motivation</h3>
-<p><code>hmt-lib.js</code> is a javascript library for parsing and manipulating data in published releases of the Homer Multitext project (HMT), including normalized and diplomatic editions of texts, indexing of relations of text passages to images and manuscript pages, indexing of <em>Iliad</em> lines and <em>scholia</em>, and documentation of manuscript sources.</p>
-</section>
-</section>
-<section id="release-notes" class="level2">
-<h2 class="anchored" data-anchor-id="release-notes">Release notes</h2>
-<p>This announcement covers both the initial <code>1.0.0</code> release and immediately following <code>1.1.0</code> release. Main features:</p>
+</header>
+
+
+<p><a href="https://shot.holycross.edu"><code>shot.holycross.edu</code></a> has been on the internet since 2004. I’m continuing to manage a small web server there, and in 2026 am beginning to repurpose it as a home where I can host some scholarly datasets and apps.</p>
+<p>Apps:</p>
 <ul>
-<li>load a published release of HMT</li>
-<li>retrieve text corpora and specific text passages in diplomatic and normalized editions</li>
-<li>discover relations among text passages, documentary images, and manuscript pages</li>
-<li>discover relations between <em>Iliad</em> passages and <em>scholia</em></li>
-<li>label texts and objects with catalog metadata</li>
-<li>add precomposed menu widgets to web pages to select <em>Iliad</em> texts and manuscripts</li>
-</ul>
-<p>See the github repository for more details.</p>
-</section>
-<section id="installation" class="level2">
-<h2 class="anchored" data-anchor-id="installation">Installation</h2>
-<p>The file <code>hmt-lib.js</code> can be downloaded from github and used locally, or loaded vis jsDelivr from <code>https://cdn.jsdelivr.net/gh/neelsmith/hmt-lib@1.1.0/hmt-lib.js</code>.</p>
-</section>
-<section id="documentation" class="level2">
-<h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
-<ul>
-<li>available <a href="https://github.com/neelsmith/hmt-lib/blob/main/apis.md">on github</a></li>
-</ul>
-</section>
-<section id="source" class="level2">
-<h2 class="anchored" data-anchor-id="source">Source</h2>
-<ul>
-<li>available <a href="https://github.com/neelsmith/hmt-lib.git">on github</a></li>
-</ul>
-</section>
-<section id="caveats" class="level2">
-<h2 class="anchored" data-anchor-id="caveats">Caveats</h2>
-<p>The javascript library and the markdown documentation were written entirely by gemini-2.5-pro. The code passes a series of sanity tests, but I have not even looked at the javascript. When I encountered errors, I let gemini fix them. Use the code as you like, but be aware that I have no idea what it does or how it works.</p>
-<p>Auditing the build:</p>
-<ul>
-<li>github repository includes a complete transcript of the chat used to generate the script, with saved intermediate versions of the javascript library. See the repository <a href="https://github.com/neelsmith/hmt-lib">README</a> for details.</li>
+<li>a searchable <a href="https://shot.holycross.edu/lexica/lewis-short/">Lewis-Short <em>Latin Dictionary</em></a></li>
 </ul>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
