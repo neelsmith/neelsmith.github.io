@@ -3,16 +3,22 @@ title: 'Models for syntactic analysis'
 description: "Simple reductive models for alignment, language-specific models for detailed analysis."
 author:
   - name: Neel Smith
-date: 2026-09-24
+date: 2026-10-08
 categories: [syntax nlp] # self-defined categories
 image: 4score.png
 citation: 
   url: https://neelsmith.github.io/posts/2026-09-24-universal-syntax/ 
-draft: true
+draft: false
 ---
 
 
-In the era of today's large language models, advocates for some variation of Chomsky's Universal Grammar are having a moment.
+
+
+
+In the era of today's large language models, questions about computational methods for aligning content across languages have a new urgency. One area of work focuses on *syntactic* alignment. In the DH world, the standard-setting project for syntactic annotation is the [Universal Dependencies](https://universaldependencies.org) framework, with the goal of  "consistent annotation of grammar (parts of speech, morphological features, and syntactic dependencies) across different human languages."
+
+
+advocates for some variation of Chomsky's Universal Grammar are having a moment. 
 
 
 Universal?
@@ -25,3 +31,15 @@ Any computational analysis of natural-language syntax must choose a syntactic mo
 
 
 
+
+But lanaguage models that have inferred syntactic models for a language also enable new kinds of study of a content in a single language.
+
+My immediate focus comes from Complutensian Bible project, and desire to align features of the same text in Hebrew, Greek, Latin and Aramaic.
+
+
+
+Further, the line between syntax and semantics is not always as crisply drawn as we might prefer. I
+
+https://medium.com/in-medias-res/deponent-verbs-are-not-random-2ba94afade56
+
+transitive vs. intransitive in IE languages. Morphologically passive verbs that are deponent verbs can take direct objects.
