@@ -1,5 +1,5 @@
 ---
-title: '"Universal" syntax analysis'
+title: 'Models for syntactic analysis'
 description: "Simple reductive models for alignment, language-specific models for detailed analysis."
 author:
   - name: Neel Smith
@@ -11,4 +11,17 @@ citation:
 draft: true
 ---
 
-Hey
+
+In the era of today's large language models, advocates for some variation of Chomsky's Universal Grammar are having a moment.
+
+
+Universal?
+
+syntax vs semantics: continuum...
+
+Further complicated by choices for 
+
+Any computational analysis of natural-language syntax must choose a syntactic model suited to its purpose
+
+
+
