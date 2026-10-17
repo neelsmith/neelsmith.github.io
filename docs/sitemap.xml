@@ -1,68 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://neelsmith.github.io/posts.html</loc>
-    <lastmod>2026-09-17T01:22:13.348Z</lastmod>
+    <loc>https://neelsmith.github.io/ack.html</loc>
+    <lastmod>2026-10-17T15:41:55.242Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/about.html</loc>
-    <lastmod>2026-09-17T13:43:55.479Z</lastmod>
+    <loc>https://neelsmith.github.io/updates.html</loc>
+    <lastmod>2026-09-08T11:56:26.100Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/updates/2025-05-19-cex-lib/index.html</loc>
-    <lastmod>2026-09-08T11:56:26.101Z</lastmod>
-  </url>
-  <url>
-    <loc>https://neelsmith.github.io/updates/2025-05-29-hmt-lib/index.html</loc>
+    <loc>https://neelsmith.github.io/updates/2025-05-21-hmt-images/index.html</loc>
     <lastmod>2026-09-08T11:56:26.102Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/updates/2024-11-13-open-scriptures-hebrew/index.html</loc>
+    <loc>https://neelsmith.github.io/updates/2025-01-17-lexiconmining/index.html</loc>
     <lastmod>2026-09-08T11:56:26.101Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/updates/2024-11-05-lewis-short/index.html</loc>
-    <lastmod>2026-09-08T11:56:26.101Z</lastmod>
+    <loc>https://neelsmith.github.io/updates/2024-10-24-updates-rss-feed/index.html</loc>
+    <lastmod>2026-09-08T11:56:26.100Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/updates/2025-01-09-complutensian-images/index.html</loc>
-    <lastmod>2026-09-08T11:56:26.101Z</lastmod>
-  </url>
-  <url>
-    <loc>https://neelsmith.github.io/updates/2025-05-23-urns-lib/index.html</loc>
+    <loc>https://neelsmith.github.io/updates/2025-06-01-greeklib/index.html</loc>
     <lastmod>2026-09-08T11:56:26.102Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/updates/2025-01-10-hmtarchive.jl/index.html</loc>
+    <loc>https://neelsmith.github.io/updates/2025-02-18-obsidian-to-web/index.html</loc>
     <lastmod>2026-09-08T11:56:26.101Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/updates/2025-01-11-new-iiif-manifests/index.html</loc>
+    <loc>https://neelsmith.github.io/updates/2025-01-07-iiif-manifests/index.html</loc>
     <lastmod>2026-09-08T11:56:26.101Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/projects/resources.html</loc>
-    <lastmod>2026-09-24T22:30:29.258Z</lastmod>
+    <loc>https://neelsmith.github.io/updates/2025-05-25-hmt-lib/index.html</loc>
+    <lastmod>2026-09-08T11:56:26.102Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/projects/morphology.html</loc>
-    <lastmod>2026-09-24T22:46:22.918Z</lastmod>
+    <loc>https://neelsmith.github.io/updates/2024-11-12-lewis-short/index.html</loc>
+    <lastmod>2026-09-08T11:56:26.101Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/projects/index.html</loc>
-    <lastmod>2026-10-08T01:29:57.219Z</lastmod>
+    <loc>https://neelsmith.github.io/index.html</loc>
+    <lastmod>2026-10-17T15:50:21.356Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/projects/complut.html</loc>
-    <lastmod>2026-09-24T22:41:46.793Z</lastmod>
+    <loc>https://neelsmith.github.io/projects/corpusprojects.html</loc>
+    <lastmod>2026-09-24T22:43:00.838Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/posts/2025-01-10-venetus-a-iiif/index.html</loc>
-    <lastmod>2026-09-08T11:56:26.086Z</lastmod>
+    <loc>https://neelsmith.github.io/projects/myhmt.html</loc>
+    <lastmod>2026-09-24T22:42:12.880Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/posts/2024-10-28-small-digital/index.html</loc>
-    <lastmod>2026-09-08T11:56:26.031Z</lastmod>
+    <loc>https://neelsmith.github.io/projects/syntax.html</loc>
+    <lastmod>2026-09-24T22:45:50.612Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neelsmith.github.io/posts/2024-11-15-pluto-iiif/index.html</loc>
+    <lastmod>2026-09-08T11:56:26.068Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neelsmith.github.io/posts/2024-11-26-complutensian-site/index.html</loc>
+    <lastmod>2026-09-08T11:56:26.075Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neelsmith.github.io/posts/2026-10-17-claude/index.html</loc>
+    <lastmod>2026-10-17T11:50:21.819Z</lastmod>
   </url>
   <url>
     <loc>https://neelsmith.github.io/posts/2026-09-16-python/index.html</loc>
@@ -81,63 +85,71 @@
     <lastmod>2026-09-08T11:56:26.030Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/posts/2024-11-26-complutensian-site/index.html</loc>
-    <lastmod>2026-09-08T11:56:26.075Z</lastmod>
+    <loc>https://neelsmith.github.io/posts/2024-10-28-small-digital/index.html</loc>
+    <lastmod>2026-09-08T11:56:26.031Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/posts/2024-11-15-pluto-iiif/index.html</loc>
-    <lastmod>2026-09-08T11:56:26.068Z</lastmod>
+    <loc>https://neelsmith.github.io/posts/2025-01-10-venetus-a-iiif/index.html</loc>
+    <lastmod>2026-09-08T11:56:26.086Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/projects/syntax.html</loc>
-    <lastmod>2026-09-24T22:45:50.612Z</lastmod>
+    <loc>https://neelsmith.github.io/posts/2026-09-24-universal-syntax/index.html</loc>
+    <lastmod>2026-10-08T16:44:59.726Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/projects/myhmt.html</loc>
-    <lastmod>2026-09-24T22:42:12.880Z</lastmod>
+    <loc>https://neelsmith.github.io/projects/complut.html</loc>
+    <lastmod>2026-09-24T22:41:46.793Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/projects/corpusprojects.html</loc>
-    <lastmod>2026-09-24T22:43:00.838Z</lastmod>
+    <loc>https://neelsmith.github.io/projects/index.html</loc>
+    <lastmod>2026-10-17T15:48:25.932Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/index.html</loc>
-    <lastmod>2026-10-08T12:25:26.119Z</lastmod>
+    <loc>https://neelsmith.github.io/projects/morphology.html</loc>
+    <lastmod>2026-09-24T22:46:22.918Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/updates/2024-11-12-lewis-short/index.html</loc>
+    <loc>https://neelsmith.github.io/projects/resources.html</loc>
+    <lastmod>2026-09-24T22:30:29.258Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neelsmith.github.io/updates/2025-01-11-new-iiif-manifests/index.html</loc>
     <lastmod>2026-09-08T11:56:26.101Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/updates/2025-05-25-hmt-lib/index.html</loc>
+    <loc>https://neelsmith.github.io/updates/2025-01-10-hmtarchive.jl/index.html</loc>
+    <lastmod>2026-09-08T11:56:26.101Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neelsmith.github.io/updates/2025-05-23-urns-lib/index.html</loc>
     <lastmod>2026-09-08T11:56:26.102Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/updates/2025-01-07-iiif-manifests/index.html</loc>
+    <loc>https://neelsmith.github.io/updates/2025-01-09-complutensian-images/index.html</loc>
     <lastmod>2026-09-08T11:56:26.101Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/updates/2025-02-18-obsidian-to-web/index.html</loc>
+    <loc>https://neelsmith.github.io/updates/2024-11-05-lewis-short/index.html</loc>
     <lastmod>2026-09-08T11:56:26.101Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/updates/2025-06-01-greeklib/index.html</loc>
+    <loc>https://neelsmith.github.io/updates/2024-11-13-open-scriptures-hebrew/index.html</loc>
+    <lastmod>2026-09-08T11:56:26.101Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neelsmith.github.io/updates/2025-05-29-hmt-lib/index.html</loc>
     <lastmod>2026-09-08T11:56:26.102Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/updates/2024-10-24-updates-rss-feed/index.html</loc>
-    <lastmod>2026-09-08T11:56:26.100Z</lastmod>
-  </url>
-  <url>
-    <loc>https://neelsmith.github.io/updates/2025-01-17-lexiconmining/index.html</loc>
+    <loc>https://neelsmith.github.io/updates/2025-05-19-cex-lib/index.html</loc>
     <lastmod>2026-09-08T11:56:26.101Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/updates/2025-05-21-hmt-images/index.html</loc>
-    <lastmod>2026-09-08T11:56:26.102Z</lastmod>
+    <loc>https://neelsmith.github.io/about.html</loc>
+    <lastmod>2026-10-17T15:43:33.667Z</lastmod>
   </url>
   <url>
-    <loc>https://neelsmith.github.io/updates.html</loc>
-    <lastmod>2026-09-08T11:56:26.100Z</lastmod>
+    <loc>https://neelsmith.github.io/posts.html</loc>
+    <lastmod>2026-09-17T01:22:13.348Z</lastmod>
   </url>
 </urlset>
