@@ -19,6 +19,7 @@ website:
         file: projects/index.qmd     
       
       - about.qmd
+      - ack.qmd
     
     right:
       - icon: person-circle

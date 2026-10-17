@@ -1,14 +1,9 @@
 ---
-title: "Acknowledgments"
+title: About this site
 ---
 
+I began this site in September, 2026, after quarto.pub announced it would stop publishing new material
 
-All the work on this site has grown out of stimulating collaborations from the early 1980s through my transition to emeritus status in 2024.
+The blog posts here include a handful of notes from a personal site I previously maintained at [https://neelsmith.quarto.pub](https://neelsmith.quarto.pub). I've copied material from the quarto site about my work in Julia from 2020-2024 to a frozen site hosted on github pages at [https://neelsmith.github.io/juliawork/](https://neelsmith.github.io/juliawork).
 
-I'm grateful to my colleagues and collaborators on:
-
-- the Perseus project
-- the Turkish-American excavations at Hacımusalar
-- the Homer Multitext project
-- the Holy Cross Manuscripts, Inscriptions and Documents Club
 

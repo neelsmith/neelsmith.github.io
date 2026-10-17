@@ -20,3 +20,15 @@ I'm beginning to apply syntactic analysis in particular in these projects:
 - a [digital Complutensian polyglot Bible](https://neelsmith.github.io/digital-complutensian/): digital resources for both experts and novices, supporting aligned multilingual reading. 
 - the **Homer Multitext project**:  a personal site about how I work with the Homer Multitext project’s digital archive
 
+
+## Some hobby coding
+
+Annotate media files:
+
+- [imageviewer](https://github.com/neelsmith/imageviewer): light-table and image browsing apps in self-contained HTML files
+- [audioplayer](https://github.com/neelsmith/audioplayer): a self-contained HTML file to browse and play audio files in a local file system
+
+Calendrically scheduled readings:
+
+- [rcl](https://github.com/neelsmith/rcl): data resources and a web app for reading in the Revised Common Lectionary.
+- [parshah](https://github.com/neelsmith/parshah): data resources and a web app for the weekly parshah and haftarah readings.

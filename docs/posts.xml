@@ -10,7 +10,112 @@
 <atom:link href="https://neelsmith.github.io/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.9.33</generator>
-<lastBuildDate>Thu, 17 Sep 2026 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 17 Oct 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Personalizing generic apps has never been easier</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.github.io/posts/2026-10-17-claude/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="hobby-apps" class="level2">
+<h2 class="anchored" data-anchor-id="hobby-apps">Hobby apps</h2>
+<p>Agentic coding with Claude is amazing. That’s not news: I seem to run across multiple stories every day about businesses or entire industries that are being turned upside down by agentic coding. (Have you <a href="https://getartcraft.com/download">downloaded artcraft</a> yet?)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://neelsmith.github.io/posts/2026-10-17-claude/imageviewer.png" class="img-fluid figure-img"></p>
+<figcaption>Image viewer app: thanks, Claude!</figcaption>
+</figure>
+</div>
+<p>But agentic coding is a game changer for hobby projects, too. One category of small projects I’ve played with this week revolve around replacing an existing professional app with a Claude-coded app that lets me add my own annotations to data. I don’t want a complex application or cloud-managed “solution” to browse media files like images and audio files in my local file system. In addition to the basic functionality I actually use in those kinds of apps (panning and zooming images, playing audio tracks), I want to annotate images or audio data in simple delimited-text files. Like an <a href="https://github.com/neelsmith/imageviewer">image viewer</a> that lets me view image files and pulls in cataloging data if I’ve dropped a delimited-text file in the file tree, but displays the image without complaining if it’s not documented. Or an <a href="https://github.com/neelsmith/audioplayer">audio player</a> that works similarly. The first one took Claude and me a good part of a morning, as I felt my way through the set up and definitions for the project. The second one was what I call “a breakfast project”: a project that I start with my first cup of coffee, and (thanks to Claude) has reached a releasable version before I finish my second cup.</p>
+<p>Or how about specialized readers? A number of web sites support reading texts following the calendar of the Revised Common Lectionary, but I’d like to automate bringing in my own content. That was a <a href="https://github.com/neelsmith/rcl">breakfast project</a>.</p>
+<p><img src="https://neelsmith.github.io/posts/2026-10-17-claude/rcl.png" class="img-fluid"></p>
+<p>Or what if you wanted to do something similar with the weekly parshah and haftarah readings in the Hebrew calendar? That was <a href="https://github.com/neelsmith/parshah">this morning’s breakfast project</a>.</p>
+</section>
+<section id="personalizing-content-simply" class="level2">
+<h2 class="anchored" data-anchor-id="personalizing-content-simply">Personalizing content simply</h2>
+<p>Each of these apps is implemented in a single, self-contained HTML file that can be hosted on a web server or opened in a web browser from a local copy. The simplicity of a single file in the universal platform of the web browser is appealing, but their real motivation was to personalize the data they work with. Plain-text files with your choice of data keyed to unique identifiers (perhaps file name for an audio file, or a CTS URN for a passage of text) suffice. If you’ve used <a href="https://obsidian.md">Obsidian</a>, you already appreciate the power of an app that lets you work with plain text in simple formats. A breakfast with Claude is enough to fold image browsing, audio playback or complicated calendrical lookups into the mix.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I’ve added a <a href="https://neelsmith.github.io/avocational/code/">page to this site</a> with links to these and any further hobby projects I add.</p>
+</div>
+</div>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{smith2026,
+  author = {Smith, Neel},
+  title = {Personalizing Generic Apps Has Never Been Easier},
+  date = {2026-10-17},
+  url = {https://neelsmith.github.io/posts/2025-10-16-claude/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-smith2026" class="csl-entry quarto-appendix-citeas">
+Smith, Neel. 2026. <span>“Personalizing Generic Apps Has Never Been
+Easier.”</span> October 17. <a href="https://neelsmith.github.io/posts/2025-10-16-claude/">https://neelsmith.github.io/posts/2025-10-16-claude/</a>.
+</div></div></section></div> ]]></description>
+  <category>Claude</category>
+  <category>agentic</category>
+  <category>rcl</category>
+  <category>parshah</category>
+  <category>imageviewer</category>
+  <category>audioplayer</category>
+  <guid>https://neelsmith.github.io/posts/2026-10-17-claude/</guid>
+  <pubDate>Sat, 17 Oct 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.github.io/posts/2026-10-17-claude/imageviewer.png" medium="image" type="image/png" height="54" width="144"/>
+</item>
+<item>
+  <title>Models for syntactic analysis</title>
+  <dc:creator>Neel Smith</dc:creator>
+  <link>https://neelsmith.github.io/posts/2026-09-24-universal-syntax/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>In the era of today’s large language models, questions about computational methods for aligning content across languages have a new urgency. One area of work focuses on <em>syntactic</em> alignment. In the DH world, the standard-setting project for syntactic annotation is the <a href="https://universaldependencies.org">Universal Dependencies</a> framework, with the goal of “consistent annotation of grammar (parts of speech, morphological features, and syntactic dependencies) across different human languages.”</p>
+<p>advocates for some variation of Chomsky’s Universal Grammar are having a moment.</p>
+<p>Universal?</p>
+<p>syntax vs semantics: continuum…</p>
+<p>Further complicated by choices for</p>
+<p>Any computational analysis of natural-language syntax must choose a syntactic model suited to its purpose</p>
+<p>But lanaguage models that have inferred syntactic models for a language also enable new kinds of study of a content in a single language.</p>
+<p>My immediate focus comes from Complutensian Bible project, and desire to align features of the same text in Hebrew, Greek, Latin and Aramaic.</p>
+<p>Further, the line between syntax and semantics is not always as crisply drawn as we might prefer. I</p>
+<p>https://medium.com/in-medias-res/deponent-verbs-are-not-random-2ba94afade56</p>
+<p>transitive vs.&nbsp;intransitive in IE languages. Morphologically passive verbs that are deponent verbs can take direct objects.</p>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{smith2026,
+  author = {Smith, Neel},
+  title = {Models for Syntactic Analysis},
+  date = {2026-10-08},
+  url = {https://neelsmith.github.io/posts/2026-09-24-universal-syntax/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-smith2026" class="csl-entry quarto-appendix-citeas">
+Smith, Neel. 2026. <span>“Models for Syntactic Analysis.”</span> October
+8. <a href="https://neelsmith.github.io/posts/2026-09-24-universal-syntax/">https://neelsmith.github.io/posts/2026-09-24-universal-syntax/</a>.
+</div></div></section></div> ]]></description>
+  <category>syntax nlp</category>
+  <guid>https://neelsmith.github.io/posts/2026-09-24-universal-syntax/</guid>
+  <pubDate>Thu, 08 Oct 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://neelsmith.github.io/posts/2026-09-24-universal-syntax/4score.png" medium="image" type="image/png" height="135" width="144"/>
+</item>
 <item>
   <title>Python, reluctantly</title>
   <dc:creator>Neel Smith</dc:creator>
