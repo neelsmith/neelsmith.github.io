@@ -21,6 +21,11 @@ I'm beginning to apply syntactic analysis in particular in these projects:
 - the **Homer Multitext project**:  a personal site about how I work with the Homer Multitext project’s digital archive
 
 
+## Working with citable images
+
+- [iiif-cite](https://github.com/neelsmith/iiif-cite): a single-page web app to work with IIIF image collections using stable CITE2 URNs
+
+
 ## Some hobby coding
 
 Annotate media files:

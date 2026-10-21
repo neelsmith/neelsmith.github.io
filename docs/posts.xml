@@ -77,46 +77,6 @@ Easier.”</span> October 17. <a href="https://neelsmith.github.io/posts/2025-10
   <media:content url="https://neelsmith.github.io/posts/2026-10-17-claude/imageviewer.png" medium="image" type="image/png" height="54" width="144"/>
 </item>
 <item>
-  <title>Models for syntactic analysis</title>
-  <dc:creator>Neel Smith</dc:creator>
-  <link>https://neelsmith.github.io/posts/2026-09-24-universal-syntax/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>In the era of today’s large language models, questions about computational methods for aligning content across languages have a new urgency. One area of work focuses on <em>syntactic</em> alignment. In the DH world, the standard-setting project for syntactic annotation is the <a href="https://universaldependencies.org">Universal Dependencies</a> framework, with the goal of “consistent annotation of grammar (parts of speech, morphological features, and syntactic dependencies) across different human languages.”</p>
-<p>advocates for some variation of Chomsky’s Universal Grammar are having a moment.</p>
-<p>Universal?</p>
-<p>syntax vs semantics: continuum…</p>
-<p>Further complicated by choices for</p>
-<p>Any computational analysis of natural-language syntax must choose a syntactic model suited to its purpose</p>
-<p>But lanaguage models that have inferred syntactic models for a language also enable new kinds of study of a content in a single language.</p>
-<p>My immediate focus comes from Complutensian Bible project, and desire to align features of the same text in Hebrew, Greek, Latin and Aramaic.</p>
-<p>Further, the line between syntax and semantics is not always as crisply drawn as we might prefer. I</p>
-<p>https://medium.com/in-medias-res/deponent-verbs-are-not-random-2ba94afade56</p>
-<p>transitive vs.&nbsp;intransitive in IE languages. Morphologically passive verbs that are deponent verbs can take direct objects.</p>
-
-
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{smith2026,
-  author = {Smith, Neel},
-  title = {Models for Syntactic Analysis},
-  date = {2026-10-08},
-  url = {https://neelsmith.github.io/posts/2026-09-24-universal-syntax/},
-  langid = {en}
-}
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-smith2026" class="csl-entry quarto-appendix-citeas">
-Smith, Neel. 2026. <span>“Models for Syntactic Analysis.”</span> October
-8. <a href="https://neelsmith.github.io/posts/2026-09-24-universal-syntax/">https://neelsmith.github.io/posts/2026-09-24-universal-syntax/</a>.
-</div></div></section></div> ]]></description>
-  <category>syntax nlp</category>
-  <guid>https://neelsmith.github.io/posts/2026-09-24-universal-syntax/</guid>
-  <pubDate>Thu, 08 Oct 2026 04:00:00 GMT</pubDate>
-  <media:content url="https://neelsmith.github.io/posts/2026-09-24-universal-syntax/4score.png" medium="image" type="image/png" height="135" width="144"/>
-</item>
-<item>
   <title>Python, reluctantly</title>
   <dc:creator>Neel Smith</dc:creator>
   <link>https://neelsmith.github.io/posts/2026-09-16-python/</link>

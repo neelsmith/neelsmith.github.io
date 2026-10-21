@@ -11,8 +11,6 @@ website:
     background: primary
     search: true
     left:
-      - href: index.qmd
-        text: Home
       - text: "Blog"
         file: posts.qmd             
       - text: "Projects"
