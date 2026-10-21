@@ -24,6 +24,7 @@ I'm an emeritus professor at the College of the Holy Cross.  On this site, I'm p
 ::: {.callout-tip}
 ## Latest
 
-- Oct. 17, 2026: [new blog post](https://neelsmith.github.io/posts/2026-10-17-claude/)
+- Oct. 21, 2026: new section "[Working with citable images](./projects/#working-with-citable-images)" added to projects page
+- Oct. 17, 2026: new blog post, "[Personalizing generic apps](https://neelsmith.github.io/posts/2026-10-17-claude/)"
 - Oct. 17, 2026: added four "hobby coding" projects to [projects page](./projects/)
 :::
