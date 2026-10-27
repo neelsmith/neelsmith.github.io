@@ -4,7 +4,7 @@ description: "It's too easy not to do."
 author:
   - name: Neel Smith
 date: 2026-10-21
-categories: [Claude, imageviewer, iiif] 
+categories: [Claude, imageviewer, iiif, iiif-cite] 
 citation: 
   url: https://neelsmith.github.io/posts/2025-10-21-/images/ 
 image: imageviewer.png
