@@ -8,3 +8,8 @@ title: Scholarly resources for historical languages
 
 - Lewis-Short *Latin Dictionary*in a Marimo notebook: [hosted on gh pages](https://neelsmith.github.io/marimo_lewis-short/); or get it from [this github repository](https://github.com/neelsmith/marimo_lewis-short)
 - LSJ *Greek Lexicon* in a Marimo notebook: functioning pre-release version is [on github](https://github.com/neelsmith/marimo_lsj)
+
+
+## Manuscripts
+
+- [iiif-mss](https://neelsmith.github.io/iiif_mss/): apps to explore data from the Biblissima portal  about manuscripts documented with IIIF manifests

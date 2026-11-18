@@ -10,7 +10,7 @@
 <atom:link href="https://neelsmith.github.io/updates.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.9.33</generator>
-<lastBuildDate>Mon, 01 Jun 2026 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 31 May 2026 22:00:00 GMT</lastBuildDate>
 <item>
   <title>A vibe-coded javascript library for working with citable text in polytonic Greek</title>
   <dc:creator>Neel Smith</dc:creator>
@@ -70,7 +70,7 @@
   <category>cite</category>
   <category>new package</category>
   <guid>https://neelsmith.github.io/updates/2025-06-01-greeklib/</guid>
-  <pubDate>Mon, 01 Jun 2026 04:00:00 GMT</pubDate>
+  <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -136,7 +136,7 @@
   <category>cite</category>
   <category>new package</category>
   <guid>https://neelsmith.github.io/updates/2025-05-29-hmt-lib/</guid>
-  <pubDate>Thu, 29 May 2025 04:00:00 GMT</pubDate>
+  <pubDate>Wed, 28 May 2025 22:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -202,7 +202,7 @@
   <category>cite</category>
   <category>new package</category>
   <guid>https://neelsmith.github.io/updates/2025-05-25-hmt-lib/</guid>
-  <pubDate>Sun, 25 May 2025 04:00:00 GMT</pubDate>
+  <pubDate>Sat, 24 May 2025 22:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -263,7 +263,7 @@
   <category>cite</category>
   <category>new package</category>
   <guid>https://neelsmith.github.io/updates/2025-05-23-urns-lib/</guid>
-  <pubDate>Wed, 21 May 2025 04:00:00 GMT</pubDate>
+  <pubDate>Tue, 20 May 2025 22:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -328,7 +328,7 @@
   <category>iiif</category>
   <category>new package</category>
   <guid>https://neelsmith.github.io/updates/2025-05-21-hmt-images/</guid>
-  <pubDate>Wed, 21 May 2025 04:00:00 GMT</pubDate>
+  <pubDate>Tue, 20 May 2025 22:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -388,7 +388,7 @@
   <category>cite</category>
   <category>new package</category>
   <guid>https://neelsmith.github.io/updates/2025-05-19-cex-lib/</guid>
-  <pubDate>Mon, 19 May 2025 04:00:00 GMT</pubDate>
+  <pubDate>Sun, 18 May 2025 22:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -434,7 +434,7 @@
   <category>obsidian</category>
   <category>quarto</category>
   <guid>https://neelsmith.github.io/updates/2025-02-18-obsidian-to-web/</guid>
-  <pubDate>Tue, 18 Feb 2025 05:00:00 GMT</pubDate>
+  <pubDate>Mon, 17 Feb 2025 23:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -506,7 +506,7 @@
   <category>latin</category>
   <category>update</category>
   <guid>https://neelsmith.github.io/updates/2025-01-17-lexiconmining/</guid>
-  <pubDate>Fri, 17 Jan 2025 05:00:00 GMT</pubDate>
+  <pubDate>Thu, 16 Jan 2025 23:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -536,7 +536,7 @@
   <category>hmt</category>
   <category>update</category>
   <guid>https://neelsmith.github.io/updates/2025-01-11-new-iiif-manifests/</guid>
-  <pubDate>Sat, 11 Jan 2025 05:00:00 GMT</pubDate>
+  <pubDate>Fri, 10 Jan 2025 23:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -597,7 +597,7 @@ Note
   <category>hmt</category>
   <category>update</category>
   <guid>https://neelsmith.github.io/updates/2025-01-10-hmtarchive.jl/</guid>
-  <pubDate>Fri, 10 Jan 2025 05:00:00 GMT</pubDate>
+  <pubDate>Thu, 09 Jan 2025 23:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -761,7 +761,7 @@ font-style: inherit;">6</span>]</span></code></pre></div></div>
   <category>complutensian</category>
   <category>update</category>
   <guid>https://neelsmith.github.io/updates/2025-01-09-complutensian-images/</guid>
-  <pubDate>Thu, 09 Jan 2025 05:00:00 GMT</pubDate>
+  <pubDate>Wed, 08 Jan 2025 23:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -811,7 +811,7 @@ font-style: inherit;">6</span>]</span></code></pre></div></div>
   <category>iiif</category>
   <category>update</category>
   <guid>https://neelsmith.github.io/updates/2025-01-07-iiif-manifests/</guid>
-  <pubDate>Tue, 07 Jan 2025 05:00:00 GMT</pubDate>
+  <pubDate>Mon, 06 Jan 2025 23:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -865,7 +865,7 @@ font-style: inherit;">6</span>]</span></code></pre></div></div>
   <category>hebrew</category>
   <category>new package</category>
   <guid>https://neelsmith.github.io/updates/2024-11-13-open-scriptures-hebrew/</guid>
-  <pubDate>Wed, 13 Nov 2024 05:00:00 GMT</pubDate>
+  <pubDate>Tue, 12 Nov 2024 23:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/updates/new-package.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -904,7 +904,7 @@ font-style: inherit;">6</span>]</span></code></pre></div></div>
   <category>latin</category>
   <category>bug fix</category>
   <guid>https://neelsmith.github.io/updates/2024-11-12-lewis-short/</guid>
-  <pubDate>Tue, 12 Nov 2024 05:00:00 GMT</pubDate>
+  <pubDate>Mon, 11 Nov 2024 23:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/updates/bugfix.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -945,7 +945,7 @@ font-style: inherit;">6</span>]</span></code></pre></div></div>
   <category>latin</category>
   <category>update</category>
   <guid>https://neelsmith.github.io/updates/2024-11-05-lewis-short/</guid>
-  <pubDate>Tue, 05 Nov 2024 05:00:00 GMT</pubDate>
+  <pubDate>Mon, 04 Nov 2024 23:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/updates/newrelease2.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -986,7 +986,7 @@ font-style: inherit;">6</span>]</span></code></pre></div></div>
  ]]></description>
   <category>rss</category>
   <guid>https://neelsmith.github.io/updates/2024-10-24-updates-rss-feed/</guid>
-  <pubDate>Thu, 24 Oct 2024 04:00:00 GMT</pubDate>
+  <pubDate>Wed, 23 Oct 2024 22:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/updates/2024-10-24-updates-rss-feed/RSS.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 </channel>
