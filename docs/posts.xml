@@ -10,7 +10,7 @@
 <atom:link href="https://neelsmith.github.io/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.9.33</generator>
-<lastBuildDate>Sat, 17 Oct 2026 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 16 Oct 2026 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Personalizing generic apps has never been easier</title>
   <dc:creator>Neel Smith</dc:creator>
@@ -73,7 +73,7 @@ Easier.”</span> October 17. <a href="https://neelsmith.github.io/posts/2025-10
   <category>imageviewer</category>
   <category>audioplayer</category>
   <guid>https://neelsmith.github.io/posts/2026-10-17-claude/</guid>
-  <pubDate>Sat, 17 Oct 2026 04:00:00 GMT</pubDate>
+  <pubDate>Fri, 16 Oct 2026 22:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/posts/2026-10-17-claude/imageviewer.png" medium="image" type="image/png" height="54" width="144"/>
 </item>
 <item>
@@ -107,7 +107,7 @@ Smith, Neel. 2026. <span>“Python, Reluctantly.”</span> September 17. <a href
 </div></div></section></div> ]]></description>
   <category>python</category>
   <guid>https://neelsmith.github.io/posts/2026-09-16-python/</guid>
-  <pubDate>Thu, 17 Sep 2026 04:00:00 GMT</pubDate>
+  <pubDate>Wed, 16 Sep 2026 22:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/posts/2026-09-16-python/python-logo-master-v3-TM.png" medium="image" type="image/png" height="49" width="144"/>
 </item>
 <item>
@@ -208,7 +208,7 @@ January 11. <a href="https://neelsmith.quarto.pub/posts/2025-01-11-venetus-a-iii
   <category>iiif</category>
   <category>hmt</category>
   <guid>https://neelsmith.github.io/posts/2025-01-10-venetus-a-iiif/</guid>
-  <pubDate>Sat, 11 Jan 2025 05:00:00 GMT</pubDate>
+  <pubDate>Fri, 10 Jan 2025 23:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/posts/imgs/scholion1.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -245,7 +245,7 @@ Bible.”</span> November 26. <a href="https://neelsmith.quarto.pub/posts/2024-1
   <category>small digital</category>
   <category>complutensian</category>
   <guid>https://neelsmith.github.io/posts/2024-11-26-complutensian-site/</guid>
-  <pubDate>Tue, 26 Nov 2024 05:00:00 GMT</pubDate>
+  <pubDate>Mon, 25 Nov 2024 23:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/posts/imgs/complutensian-title-page.png" medium="image" type="image/png" height="206" width="144"/>
 </item>
 <item>
@@ -362,7 +362,7 @@ Notebooks.”</span> November 15. <a href="https://neelsmith.quarto.pub/posts/20
   <category>iiif</category>
   <category>tify</category>
   <guid>https://neelsmith.github.io/posts/2024-11-15-pluto-iiif/</guid>
-  <pubDate>Fri, 15 Nov 2024 05:00:00 GMT</pubDate>
+  <pubDate>Thu, 14 Nov 2024 23:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/posts/imgs/comp-in-tify.png" medium="image" type="image/png" height="195" width="144"/>
 </item>
 <item>
@@ -435,7 +435,7 @@ November 13. <a href="https://neelsmith.quarto.pub/posts/2024-10-24-complutensia
   <category>iiif</category>
   <category>complutensian</category>
   <guid>https://neelsmith.github.io/posts/2024-11-13-complutensian-iiif/</guid>
-  <pubDate>Wed, 13 Nov 2024 05:00:00 GMT</pubDate>
+  <pubDate>Tue, 12 Nov 2024 23:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/posts/imgs/comp-in-tify.png" medium="image" type="image/png" height="195" width="144"/>
 </item>
 <item>
@@ -485,7 +485,7 @@ Smith, Neel. 2024. <span>“<span>‘Small Digital’</span>.”</span> October
   <category>small digital</category>
   <category>julia</category>
   <guid>https://neelsmith.github.io/posts/2024-10-28-small-digital/</guid>
-  <pubDate>Mon, 28 Oct 2024 04:00:00 GMT</pubDate>
+  <pubDate>Sun, 27 Oct 2024 23:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/posts/2024-10-28-small-digital/2cultures.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -529,7 +529,7 @@ Smith, Neel. 2024. <span>“Why Julia?”</span> October 22. <a href="https://ne
   <category>julia</category>
   <category>small digital</category>
   <guid>https://neelsmith.github.io/posts/2024-10-22-why-julia/</guid>
-  <pubDate>Tue, 22 Oct 2024 04:00:00 GMT</pubDate>
+  <pubDate>Mon, 21 Oct 2024 22:00:00 GMT</pubDate>
   <media:content url="https://neelsmith.github.io/posts/2024-10-22-why-julia/julia.png" medium="image" type="image/png" height="93" width="144"/>
 </item>
 </channel>
